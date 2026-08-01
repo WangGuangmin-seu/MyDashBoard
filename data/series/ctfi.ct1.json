@@ -1,0 +1,11 @@
+[
+  {
+    "series_id": "ctfi.ct1",
+    "observed_at": "2026-07-31T00:00:00Z",
+    "as_of": "2026-08-01T11:50:12.027609Z",
+    "value": 385.67,
+    "status": "confirmed",
+    "source": "ctfi",
+    "revision_of": null
+  }
+]

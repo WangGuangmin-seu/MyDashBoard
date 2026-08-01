@@ -118,5 +118,45 @@
     "precision": 0,
     "direction_good": "up",
     "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
+  },
+  {
+    "series_id": "ctfi.composite",
+    "display_name": "中国进口原油综合运价指数 (CTFI)",
+    "unit": "点",
+    "source": "ctfi",
+    "expected_interval": "P7D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
+  },
+  {
+    "series_id": "ctfi.ct1",
+    "display_name": "CTFI · CT1 中东湾→宁波 (WS)",
+    "unit": "WS点数",
+    "source": "ctfi",
+    "expected_interval": "P7D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
+  },
+  {
+    "series_id": "ctfi.ct1.tce",
+    "display_name": "CTFI · CT1 等价期租水平 (TCE)",
+    "unit": "美元/天",
+    "source": "ctfi",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
+  },
+  {
+    "series_id": "ctfi.ct2",
+    "display_name": "CTFI · CT2 西非→宁波 (WS)",
+    "unit": "WS点数",
+    "source": "ctfi",
+    "expected_interval": "P7D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
   }
 ]

@@ -7,6 +7,7 @@ downstream (store, snapshot, frontend) needs to change.
 from __future__ import annotations
 
 from ..contract import Collector
+from .ctfi import CTFICollector
 from .eia import EIACollector
 from .portwatch import PortWatchCollector
 from .treasury import TreasuryCollector
@@ -15,6 +16,7 @@ ALL_COLLECTORS: list[Collector] = [
     PortWatchCollector(),
     TreasuryCollector(),
     EIACollector(),
+    CTFICollector(),
 ]
 
 

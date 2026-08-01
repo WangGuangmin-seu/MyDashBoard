@@ -65,6 +65,23 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
   按 `series` 字段映射回本地 series_id；分页用 `offset`/`length` 循环到 `response.total`。
   实测基线：商业原油 ~404508 千桶、SPR ~307650 千桶。
 
+### CTFI（`dashboard/collectors/ctfi.py`）
+
+- 上海航运交易所「中国进口原油运价指数」，基期 2012-11-28 = 1000。
+- **AkShare 不封装 CTFI**（`macro_china_freight_index` 只给波罗的海 BDI/BCTI/BDTI），故自解析。
+- SSE 历史接口 `/index/mutipleIndex`、`/index/ctfilist` **需登录**（未登录返回
+  `{"success":false,"message":"对不起你没有登陆!"}`），`?date=` 查询同样要 POST+CSRF。
+- **可用公开源**：`https://www.sse.net.cn/index/singleIndex?indexType=ctfi` 落地页，
+  服务端渲染「本期」四分量 + 发布日期，无需登录。日期在 `<div class="title2">` 内的
+  YYYY-MM-DD；数据表 `table.lb1`，「本期」= 每行倒数第二个非空单元格。
+- 四序列：`ctfi.composite`(点)、`ctfi.ct1`(CT1 WS点数)、`ctfi.ct1.tce`(CT1 美元/天,
+  取「标准航速」)、`ctfi.ct2`(CT2 WS点数)。**WS 与 TCE 不合并**（油价剧烈波动时背离）。
+- 只取当期一个点，历史由 store 逐日累积；值未变则去重。
+- `expected_interval=7d`（心跳容忍 14 天）：CTFI 名义工作日频，但周末/春节/国庆不发布，
+  按日频设阈会在长假必然误报，故按交易日历放宽。
+- **页面结构变更风险高**：解析器缺任一预期值即 `raise`（不返回部分结果），
+  失败经采集失败/心跳告警立即暴露——这是心跳在此源尤其关键的原因。
+
 ## 告警
 
 - 规则在 `rules/alerts.yaml`，纯配置，新增告警不改代码。条件表达式只允许
