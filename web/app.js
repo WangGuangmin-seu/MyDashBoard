@@ -71,8 +71,19 @@ function sparkline(points) {
     path.setAttribute("class", "line");
     path.setAttribute("d", built.d);
     svg.appendChild(path);
+  } else if (points.some((p) => p.value !== null)) {
+    // Only one data point yet — draw a single dot so the card doesn't look empty.
+    const dot = document.createElementNS(SVGNS, "circle");
+    dot.setAttribute("cx", "150"); dot.setAttribute("cy", "22"); dot.setAttribute("r", "3");
+    dot.setAttribute("class", "dot");
+    svg.appendChild(dot);
   }
   return svg;
+}
+
+// number of points that carry an actual value
+function valueCount(points) {
+  return points.reduce((n, p) => n + (p.value !== null ? 1 : 0), 0);
 }
 
 // --- cards ----------------------------------------------------------------
@@ -105,6 +116,12 @@ function renderCard(s) {
     const note = document.createElement("div");
     note.className = "stale-note";
     note.textContent = "⚠ 采集中断 · " + (health.reason || "数据长时间未更新");
+    card.appendChild(note);
+  } else if (latest && valueCount(s.points) < 2) {
+    // Fresh series with a single reading — make clear it's accumulating, not broken.
+    const note = document.createElement("div");
+    note.className = "accum-note";
+    note.textContent = "📈 首个数据点 · 趋势将逐日累积";
     card.appendChild(note);
   }
   card.addEventListener("click", () => openDetail(s));
@@ -149,7 +166,23 @@ function drawBig() {
   const W = 720, H = 320, pad = 40;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
   const built = buildPath(pts, W, H, pad);
-  if (!built) { addText(svg, W / 2, H / 2, "数据不足", "tt"); return; }
+  if (!built) {
+    // Single point (or none): show the value + an accumulating note rather than "no data".
+    const one = pts.filter((p) => p.value !== null).pop();
+    if (one) {
+      const c = document.createElementNS(SVGNS, "circle");
+      c.setAttribute("cx", W / 2); c.setAttribute("cy", H / 2 - 6); c.setAttribute("r", "5");
+      c.setAttribute("class", "dot"); svg.appendChild(c);
+      const t1 = addText(svg, W / 2, H / 2 + 22,
+        `${one.observed_at.slice(0, 10)} · ${fmt(one.value, series.meta.precision)} ${series.meta.unit}`, "tt");
+      t1.setAttribute("text-anchor", "middle");
+      const t2 = addText(svg, W / 2, H / 2 + 44, "仅 1 个数据点 · 历史逐日累积中", "axislbl");
+      t2.setAttribute("text-anchor", "middle");
+    } else {
+      const t = addText(svg, W / 2, H / 2, "暂无数据", "tt"); t.setAttribute("text-anchor", "middle");
+    }
+    return;
+  }
 
   // axes
   addLine(svg, pad, H - pad, W - pad, H - pad, "axis");

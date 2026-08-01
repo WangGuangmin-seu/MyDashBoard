@@ -3,7 +3,7 @@
 // milliseconds from cache, then fetch a fresh snapshot in the background and
 // notify the page to silently re-render.
 
-const CACHE = "dashboard-v1";
+const CACHE = "dashboard-v2";
 const SHELL = ["./", "index.html", "app.js", "manifest.json"];
 const SNAPSHOT_KEY = "data/snapshot.json"; // canonical cache key (query stripped)
 
@@ -53,15 +53,21 @@ self.addEventListener("fetch", (event) => {
     return;
   }
   if (url.origin === self.location.origin) {
-    // cache-first for the static shell
+    // Stale-while-revalidate for the static shell: paint instantly from cache,
+    // but always refresh the cached copy in the background so app.js / index.html
+    // changes reach the user on the next visit (cache-first alone would pin the
+    // old shell forever until the SW itself changed).
     event.respondWith(
-      caches.match(event.request, { ignoreSearch: true }).then(
-        (hit) => hit || fetch(event.request).then((resp) => {
-          const copy = resp.clone();
-          caches.open(CACHE).then((c) => c.put(event.request, copy)).catch(() => {});
-          return resp;
-        }).catch(() => caches.match("index.html"))
-      )
+      caches.open(CACHE).then(async (cache) => {
+        const cached = await cache.match(event.request, { ignoreSearch: true });
+        const network = fetch(event.request)
+          .then((resp) => {
+            if (resp && resp.ok) cache.put(event.request, resp.clone());
+            return resp;
+          })
+          .catch(() => null);
+        return cached || (await network) || cache.match("index.html");
+      })
     );
   }
 });
