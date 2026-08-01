@@ -27,6 +27,37 @@ from .store import DEFAULT_DATA_DIR, Store
 
 DEFAULT_WINDOW = 180
 
+# Cosmetic dashboard card order. Series listed here render in this order; any
+# series NOT listed (e.g. a newly added collector's) is appended afterwards in
+# its natural collector order, so new cards still appear automatically.
+DISPLAY_ORDER = [
+    "portwatch.hormuz.transits",
+    "portwatch.hormuz.trade_volume",
+    "eia.crude.commercial_stocks",
+    "eia.crude.spr_stocks",
+    "portwatch.bab_el_mandeb.transits",
+    "portwatch.bab_el_mandeb.trade_volume",
+    "portwatch.cape_of_good_hope.transits",
+    "portwatch.cape_of_good_hope.trade_volume",
+    "treasury.tga.closing_balance",
+    "treasury.mts.receipts",
+    "treasury.mts.outlays",
+    "treasury.mts.deficit",
+    "ctfi.composite",
+    "ctfi.ct1",
+    "ctfi.ct1.tce",
+    "ctfi.ct2",
+]
+
+
+def _order_key(series_id: str, fallback_index: int) -> tuple[int, int]:
+    """Sort key: listed series first (in DISPLAY_ORDER order), then unlisted
+    series in their original order."""
+    try:
+        return (0, DISPLAY_ORDER.index(series_id))
+    except ValueError:
+        return (1, fallback_index)
+
 
 class Point(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -82,8 +113,13 @@ def build_snapshot(
     collector_health: list[CollectorHealth],
     window: int = DEFAULT_WINDOW,
 ) -> Snapshot:
+    ordered_metas = [
+        m for _, m in sorted(
+            enumerate(metas), key=lambda t: _order_key(t[1].series_id, t[0])
+        )
+    ]
     series_snaps: list[SeriesSnapshot] = []
-    for meta in metas:
+    for meta in ordered_metas:
         current = store.current_series(meta.series_id)  # sorted by observed_at
         points = [
             Point(observed_at=o.observed_at, as_of=o.as_of, value=o.value, status=o.status)

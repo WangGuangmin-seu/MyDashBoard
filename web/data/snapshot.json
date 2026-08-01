@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T16:45:04.218422Z",
+  "generated_at": "2026-08-01T16:59:27.353614Z",
   "window": 180,
   "series": [
     {
@@ -2223,6 +2223,2230 @@
         "ok": true,
         "stale": false,
         "last_observed_at": "2026-07-23T00:00:00Z",
+        "reason": null
+      }
+    },
+    {
+      "meta": {
+        "series_id": "eia.crude.commercial_stocks",
+        "display_name": "美国商业原油库存（不含 SPR）",
+        "unit": "千桶",
+        "source": "eia",
+        "expected_interval": "P7D",
+        "precision": 0,
+        "direction_good": "neutral",
+        "description": "Weekly U.S. ending stocks of crude oil excluding the SPR (EIA)."
+      },
+      "points": [
+        {
+          "observed_at": "2023-02-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 479041.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-02-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 480207.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 478513.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 480063.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 481180.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 473691.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 469952.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 470549.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 465968.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 460914.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459633.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 462584.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 467624.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 455168.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459657.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459205.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 467124.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 463293.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 453690.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 452182.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 458128.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 457420.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 456820.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439771.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 445622.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439662.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 433528.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422944.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 416637.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420592.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418456.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 416287.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 414063.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 424239.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 419748.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421120.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421893.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 435762.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439354.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 448054.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 449664.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 445031.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 440773.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 443682.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 436568.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 431065.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 432403.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 429911.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420678.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421912.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 427432.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439450.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 442964.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 447163.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 448530.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 446994.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 445042.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 448207.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 451417.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 457258.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459993.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 453625.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 460890.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459528.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 457020.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 458845.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 454689.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 455922.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459652.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 457105.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 460696.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 448539.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 445096.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 440226.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 436485.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 433049.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 429321.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 430678.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426029.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 425183.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418310.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 419143.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 417513.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 413042.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 416931.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422741.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420550.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426024.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 425509.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 427658.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 429747.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 430292.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 428448.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 423375.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421950.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421016.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 416779.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415601.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 414642.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 412680.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411663.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415126.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 423790.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 427860.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 432493.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 430161.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 433775.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 435223.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 436968.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 433627.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439792.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 442345.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 442860.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 443104.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 440408.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 438376.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 441830.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 443158.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 440363.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 436059.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 432415.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420942.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415106.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418951.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426021.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422162.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418993.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426691.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 423662.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426698.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420684.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418292.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420707.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 424646.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415361.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 414754.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 416546.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420261.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 423785.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422824.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415966.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 421168.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 427581.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 424155.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426929.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 427503.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 425691.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 424417.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 424822.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422888.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 419056.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 422447.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426049.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 423754.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 420299.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 428829.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 419815.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 435804.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 439279.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 443103.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 449259.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 456185.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 461636.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 464717.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 463804.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 465729.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 459495.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 457182.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 452876.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 445013.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 441686.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 433712.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 426485.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 418222.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 412134.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 408359.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411357.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 409665.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411675.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 404508.0,
+          "status": "confirmed"
+        }
+      ],
+      "latest": {
+        "observed_at": "2026-07-24T00:00:00Z",
+        "as_of": "2026-08-01T00:57:50.259067Z",
+        "value": 404508.0,
+        "status": "confirmed"
+      },
+      "previous": {
+        "observed_at": "2026-07-17T00:00:00Z",
+        "as_of": "2026-08-01T00:57:50.259067Z",
+        "value": 411675.0,
+        "status": "confirmed"
+      },
+      "health": {
+        "ok": true,
+        "stale": false,
+        "last_observed_at": "2026-07-24T00:00:00Z",
+        "reason": null
+      }
+    },
+    {
+      "meta": {
+        "series_id": "eia.crude.spr_stocks",
+        "display_name": "美国战略石油储备（SPR）原油库存",
+        "unit": "千桶",
+        "source": "eia",
+        "expected_interval": "P7D",
+        "precision": 0,
+        "direction_good": "up",
+        "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
+      },
+      "points": [
+        {
+          "observed_at": "2023-02-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-02-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371579.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-03-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 371175.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 369575.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 367963.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 366942.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-04-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 364938.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 362014.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 359586.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 357954.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-05-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 355436.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 353569.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351687.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 349968.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 348617.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-06-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 347159.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 346758.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 346759.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 346759.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-07-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 346759.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 347754.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 348354.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 348948.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-08-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 349542.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 350340.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 350630.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351230.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 350980.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-09-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351280.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-10-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351274.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351587.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351917.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 351911.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 352540.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 353333.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-12-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 354388.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 354994.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 355590.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 356510.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-01-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 357402.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 358017.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 358763.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 359511.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-02-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 360254.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 360960.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 361556.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 362306.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 363050.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-03-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 363641.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 364236.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 364884.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 365677.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-04-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 366271.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 367218.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 367811.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 368804.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 369289.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-05-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 370187.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 370526.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 370912.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 372197.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-06-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 372595.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 373072.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 373722.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 374412.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-07-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 375097.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 375833.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 376527.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 377163.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 377908.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-08-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 379672.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 379951.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 380606.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 381893.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-09-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 382553.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 382930.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 383882.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 384642.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-10-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 385831.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 387223.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 387790.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 389190.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 390362.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-11-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 391807.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 392531.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 393050.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 393310.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2024-12-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 393570.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 393817.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 394317.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 394566.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 394814.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-01-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395064.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395313.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395313.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395313.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-02-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395313.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395588.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 395863.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 396149.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-03-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 396434.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 396710.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 397009.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 397477.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-04-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 398542.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 399122.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 399650.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 400493.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 401313.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-05-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 401822.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402059.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402289.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402526.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-06-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402765.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-04T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 403003.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-11T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402703.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-18T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402503.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-07-25T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402741.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 402976.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 403202.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 403425.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 404201.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-08-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 404710.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 405224.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 405728.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 405958.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-09-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 406700.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 406985.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 407745.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 408564.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 409097.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-10-31T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 409595.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-07T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 410393.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-14T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 410926.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-21T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411424.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-11-28T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411674.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 411922.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 412171.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 412971.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2025-12-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 413219.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-02T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 413464.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-09T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 413678.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-16T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 414484.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-23T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 414999.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-01-30T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415213.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415212.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415441.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415441.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-02-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415441.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-06T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415442.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-13T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415442.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-20T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415442.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-03-27T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 415064.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 413325.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 409181.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 405045.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-04-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 397924.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-01T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 392700.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-08T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 384095.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-15T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 374175.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-22T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 365112.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-05-29T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 357119.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-05T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 349192.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-12T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 340251.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-19T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 331191.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-06-26T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 325655.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-03T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 319489.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-10T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 316504.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-17T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 311447.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-07-24T00:00:00Z",
+          "as_of": "2026-08-01T00:57:50.259067Z",
+          "value": 307650.0,
+          "status": "confirmed"
+        }
+      ],
+      "latest": {
+        "observed_at": "2026-07-24T00:00:00Z",
+        "as_of": "2026-08-01T00:57:50.259067Z",
+        "value": 307650.0,
+        "status": "confirmed"
+      },
+      "previous": {
+        "observed_at": "2026-07-17T00:00:00Z",
+        "as_of": "2026-08-01T00:57:50.259067Z",
+        "value": 311447.0,
+        "status": "confirmed"
+      },
+      "health": {
+        "ok": true,
+        "stale": false,
+        "last_observed_at": "2026-07-24T00:00:00Z",
         "reason": null
       }
     },
@@ -10327,2230 +12551,6 @@
         "ok": true,
         "stale": false,
         "last_observed_at": "2026-06-30T00:00:00Z",
-        "reason": null
-      }
-    },
-    {
-      "meta": {
-        "series_id": "eia.crude.commercial_stocks",
-        "display_name": "美国商业原油库存（不含 SPR）",
-        "unit": "千桶",
-        "source": "eia",
-        "expected_interval": "P7D",
-        "precision": 0,
-        "direction_good": "neutral",
-        "description": "Weekly U.S. ending stocks of crude oil excluding the SPR (EIA)."
-      },
-      "points": [
-        {
-          "observed_at": "2023-02-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 479041.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-02-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 480207.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 478513.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 480063.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 481180.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 473691.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 469952.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 470549.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 465968.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 460914.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459633.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 462584.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 467624.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 455168.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459657.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459205.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 467124.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 463293.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 453690.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 452182.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 458128.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 457420.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 456820.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439771.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 445622.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439662.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 433528.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422944.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 416637.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420592.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418456.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 416287.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 414063.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 424239.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 419748.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421120.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421893.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 435762.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439354.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 448054.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 449664.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 445031.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 440773.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 443682.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 436568.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 431065.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 432403.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 429911.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420678.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421912.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 427432.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439450.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 442964.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 447163.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 448530.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 446994.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 445042.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 448207.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 451417.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 457258.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459993.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 453625.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 460890.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459528.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 457020.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 458845.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 454689.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 455922.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459652.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 457105.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 460696.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 448539.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 445096.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 440226.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 436485.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 433049.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 429321.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 430678.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426029.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 425183.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418310.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 419143.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 417513.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 413042.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 416931.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422741.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420550.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426024.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 425509.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 427658.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 429747.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 430292.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 428448.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 423375.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421950.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421016.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 416779.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415601.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 414642.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 412680.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411663.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415126.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 423790.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 427860.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 432493.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 430161.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 433775.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 435223.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 436968.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 433627.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439792.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 442345.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 442860.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 443104.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 440408.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 438376.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 441830.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 443158.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 440363.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 436059.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 432415.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420942.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415106.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418951.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426021.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422162.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418993.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426691.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 423662.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426698.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420684.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418292.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420707.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 424646.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415361.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 414754.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 416546.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420261.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 423785.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422824.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415966.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 421168.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 427581.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 424155.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426929.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 427503.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 425691.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 424417.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 424822.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422888.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 419056.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 422447.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426049.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 423754.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 420299.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 428829.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 419815.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 435804.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 439279.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 443103.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 449259.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 456185.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 461636.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 464717.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 463804.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 465729.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 459495.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 457182.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 452876.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 445013.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 441686.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 433712.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 426485.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 418222.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 412134.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 408359.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411357.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 409665.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411675.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 404508.0,
-          "status": "confirmed"
-        }
-      ],
-      "latest": {
-        "observed_at": "2026-07-24T00:00:00Z",
-        "as_of": "2026-08-01T00:57:50.259067Z",
-        "value": 404508.0,
-        "status": "confirmed"
-      },
-      "previous": {
-        "observed_at": "2026-07-17T00:00:00Z",
-        "as_of": "2026-08-01T00:57:50.259067Z",
-        "value": 411675.0,
-        "status": "confirmed"
-      },
-      "health": {
-        "ok": true,
-        "stale": false,
-        "last_observed_at": "2026-07-24T00:00:00Z",
-        "reason": null
-      }
-    },
-    {
-      "meta": {
-        "series_id": "eia.crude.spr_stocks",
-        "display_name": "美国战略石油储备（SPR）原油库存",
-        "unit": "千桶",
-        "source": "eia",
-        "expected_interval": "P7D",
-        "precision": 0,
-        "direction_good": "up",
-        "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
-      },
-      "points": [
-        {
-          "observed_at": "2023-02-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-02-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371579.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-03-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 371175.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 369575.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 367963.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 366942.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-04-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 364938.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 362014.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 359586.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 357954.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-05-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 355436.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 353569.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351687.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 349968.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 348617.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-06-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 347159.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 346758.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 346759.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 346759.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-07-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 346759.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 347754.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 348354.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 348948.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-08-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 349542.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 350340.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 350630.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351230.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 350980.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-09-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351280.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-10-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351274.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-11-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351587.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351917.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 351911.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 352540.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 353333.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2023-12-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 354388.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 354994.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 355590.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 356510.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-01-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 357402.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 358017.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 358763.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 359511.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-02-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 360254.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 360960.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 361556.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 362306.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 363050.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-03-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 363641.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 364236.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 364884.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 365677.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-04-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 366271.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 367218.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 367811.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 368804.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 369289.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-05-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 370187.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 370526.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 370912.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 372197.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-06-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 372595.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 373072.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 373722.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 374412.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-07-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 375097.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 375833.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 376527.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 377163.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 377908.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-08-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 379672.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 379951.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 380606.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 381893.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-09-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 382553.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 382930.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 383882.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 384642.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-10-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 385831.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 387223.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 387790.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 389190.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 390362.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-11-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 391807.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 392531.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 393050.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 393310.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2024-12-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 393570.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 393817.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 394317.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 394566.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 394814.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-01-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395064.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395313.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395313.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395313.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-02-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395313.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395588.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 395863.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 396149.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-03-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 396434.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 396710.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 397009.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 397477.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-04-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 398542.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 399122.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 399650.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 400493.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 401313.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-05-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 401822.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402059.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402289.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402526.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-06-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402765.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-04T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 403003.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-11T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402703.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-18T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402503.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-07-25T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402741.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 402976.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 403202.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 403425.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 404201.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-08-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 404710.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 405224.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 405728.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 405958.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-09-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 406700.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 406985.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 407745.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 408564.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 409097.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-10-31T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 409595.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-07T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 410393.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-14T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 410926.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-21T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411424.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-11-28T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411674.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 411922.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 412171.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 412971.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2025-12-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 413219.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-02T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 413464.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-09T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 413678.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-16T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 414484.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-23T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 414999.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-30T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415213.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415212.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415441.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415441.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-02-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415441.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-06T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415442.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-13T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415442.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-20T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415442.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-03-27T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 415064.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 413325.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 409181.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 405045.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-04-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 397924.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-01T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 392700.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-08T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 384095.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-15T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 374175.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-22T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 365112.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-05-29T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 357119.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-05T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 349192.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-12T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 340251.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-19T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 331191.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-06-26T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 325655.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-03T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 319489.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-10T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 316504.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-17T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 311447.0,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-07-24T00:00:00Z",
-          "as_of": "2026-08-01T00:57:50.259067Z",
-          "value": 307650.0,
-          "status": "confirmed"
-        }
-      ],
-      "latest": {
-        "observed_at": "2026-07-24T00:00:00Z",
-        "as_of": "2026-08-01T00:57:50.259067Z",
-        "value": 307650.0,
-        "status": "confirmed"
-      },
-      "previous": {
-        "observed_at": "2026-07-17T00:00:00Z",
-        "as_of": "2026-08-01T00:57:50.259067Z",
-        "value": 311447.0,
-        "status": "confirmed"
-      },
-      "health": {
-        "ok": true,
-        "stale": false,
-        "last_observed_at": "2026-07-24T00:00:00Z",
         "reason": null
       }
     },
