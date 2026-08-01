@@ -1,0 +1,1226 @@
+[
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 89.80485521205001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -263.56740516455,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 212.35617366615,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -122.29448803904,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 243.80731740959,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 193.09727133413003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -196.86396756754002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 258.24500190411,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 121.37091766399001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2015-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 12.579578592370002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -37.61703876942,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 384.96376899366,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 160.96056674897002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -263.16108718979,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 136.57523190988002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -56.73849122942,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 262.00200461735,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 171.52308090524,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -124.23009270466001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 180.75023764601002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 201.19971516888,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2016-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 41.959742412160004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -106.42046043304,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 384.65446704182006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 284.27505604683006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -288.88338512031004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 140.93340602417,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 83.98120154781,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 155.75840050547,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 214.80035245992002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -41.44533686919001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 109.04455659651,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 275.21601133321,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2017-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 50.53018300754,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -100.49285535092001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 407.29261086186,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 384.97578954217,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -396.68315014227005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 235.21915119374,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 165.09118153423003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 119.80460727159,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 321.83630226052003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -127.00154444047001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 163.70516051168,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 343.44999521637004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2018-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 36.731715159980006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -57.919705403600005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 449.21663244520005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 355.68859368762,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -374.55962257717,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 354.56483471222,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 83.33430891778,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 196.56103585508,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 414.49187466815005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -201.88380015681,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 234.95870747854002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 413.74089159938,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2019-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 26.811915945470002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 23.91237382134,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 469.31248936676,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 266.06993037188005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 577.54646554371,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 606.58980600651,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 872.55146537772,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 182.68719528335998,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 400.43936404193,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 41.842463178550005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 418.53791618265006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 354.10455798659007,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2020-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 156.84820392792003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 195.42744648795002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 546.20030807811,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 778.5794501462901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 963.60164073944,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 530.70693095789,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1038.23461875387,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 365.04221473804,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 370.64679678648,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 186.15480638687,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 449.12590410609005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 336.60130405182,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2021-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 164.86541386201003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 44.13363122588,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 527.51169350472,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 852.28509781438,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -82.63559239673,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 198.17578052943,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 263.00206318825,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 513.1022483937601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 390.23082475768,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 494.61382319512,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 252.85320324464004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 439.86992493754,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2022-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 106.30386600311,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -79.91508640244001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 479.02359525028004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 570.70998608226,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -484.39585087591,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 306.57075333995004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 316.60992575497,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 431.83385740386,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 130.34066825591,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 600.74838504258,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 154.4377152429,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 562.5468829396701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2023-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 214.36615149767002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 60.71412847024,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 558.70849127412,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 614.8918391240601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -385.71009697445004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 587.4791333500201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 293.73370501439,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 464.5231846510301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 290.82483274077003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 106.45192879282001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 324.01389432164,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 680.7750666551601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2024-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 216.08573357753002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 150.57055924321,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 603.29184654046,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 397.08627477458003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -467.92925574029,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 663.13465488109,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 43.95527039857,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 534.8837475851,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 724.87229729262,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -278.23842867573,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 541.80008775001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 540.0400103246,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2025-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 231.48085462257004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 223.25536904270004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 614.51863071844,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 324.62866031722,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": -473.42408931273,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 608.30020346565,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "observed_at": "2026-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 93.29562557636001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  }
+]

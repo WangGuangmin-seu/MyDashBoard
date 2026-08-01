@@ -1,0 +1,122 @@
+[
+  {
+    "series_id": "portwatch.hormuz.transits",
+    "display_name": "Strait of Hormuz — daily transits",
+    "unit": "ships/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "display_name": "Strait of Hormuz — daily trade volume",
+    "unit": "est. tons/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "display_name": "Bab el-Mandeb Strait — daily transits",
+    "unit": "ships/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "display_name": "Bab el-Mandeb Strait — daily trade volume",
+    "unit": "est. tons/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "display_name": "Cape of Good Hope — daily transits",
+    "unit": "ships/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "display_name": "Cape of Good Hope — daily trade volume",
+    "unit": "est. tons/day",
+    "source": "portwatch",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+  },
+  {
+    "series_id": "treasury.tga.closing_balance",
+    "display_name": "Treasury General Account — closing balance",
+    "unit": "USD billions",
+    "source": "treasury",
+    "expected_interval": "P3D",
+    "precision": 1,
+    "direction_good": "neutral",
+    "description": "Daily TGA closing cash balance (Daily Treasury Statement)."
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "display_name": "Federal receipts (monthly)",
+    "unit": "USD billions",
+    "source": "treasury",
+    "expected_interval": "P31D",
+    "precision": 1,
+    "direction_good": "up",
+    "description": "Gross federal receipts for the month (Monthly Treasury Statement, table 1)."
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "display_name": "Federal outlays (monthly)",
+    "unit": "USD billions",
+    "source": "treasury",
+    "expected_interval": "P31D",
+    "precision": 1,
+    "direction_good": "neutral",
+    "description": "Gross federal outlays for the month (Monthly Treasury Statement, table 1)."
+  },
+  {
+    "series_id": "treasury.mts.deficit",
+    "display_name": "Federal deficit (monthly)",
+    "unit": "USD billions",
+    "source": "treasury",
+    "expected_interval": "P31D",
+    "precision": 1,
+    "direction_good": "down",
+    "description": "Monthly budget deficit (positive) or surplus (negative), MTS table 1."
+  },
+  {
+    "series_id": "eia.crude.commercial_stocks",
+    "display_name": "U.S. commercial crude oil stocks (excl. SPR)",
+    "unit": "thousand barrels",
+    "source": "eia",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "Weekly U.S. ending stocks of crude oil excluding the SPR (EIA)."
+  },
+  {
+    "series_id": "eia.crude.spr_stocks",
+    "display_name": "U.S. Strategic Petroleum Reserve crude stocks",
+    "unit": "thousand barrels",
+    "source": "eia",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "up",
+    "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
+  }
+]

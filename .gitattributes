@@ -1,0 +1,7 @@
+# Normalise line endings to LF in the repo (Linux CI runs shell steps in
+# .github/workflows). Windows working copies may still check out CRLF.
+* text=auto eol=lf
+
+# Binary-ish assets: leave untouched
+*.png binary
+*.svg text eol=lf

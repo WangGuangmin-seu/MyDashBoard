@@ -1,0 +1,270 @@
+{
+  "$defs": {
+    "CollectorHealth": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "ok": {
+          "title": "Ok",
+          "type": "boolean"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error"
+        }
+      },
+      "required": [
+        "id",
+        "ok"
+      ],
+      "title": "CollectorHealth",
+      "type": "object"
+    },
+    "DataStatus": {
+      "enum": [
+        "confirmed",
+        "provisional",
+        "under_review",
+        "estimated"
+      ],
+      "title": "DataStatus",
+      "type": "string"
+    },
+    "Point": {
+      "additionalProperties": false,
+      "properties": {
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "as_of": {
+          "format": "date-time",
+          "title": "As Of",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "status": {
+          "$ref": "#/$defs/DataStatus"
+        }
+      },
+      "required": [
+        "observed_at",
+        "as_of",
+        "value",
+        "status"
+      ],
+      "title": "Point",
+      "type": "object"
+    },
+    "SeriesHealth": {
+      "additionalProperties": false,
+      "properties": {
+        "ok": {
+          "title": "Ok",
+          "type": "boolean"
+        },
+        "stale": {
+          "title": "Stale",
+          "type": "boolean"
+        },
+        "last_observed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Last Observed At"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "ok",
+        "stale",
+        "last_observed_at"
+      ],
+      "title": "SeriesHealth",
+      "type": "object"
+    },
+    "SeriesMeta": {
+      "additionalProperties": false,
+      "description": "Self-describing metadata for one series. Drives the frontend entirely;\nthe UI hard-codes no ``series_id`` (spec §8.1).",
+      "properties": {
+        "series_id": {
+          "title": "Series Id",
+          "type": "string"
+        },
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "unit": {
+          "title": "Unit",
+          "type": "string"
+        },
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "expected_interval": {
+          "format": "duration",
+          "title": "Expected Interval",
+          "type": "string"
+        },
+        "precision": {
+          "title": "Precision",
+          "type": "integer"
+        },
+        "direction_good": {
+          "default": "neutral",
+          "enum": [
+            "up",
+            "down",
+            "neutral"
+          ],
+          "title": "Direction Good",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        }
+      },
+      "required": [
+        "series_id",
+        "display_name",
+        "unit",
+        "source",
+        "expected_interval",
+        "precision"
+      ],
+      "title": "SeriesMeta",
+      "type": "object"
+    },
+    "SeriesSnapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/$defs/SeriesMeta"
+        },
+        "points": {
+          "items": {
+            "$ref": "#/$defs/Point"
+          },
+          "title": "Points",
+          "type": "array"
+        },
+        "latest": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "previous": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "health": {
+          "$ref": "#/$defs/SeriesHealth"
+        }
+      },
+      "required": [
+        "meta",
+        "points",
+        "latest",
+        "previous",
+        "health"
+      ],
+      "title": "SeriesSnapshot",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "window": {
+      "title": "Window",
+      "type": "integer"
+    },
+    "series": {
+      "items": {
+        "$ref": "#/$defs/SeriesSnapshot"
+      },
+      "title": "Series",
+      "type": "array"
+    },
+    "collectors": {
+      "items": {
+        "$ref": "#/$defs/CollectorHealth"
+      },
+      "title": "Collectors",
+      "type": "array"
+    }
+  },
+  "required": [
+    "generated_at",
+    "window",
+    "series",
+    "collectors"
+  ],
+  "title": "Snapshot",
+  "type": "object"
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0e14" />
+  <title>数据看板</title>
+  <link rel="manifest" href="manifest.json" />
+  <style>
+    :root {
+      --bg: #0b0e14; --card: #151a23; --card-2: #1b212c; --border: #2a313d;
+      --fg: #e6e9ef; --muted: #8b93a1; --accent: #4c8dff;
+      --good: #35c07a; --bad: #ff5c5c; --warn: #e0a13b; --grey: #6b7280;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f4f6fa; --card:#fff; --card-2:#f0f3f8; --border:#e2e6ee;
+              --fg:#1a1f29; --muted:#69707d; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased; }
+    header { padding: 20px 16px 8px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    header h1 { font-size: 20px; margin: 0; letter-spacing: .5px; }
+    #meta { font-size: 12px; color: var(--muted); }
+    #collectors { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 16px 8px; }
+    .chip { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+    .chip.bad { color: var(--bad); border-color: var(--bad); }
+    #cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; padding: 8px 16px 40px; max-width: 1200px; margin: 0 auto; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; cursor: pointer; transition: border-color .15s, transform .05s; }
+    .card:hover { border-color: var(--accent); }
+    .card:active { transform: scale(.995); }
+    .card.stale { filter: grayscale(.8); opacity: .72; }
+    .card .name { font-size: 13px; color: var(--muted); margin-bottom: 6px; display: flex; justify-content: space-between; gap: 8px; }
+    .card .value { font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums; }
+    .card .unit { font-size: 13px; color: var(--muted); margin-left: 6px; font-weight: 400; }
+    .card .row2 { display: flex; align-items: center; justify-content: space-between; margin-top: 6px; }
+    .delta { font-size: 12px; font-variant-numeric: tabular-nums; }
+    .delta.up { color: var(--good); } .delta.down { color: var(--bad); } .delta.flat { color: var(--muted); }
+    .badge { font-size: 10px; padding: 1px 7px; border-radius: 999px; text-transform: uppercase; letter-spacing: .5px; }
+    .badge.confirmed { background: rgba(53,192,122,.15); color: var(--good); }
+    .badge.provisional, .badge.estimated { background: rgba(224,161,59,.15); color: var(--warn); }
+    .badge.under_review { background: rgba(255,92,92,.15); color: var(--bad); }
+    .spark { margin-top: 10px; width: 100%; height: 44px; display: block; }
+    .stale-note { margin-top: 8px; font-size: 11px; color: var(--warn); }
+    .updated { font-size: 11px; color: var(--muted); margin-top: 8px; }
+    /* detail overlay */
+    #overlay { position: fixed; inset: 0; background: rgba(0,0,0,.55); display: none; align-items: center; justify-content: center; padding: 16px; z-index: 10; }
+    #overlay.open { display: flex; }
+    #panel { background: var(--card); border: 1px solid var(--border); border-radius: 16px; width: 100%; max-width: 760px; max-height: 90vh; overflow: auto; padding: 20px; }
+    #panel .phead { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+    #panel h2 { margin: 0 0 2px; font-size: 18px; }
+    #panel .desc { font-size: 12px; color: var(--muted); max-width: 60ch; }
+    #close { background: none; border: 1px solid var(--border); color: var(--fg); border-radius: 8px; padding: 6px 10px; cursor: pointer; font-size: 14px; }
+    #ranges { display: flex; gap: 6px; margin: 14px 0; }
+    #ranges button { background: var(--card-2); border: 1px solid var(--border); color: var(--muted); border-radius: 8px; padding: 5px 12px; cursor: pointer; font-size: 12px; }
+    #ranges button.active { color: var(--fg); border-color: var(--accent); }
+    #bigchart { width: 100%; height: 320px; }
+    #err { padding: 40px 16px; color: var(--bad); text-align: center; }
+    .tt { fill: var(--fg); font-size: 11px; }
+    .axis { stroke: var(--border); } .axislbl { fill: var(--muted); font-size: 10px; }
+    .line { fill: none; stroke: var(--accent); stroke-width: 2; }
+    .dot { fill: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>数据看板</h1>
+    <span id="meta"></span>
+  </header>
+  <div id="collectors"></div>
+  <main id="cards"></main>
+  <div id="err" hidden></div>
+
+  <div id="overlay">
+    <div id="panel">
+      <div class="phead">
+        <div>
+          <h2 id="p-name"></h2>
+          <div class="desc" id="p-desc"></div>
+        </div>
+        <button id="close" aria-label="关闭">✕</button>
+      </div>
+      <div id="ranges"></div>
+      <svg id="bigchart"></svg>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

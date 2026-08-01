@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --extra dev
+      - name: Tests
+        run: uv run pytest -q
+
+      # Contract guard at review time: if a pydantic model changed but
+      # data/schema.json was not regenerated, fail the PR (spec §2.3, §12.9).
+      - name: Schema is in sync with contract
+        run: |
+          uv run python -m dashboard export-schema --data-dir /tmp/schema-check
+          if ! diff -q data/schema.json /tmp/schema-check/schema.json; then
+            echo "::error::data/schema.json is stale. Run 'python -m dashboard export-schema' and commit."
+            diff data/schema.json /tmp/schema-check/schema.json || true
+            exit 1
+          fi

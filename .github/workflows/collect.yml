@@ -1,0 +1,65 @@
+name: collect
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 01:00 UTC daily (spec §9.1)
+  workflow_dispatch: {}    # manual trigger must remain (spec §9.1)
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write          # to commit series + snapshot back to the repo
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python & deps
+        run: uv sync --extra dev
+
+      - name: Run pipeline (fetch → store → snapshot → validate → alert → notify)
+        id: collect
+        continue-on-error: true
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: |
+          set +e
+          uv run python -m dashboard run
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      # A collector failing (code 0, alerted as heartbeat) still commits, so the
+      # rest of the dashboard updates (spec §9.1). Only a contract violation
+      # (code 2) blocks the commit and therefore the deploy (spec §12.9).
+      - name: Commit & push data
+        if: steps.collect.outputs.code != '2'
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add data/ web/data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "no data changes to commit"
+          else
+            git commit -m "data: automated collection $(date -u +%FT%TZ)"
+            git push
+          fi
+
+      - name: Block deploy on contract violation
+        if: steps.collect.outputs.code == '2'
+        run: |
+          echo "::error::Contract/schema validation failed — snapshot does not match frozen data/schema.json. Deploy blocked."
+          exit 1
+
+      - name: Flag notification failure
+        if: steps.collect.outputs.code == '1'
+        run: |
+          echo "::warning::Data committed, but Feishu notification delivery failed."
+          exit 1

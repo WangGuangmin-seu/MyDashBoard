@@ -1,0 +1,1226 @@
+[
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 450.03311216400004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 886.0378257469201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 412.27496506042,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 666.5792035514801,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 439.9863077828401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 405.08507450788005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 716.71768978189,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 423.76493266186003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 396.40400147382,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2015-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 684.95769944509,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 620.32141884117,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 308.53523931746,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 462.03516486502,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 910.2335852250501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 436.98925881413004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 672.5052761048801,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 435.49103170363003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 442.16364929944,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 721.9884109609101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 432.73831355969,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 404.84275413488,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2016-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 668.83484694569,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 657.6482662094,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 340.85950800789004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 444.43138138952,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 894.0377182906001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 465.02151846227,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 668.2327104575601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 442.03781268956004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 457.63778138607006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 705.3454238434001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 457.03271894665005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 408.24921637464,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2017-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 645.00102439926,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 705.10687591484,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 327.33536954258005,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 427.41592394214007,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 966.05204507283,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 457.49291282685,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 654.9386818150401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 457.30637126571,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 445.42623542020004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 692.2816429775501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 488.03217765451006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 414.33552149277006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2018-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 638.3809285083001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 701.017639429,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 322.8881852287,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 439.64360000291,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1045.9911986465302,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 449.1394359181,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 650.23052661534,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 476.61400994404,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 447.08024371292004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 717.5899538630501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 498.21168471771006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 431.14654407158,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2019-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 648.38943974322,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 712.2678473979901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 355.21600897686,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 465.57746202076004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 777.40753869151,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 405.92505496234,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 574.78100086647,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 814.8434502726301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 451.18625459539004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 747.22531759612,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 483.21894852800006,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 444.73801108538004,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2020-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 681.9246298818001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 756.93869272682,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 436.26459642623,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 504.38055061505,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 681.0492036284,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 637.60544529234,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 690.02733483744,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 825.4953627603,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 491.59936104937003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 832.6944210614,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 521.62478159388,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 500.76062741792003,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2021-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 832.85712995445,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 849.72936620886,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 538.19980022508,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 582.78649717973,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1302.83480387558,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 852.73803614696,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 909.96007835219,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 531.33475351119,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 572.10448349263,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 947.24597818219,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 602.50375087827,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 533.318818793,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2022-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 941.6653810330602,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 912.36204517071,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 551.97117604536,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 628.4058516561,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1502.16404294127,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 696.4753399386501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 879.0736129885901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 545.49181118035,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 586.85170941596,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 955.1957018839302,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 721.93362077889,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 526.94084476355,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2023-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 884.2530262256,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 924.60797341945,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 533.23997825497,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 645.33137356042,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1414.7184543354501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 631.1338673288101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 884.57182077612,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 606.53828244394,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 589.66994317658,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 995.0946382657701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 730.2037769779,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 576.58433559394,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2024-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 883.7253630575501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 990.6139981090901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 567.5497525816601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 699.7139853863001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1626.3674109497501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 694.8758440891601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 992.7002701641301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 668.8692767232601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 650.8550590296401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1070.6525792149,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 731.1415850318001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 637.75549552275,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2025-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 938.79872403072,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1073.2297885826401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 609.5453690694101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 752.5080079791101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1687.5094420213402,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 706.7410403381801,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.receipts",
+    "observed_at": "2026-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1022.2068333256701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  }
+]

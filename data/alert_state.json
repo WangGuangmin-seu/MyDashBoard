@@ -1,0 +1,12 @@
+{
+  "heartbeat:portwatch.hormuz.transits": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:portwatch.hormuz.trade_volume": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:portwatch.bab_el_mandeb.transits": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:portwatch.bab_el_mandeb.trade_volume": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:portwatch.cape_of_good_hope.transits": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:portwatch.cape_of_good_hope.trade_volume": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:treasury.tga.closing_balance": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:eia.crude.commercial_stocks": "2026-07-31T12:25:29.282835+00:00",
+  "heartbeat:eia.crude.spr_stocks": "2026-07-31T12:25:29.282835+00:00",
+  "collector:eia": "2026-07-31T12:25:29.282835+00:00"
+}

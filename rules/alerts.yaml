@@ -1,0 +1,32 @@
+# Alert rules (spec §6.1). Adding an alert = adding an entry here; no code change.
+#
+# Fields:
+#   id              unique key; also the cooldown key in alert_state.json
+#   series          series_id to watch (matches snapshot series)
+#   condition       expression over `value` — only `value`, numbers, comparisons,
+#                   and/or/not allowed (no arbitrary code)
+#   cooldown        min gap between repeats, e.g. 7d / 12h / 30m
+#   severity        free-text, shown on the card
+#   skip_if_status  statuses to ignore (revision-noise guard, spec §6.4)
+#   message         format string; {value} {series} {status} are substituted
+#
+# Heartbeat and collector-failure alerts are automatic (spec §6.2) and need no
+# rule here.
+
+- id: hormuz_collapse
+  series: portwatch.hormuz.transits
+  # Observed baseline at build time was ~9–12 ships/day, so the spec's literal
+  # `< 20` would fire daily. Tune to a genuine collapse relative to that baseline.
+  condition: "value < 5"
+  cooldown: 7d
+  skip_if_status: [under_review, provisional]
+  severity: critical
+  message: "霍尔木兹日通过 {value} 艘（阈值 5）"
+
+- id: tga_drawdown
+  series: treasury.tga.closing_balance
+  # TGA (USD billions). A very low cash balance is a debt-ceiling / liquidity signal.
+  condition: "value < 100"
+  cooldown: 3d
+  severity: warning
+  message: "美国财政部 TGA 余额 {value} 十亿美元（阈值 100）"

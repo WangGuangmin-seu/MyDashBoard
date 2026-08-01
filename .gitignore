@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.*
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code local machine settings (permissions etc.)
+.claude/settings.local.json

@@ -1,0 +1,1226 @@
+[
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 539.8379673760501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 622.47042058237,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 624.6311387265699,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 544.28471551244,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 683.7936251924301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 598.18234584201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 519.85372221435,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 682.00993456597,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 517.77491913781,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2015-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 697.53727803746,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 582.70438007175,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 693.4990083111201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 622.9957316139901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 647.0724980352601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 573.56449072401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 615.76678487546,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 697.49303632098,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 613.6867302046801,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 597.75831825625,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 613.4885512057,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 606.0424693037601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2016-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 710.79458935785,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 551.22780577636,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 725.51397504971,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 728.70643743635,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 605.1543331702901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 605.95492448644,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 752.21391200537,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 597.7962131950301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 672.43813384599,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 663.90008697421,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 566.0772755431601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 683.46522770785,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2017-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 695.5312074068,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 604.6140205639201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 734.62798040444,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 812.3917134843101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 569.3688949305601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 692.71206402059,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 820.02986334927,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 577.1109785373001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 767.26253768072,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 565.28009853708,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 651.7373381661899,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 757.7855167091401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2018-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 675.11264366828,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 643.0979340254,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 772.1048176739001,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 795.3321936905301,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 671.4315760693601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 803.70427063032,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 733.56483553312,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 673.1750457991201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 861.57211838107,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 515.70615370624,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 733.1703921962501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 844.88743567096,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2019-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 675.20135568869,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 736.18022121933,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 824.5284983436201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 731.6473923926401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1354.95400423522,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1012.51486096885,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1447.33246624419,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 997.5306455559901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 851.62561863732,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 789.06778077467,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 901.7568647106501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 798.84256907197,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2020-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 838.77283380972,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 952.3661392147701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 982.46490450434,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1282.96000076134,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1644.6508443678401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1168.31237625023,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1728.2619535913102,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1190.5375774983402,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 862.24615783585,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1018.8492274482701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 970.7506856999701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 837.3619314697401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2021-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 997.7225438164601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 893.86299743474,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1065.7114937298002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1435.0715949941102,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1220.1992114788502,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1050.91381667639,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1172.96214154044,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1044.43700190495,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 962.3353082503102,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1441.85980137731,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 855.3569541229101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 973.1887437305401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2022-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1047.9692470361701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 832.4469587682701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1030.99477129564,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1199.1158377383601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1017.76819206536,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1003.0460932786,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1195.6835387435601,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 977.32566858421,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 717.1923776718701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1555.9440869265102,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 876.3713360217901,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1089.4877277032201,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2023-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1098.61917772327,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 985.32210188969,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-02-29T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1091.94846952909,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1260.2232126844801,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1029.008357361,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1218.61300067883,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1178.30552579051,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1071.06146709497,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 880.49477591735,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1101.5465670585902,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1054.2176712995401,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1257.3594022491002,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2024-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1099.81109663508,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1141.1845573523,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1170.8415991221202,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1096.80026016088,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1158.43815520946,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1358.0104989702502,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1036.6555405627,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-07-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1203.7530243083602,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-08-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1375.72735632226,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-09-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 792.4141505391701,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-10-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1272.9416727818102,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-11-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1177.7955058473501,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2025-12-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1170.2795786532902,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-01-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1296.4851576253402,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-02-28T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1224.0639997878502,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-03-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1077.13666829633,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-04-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1214.0853527086101,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-05-31T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1315.0412438038302,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  },
+  {
+    "series_id": "treasury.mts.outlays",
+    "observed_at": "2026-06-30T00:00:00Z",
+    "as_of": "2026-07-31T12:25:29.282835Z",
+    "value": 1115.5024589020302,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
+  }
+]
