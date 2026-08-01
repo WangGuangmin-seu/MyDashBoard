@@ -7,7 +7,7 @@
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+    "description": "每日全部船舶通行数 (IMF PortWatch)，周更。"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -17,47 +17,47 @@
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+    "description": "每日全部船舶通行贸易量估计 (IMF PortWatch)。"
   },
   {
     "series_id": "portwatch.bab_el_mandeb.transits",
-    "display_name": "曼德海峡 · 日通行船数",
+    "display_name": "曼德海峡 · 油轮日通行船数",
     "unit": "艘/日",
     "source": "portwatch",
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+    "description": "每日油轮通行数 (IMF PortWatch)，周更。"
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
-    "display_name": "曼德海峡 · 日通行贸易量",
+    "display_name": "曼德海峡 · 油轮日通行贸易量",
     "unit": "估计吨/日",
     "source": "portwatch",
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+    "description": "每日油轮通行贸易量估计 (IMF PortWatch)。"
   },
   {
     "series_id": "portwatch.cape_of_good_hope.transits",
-    "display_name": "好望角 · 日通行船数",
+    "display_name": "好望角 · 油轮日通行船数",
     "unit": "艘/日",
     "source": "portwatch",
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly."
+    "description": "每日油轮通行数 (IMF PortWatch)，周更。"
   },
   {
     "series_id": "portwatch.cape_of_good_hope.trade_volume",
-    "display_name": "好望角 · 日通行贸易量",
+    "display_name": "好望角 · 油轮日通行贸易量",
     "unit": "估计吨/日",
     "source": "portwatch",
     "expected_interval": "P7D",
     "precision": 0,
     "direction_good": "neutral",
-    "description": "Estimated daily trade volume transiting the chokepoint (IMF PortWatch)."
+    "description": "每日油轮通行贸易量估计 (IMF PortWatch)。"
   },
   {
     "series_id": "treasury.tga.closing_balance",

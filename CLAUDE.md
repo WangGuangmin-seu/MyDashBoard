@@ -33,6 +33,10 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
   `https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query`
 - 字段：`date`(dateOnly，返回 `"YYYY-MM-DD"` 字符串)、`portid`、`n_total`(船数)、`capacity`(估计贸易量)。
 - 咽喉点 id：霍尔木兹 `chokepoint6`、曼德海峡 `chokepoint4`、好望角 `chokepoint7`。
+- **口径**：霍尔木兹用全部船舶（`n_total`/`capacity`）；曼德海峡、好望角用**仅油轮**
+  （`n_tanker`/`capacity_tanker`）。切换口径属指标定义变更（非修订）：改字段的同时删掉
+  这两点旧的 total 历史文件让其重灌，避免被 store 当成同一 series 的假修订。
+  该层还有 container/dry_bulk/general_cargo/roro/cargo 分项，需要时同理扩展。
 - **更新时点**：标称日频，但每周二美东 09:00 才刷新一次，最新数据可滞后 ~7 天。
   因此 `expected_interval=7d`（心跳容忍 = 2× = 14 天），**不是** 1 天，否则每天误报采集中断。
 - **数据质量**：官方公告该区域有 GPS 干扰 / AIS 欺骗，部分日期数据处于复核状态。

@@ -6,10 +6,14 @@ Live-verified endpoint (spec §4.2 requires real inspection, not memory):
         /Daily_Chokepoints_Data/FeatureServer/0/query
 
 Real fields on that layer: date (esriFieldTypeDateOnly, returned as "YYYY-MM-DD"
-string), portid, portname, n_total (vessel count), capacity (estimated trade
-volume). There is NO per-row status column, so every row is emitted as
-CONFIRMED; the `under_review` handling described in the spec cannot be sourced
-from this layer (documented in CLAUDE.md).
+string), portid, portname, plus per-vessel-type counts/volumes. We use two
+scopes per chokepoint:
+  * total  — n_total     / capacity
+  * tanker — n_tanker    / capacity_tanker
+Hormuz is reported on the total scope; Bab el-Mandeb and Cape of Good Hope on the
+tanker scope (these are watched for oil flows specifically). There is NO per-row
+status column, so every row is emitted as CONFIRMED; the `under_review` handling
+described in the spec cannot be sourced from this layer (documented in CLAUDE.md).
 
 Update cadence: nominally daily, but the layer refreshes only ~Tuesday 09:00 ET
 (spec §11), so the newest observed_at can lag ~7 days. That is expected and is
@@ -28,26 +32,33 @@ FEATURE_LAYER = (
     "/Daily_Chokepoints_Data/FeatureServer/0/query"
 )
 
-# portid -> (slug, human name). Only the chokepoints the spec asks for.
-CHOKEPOINTS: dict[str, tuple[str, str]] = {
-    "chokepoint6": ("hormuz", "霍尔木兹海峡"),
-    "chokepoint4": ("bab_el_mandeb", "曼德海峡"),
-    "chokepoint7": ("cape_of_good_hope", "好望角"),
+# portid -> (slug, human name, tanker_only). tanker_only picks the tanker-scope
+# fields (n_tanker/capacity_tanker) instead of the all-vessel totals.
+CHOKEPOINTS: dict[str, tuple[str, str, bool]] = {
+    "chokepoint6": ("hormuz", "霍尔木兹海峡", False),          # 全部船舶
+    "chokepoint4": ("bab_el_mandeb", "曼德海峡", True),         # 仅油轮
+    "chokepoint7": ("cape_of_good_hope", "好望角", True),       # 仅油轮
 }
 
 # ArcGIS default page size is 2000; page explicitly to be safe.
 _PAGE = 2000
 
 
+def _fields_for(tanker_only: bool) -> tuple[str, str]:
+    """(count_field, volume_field) for a chokepoint's scope."""
+    return ("n_tanker", "capacity_tanker") if tanker_only else ("n_total", "capacity")
+
+
 def _build_series() -> list[SeriesMeta]:
     from datetime import timedelta
 
     metas: list[SeriesMeta] = []
-    for _pid, (slug, name) in CHOKEPOINTS.items():
+    for _pid, (slug, name, tanker) in CHOKEPOINTS.items():
+        scope = "油轮" if tanker else ""
         metas.append(
             SeriesMeta(
                 series_id=f"portwatch.{slug}.transits",
-                display_name=f"{name} · 日通行船数",
+                display_name=f"{name} · {scope}日通行船数",
                 unit="艘/日",
                 source="portwatch",
                 # Points are daily, but the layer only refreshes ~weekly and can
@@ -57,19 +68,23 @@ def _build_series() -> list[SeriesMeta]:
                 expected_interval=timedelta(days=7),
                 precision=0,
                 direction_good="neutral",
-                description="Daily vessel transit calls (IMF PortWatch). Layer refreshes weekly.",
+                description=(
+                    f"每日{'油轮' if tanker else '全部船舶'}通行数 (IMF PortWatch)，周更。"
+                ),
             )
         )
         metas.append(
             SeriesMeta(
                 series_id=f"portwatch.{slug}.trade_volume",
-                display_name=f"{name} · 日通行贸易量",
+                display_name=f"{name} · {scope}日通行贸易量",
                 unit="估计吨/日",
                 source="portwatch",
                 expected_interval=timedelta(days=7),  # weekly delivery; see note above
                 precision=0,
                 direction_good="neutral",
-                description="Estimated daily trade volume transiting the chokepoint (IMF PortWatch).",
+                description=(
+                    f"每日{'油轮' if tanker else '全部船舶'}通行贸易量估计 (IMF PortWatch)。"
+                ),
             )
         )
     return metas
@@ -91,7 +106,7 @@ class PortWatchCollector:
                     FEATURE_LAYER,
                     params={
                         "where": where,
-                        "outFields": "date,portid,n_total,capacity",
+                        "outFields": "date,portid,n_total,capacity,n_tanker,capacity_tanker",
                         "orderByFields": "date ASC",
                         "resultOffset": offset,
                         "resultRecordCount": _PAGE,
@@ -112,10 +127,11 @@ class PortWatchCollector:
 
     def _to_observations(self, attrs: dict, now: datetime) -> list[Observation]:
         pid = attrs.get("portid")
-        slug = CHOKEPOINTS[pid][0]
+        slug, _name, tanker_only = CHOKEPOINTS[pid]
+        count_field, vol_field = _fields_for(tanker_only)
         observed_at = _parse_date(attrs.get("date"))
         out: list[Observation] = []
-        for field, kind in (("n_total", "transits"), ("capacity", "trade_volume")):
+        for field, kind in ((count_field, "transits"), (vol_field, "trade_volume")):
             raw = attrs.get(field)
             out.append(
                 Observation(

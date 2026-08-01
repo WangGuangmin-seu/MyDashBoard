@@ -23,12 +23,24 @@ def test_portwatch_date_parses_iso_and_epoch():
         _parse_date(None)
 
 
-def test_portwatch_row_maps_to_two_series():
+def test_portwatch_hormuz_uses_total_scope():
     c = PortWatchCollector()
-    attrs = {"portid": "chokepoint6", "date": "2026-07-23", "n_total": 10, "capacity": 61241}
+    attrs = {"portid": "chokepoint6", "date": "2026-07-23",
+             "n_total": 10, "capacity": 61241, "n_tanker": 2, "capacity_tanker": 999}
+    ids = {o.series_id: o.value for o in c._to_observations(attrs, datetime(2026, 7, 31, tzinfo=timezone.utc))}
+    # Hormuz reports the all-vessel totals, not the tanker fields.
+    assert ids == {"portwatch.hormuz.transits": 10.0, "portwatch.hormuz.trade_volume": 61241.0}
+
+
+def test_portwatch_bab_el_mandeb_uses_tanker_scope():
+    c = PortWatchCollector()
+    attrs = {"portid": "chokepoint4", "date": "2026-07-26",
+             "n_total": 20, "capacity": 814080, "n_tanker": 6, "capacity_tanker": 572869}
     obs = c._to_observations(attrs, datetime(2026, 7, 31, tzinfo=timezone.utc))
     ids = {o.series_id: o.value for o in obs}
-    assert ids == {"portwatch.hormuz.transits": 10.0, "portwatch.hormuz.trade_volume": 61241.0}
+    # Bab el-Mandeb reports the tanker scope (n_tanker/capacity_tanker), not totals.
+    assert ids == {"portwatch.bab_el_mandeb.transits": 6.0,
+                   "portwatch.bab_el_mandeb.trade_volume": 572869.0}
     assert all(o.status is DataStatus.CONFIRMED for o in obs)
 
 
