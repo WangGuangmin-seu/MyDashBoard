@@ -1,5 +1,24 @@
 {
   "$defs": {
+    "CategoryMeta": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title"
+      ],
+      "title": "CategoryMeta",
+      "type": "object"
+    },
     "CollectorHealth": {
       "additionalProperties": false,
       "properties": {
@@ -191,6 +210,10 @@
         "meta": {
           "$ref": "#/$defs/SeriesMeta"
         },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
         "points": {
           "items": {
             "$ref": "#/$defs/Point"
@@ -224,6 +247,7 @@
       },
       "required": [
         "meta",
+        "category",
         "points",
         "latest",
         "previous",
@@ -244,6 +268,13 @@
       "title": "Window",
       "type": "integer"
     },
+    "categories": {
+      "items": {
+        "$ref": "#/$defs/CategoryMeta"
+      },
+      "title": "Categories",
+      "type": "array"
+    },
     "series": {
       "items": {
         "$ref": "#/$defs/SeriesSnapshot"
@@ -262,6 +293,7 @@
   "required": [
     "generated_at",
     "window",
+    "categories",
     "series",
     "collectors"
   ],

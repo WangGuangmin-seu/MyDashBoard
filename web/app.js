@@ -253,6 +253,43 @@ function renderCollectors(snap) {
   });
 }
 
+// collapse state persisted per category id
+function isCollapsed(id) {
+  try { return localStorage.getItem("cat.collapsed." + id) === "1"; } catch { return false; }
+}
+function setCollapsed(id, v) {
+  try { localStorage.setItem("cat.collapsed." + id, v ? "1" : "0"); } catch {}
+}
+
+function renderCategory(cat, items) {
+  const section = document.createElement("section");
+  section.className = "cat" + (isCollapsed(cat.id) ? " collapsed" : "");
+
+  const header = document.createElement("button");
+  header.className = "cat-header";
+  header.type = "button";
+  header.setAttribute("aria-expanded", String(!isCollapsed(cat.id)));
+  header.innerHTML =
+    `<span class="chev">▸</span><span class="cat-title">${cat.title}</span>` +
+    `<span class="cat-count">${items.length}</span>`;
+
+  const body = document.createElement("div");
+  body.className = "cat-body";
+  // within a category, sink stale/unhealthy cards to the bottom (stable sort)
+  items.slice()
+    .sort((a, b) => Number(a.health.stale) - Number(b.health.stale))
+    .forEach(s => body.appendChild(renderCard(s)));
+
+  header.addEventListener("click", () => {
+    const collapsed = section.classList.toggle("collapsed");
+    header.setAttribute("aria-expanded", String(!collapsed));
+    setCollapsed(cat.id, collapsed);
+  });
+  section.appendChild(header);
+  section.appendChild(body);
+  return section;
+}
+
 async function render() {
   try {
     const snap = await loadSnapshot();
@@ -260,10 +297,25 @@ async function render() {
     renderCollectors(snap);
     const cards = document.getElementById("cards");
     cards.innerHTML = "";
-    snap.series
-      .slice()
-      .sort((a, b) => Number(a.health.stale) - Number(b.health.stale)) // healthy first
-      .forEach(s => cards.appendChild(renderCard(s)));
+
+    // group series by category, preserving snapshot order within each group
+    const byCat = new Map();
+    snap.series.forEach(s => {
+      const key = s.category || "other";
+      if (!byCat.has(key)) byCat.set(key, []);
+      byCat.get(key).push(s);
+    });
+    // category order from snap.categories; append any present-but-unlisted at the end
+    const cats = (snap.categories && snap.categories.length)
+      ? snap.categories.slice() : [];
+    byCat.forEach((_, id) => {
+      if (!cats.find(c => c.id === id)) cats.push({ id, title: id === "other" ? "其他" : id });
+    });
+
+    cats.forEach(cat => {
+      const items = byCat.get(cat.id);
+      if (items && items.length) cards.appendChild(renderCategory(cat, items));
+    });
     document.getElementById("err").hidden = true;
   } catch (e) {
     const err = document.getElementById("err");

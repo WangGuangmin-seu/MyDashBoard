@@ -26,13 +26,13 @@ def _series(series_id, value, status=DataStatus.CONFIRMED, stale=False, interval
                       source="test", expected_interval=timedelta(days=interval_days), precision=0)
     pt = None if value is None else Point(observed_at=NOW, as_of=NOW, value=value, status=status)
     return SeriesSnapshot(
-        meta=meta, points=[pt] if pt else [], latest=pt, previous=None,
+        meta=meta, category="test", points=[pt] if pt else [], latest=pt, previous=None,
         health=SeriesHealth(ok=not stale, stale=stale, last_observed_at=(NOW if pt else None)),
     )
 
 
 def _snap(series, collectors=None):
-    return Snapshot(generated_at=NOW, window=180, series=series,
+    return Snapshot(generated_at=NOW, window=180, categories=[], series=series,
                     collectors=collectors or [CollectorHealth(id="test", ok=True)])
 
 

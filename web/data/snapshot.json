@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-08-01T16:59:27.353614Z",
+  "generated_at": "2026-08-01T17:09:54.680084Z",
   "window": 180,
+  "categories": [
+    {
+      "id": "core",
+      "title": "核心指标"
+    },
+    {
+      "id": "crude_freight",
+      "title": "原油货运辅助数据"
+    },
+    {
+      "id": "fiscal",
+      "title": "财政类"
+    },
+    {
+      "id": "freight_index",
+      "title": "运价指数"
+    }
+  ],
   "series": [
     {
       "meta": {
@@ -13,6 +31,7 @@
         "direction_good": "neutral",
         "description": "每日全部船舶通行数 (IMF PortWatch)，周更。"
       },
+      "category": "core",
       "points": [
         {
           "observed_at": "2026-01-25T00:00:00Z",
@@ -1125,6 +1144,7 @@
         "direction_good": "neutral",
         "description": "每日全部船舶通行贸易量估计 (IMF PortWatch)。"
       },
+      "category": "core",
       "points": [
         {
           "observed_at": "2026-01-25T00:00:00Z",
@@ -2237,6 +2257,7 @@
         "direction_good": "neutral",
         "description": "Weekly U.S. ending stocks of crude oil excluding the SPR (EIA)."
       },
+      "category": "core",
       "points": [
         {
           "observed_at": "2023-02-17T00:00:00Z",
@@ -3349,6 +3370,7 @@
         "direction_good": "up",
         "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
       },
+      "category": "core",
       "points": [
         {
           "observed_at": "2023-02-17T00:00:00Z",
@@ -4461,6 +4483,7 @@
         "direction_good": "neutral",
         "description": "每日油轮通行数 (IMF PortWatch)，周更。"
       },
+      "category": "crude_freight",
       "points": [
         {
           "observed_at": "2026-01-28T00:00:00Z",
@@ -5573,6 +5596,7 @@
         "direction_good": "neutral",
         "description": "每日油轮通行贸易量估计 (IMF PortWatch)。"
       },
+      "category": "crude_freight",
       "points": [
         {
           "observed_at": "2026-01-28T00:00:00Z",
@@ -6685,6 +6709,7 @@
         "direction_good": "neutral",
         "description": "每日油轮通行数 (IMF PortWatch)，周更。"
       },
+      "category": "crude_freight",
       "points": [
         {
           "observed_at": "2026-01-28T00:00:00Z",
@@ -7797,6 +7822,7 @@
         "direction_good": "neutral",
         "description": "每日油轮通行贸易量估计 (IMF PortWatch)。"
       },
+      "category": "crude_freight",
       "points": [
         {
           "observed_at": "2026-01-28T00:00:00Z",
@@ -8909,6 +8935,7 @@
         "direction_good": "neutral",
         "description": "Daily TGA closing cash balance (Daily Treasury Statement)."
       },
+      "category": "fiscal",
       "points": [
         {
           "observed_at": "2025-11-12T00:00:00Z",
@@ -10021,6 +10048,7 @@
         "direction_good": "up",
         "description": "Gross federal receipts for the month (Monthly Treasury Statement, table 1)."
       },
+      "category": "fiscal",
       "points": [
         {
           "observed_at": "2015-03-31T00:00:00Z",
@@ -10869,6 +10897,7 @@
         "direction_good": "neutral",
         "description": "Gross federal outlays for the month (Monthly Treasury Statement, table 1)."
       },
+      "category": "fiscal",
       "points": [
         {
           "observed_at": "2015-03-31T00:00:00Z",
@@ -11717,6 +11746,7 @@
         "direction_good": "down",
         "description": "Monthly budget deficit (positive) or surplus (negative), MTS table 1."
       },
+      "category": "fiscal",
       "points": [
         {
           "observed_at": "2015-03-31T00:00:00Z",
@@ -12565,6 +12595,7 @@
         "direction_good": "neutral",
         "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
       },
+      "category": "freight_index",
       "points": [
         {
           "observed_at": "2026-07-31T00:00:00Z",
@@ -12598,6 +12629,7 @@
         "direction_good": "neutral",
         "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
       },
+      "category": "freight_index",
       "points": [
         {
           "observed_at": "2026-07-31T00:00:00Z",
@@ -12631,6 +12663,7 @@
         "direction_good": "neutral",
         "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
       },
+      "category": "freight_index",
       "points": [
         {
           "observed_at": "2026-07-31T00:00:00Z",
@@ -12664,6 +12697,7 @@
         "direction_good": "neutral",
         "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
       },
+      "category": "freight_index",
       "points": [
         {
           "observed_at": "2026-07-31T00:00:00Z",

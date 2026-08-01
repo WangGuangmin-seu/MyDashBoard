@@ -26,7 +26,15 @@
     #collectors { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 16px 8px; }
     .chip { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
     .chip.bad { color: var(--bad); border-color: var(--bad); }
-    #cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; padding: 8px 16px 40px; max-width: 1200px; margin: 0 auto; }
+    #cards { padding: 8px 16px 40px; max-width: 1200px; margin: 0 auto; }
+    .cat { margin-bottom: 18px; }
+    .cat-header { width: 100%; display: flex; align-items: center; gap: 8px; background: none; border: none; border-bottom: 1px solid var(--border); color: var(--fg); font-size: 15px; font-weight: 600; padding: 10px 2px; cursor: pointer; text-align: left; }
+    .cat-header:hover { color: var(--accent); }
+    .chev { display: inline-block; transition: transform .15s; color: var(--muted); font-size: 12px; }
+    .cat:not(.collapsed) .chev { transform: rotate(90deg); }
+    .cat-count { margin-left: auto; font-size: 12px; color: var(--muted); font-weight: 400; }
+    .cat-body { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+    .cat.collapsed .cat-body { display: none; }
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; cursor: pointer; transition: border-color .15s, transform .05s; }
     .card:hover { border-color: var(--accent); }
     .card:active { transform: scale(.995); }

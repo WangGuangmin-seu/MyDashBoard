@@ -27,34 +27,47 @@ from .store import DEFAULT_DATA_DIR, Store
 
 DEFAULT_WINDOW = 180
 
-# Cosmetic dashboard card order. Series listed here render in this order; any
-# series NOT listed (e.g. a newly added collector's) is appended afterwards in
-# its natural collector order, so new cards still appear automatically.
-DISPLAY_ORDER = [
-    "portwatch.hormuz.transits",
-    "portwatch.hormuz.trade_volume",
-    "eia.crude.commercial_stocks",
-    "eia.crude.spr_stocks",
-    "portwatch.bab_el_mandeb.transits",
-    "portwatch.bab_el_mandeb.trade_volume",
-    "portwatch.cape_of_good_hope.transits",
-    "portwatch.cape_of_good_hope.trade_volume",
-    "treasury.tga.closing_balance",
-    "treasury.mts.receipts",
-    "treasury.mts.outlays",
-    "treasury.mts.deficit",
-    "ctfi.composite",
-    "ctfi.ct1",
-    "ctfi.ct1.tce",
-    "ctfi.ct2",
+# Dashboard categories: single source of truth for BOTH card order and the
+# collapsible grouping the frontend renders. Each entry is (id, title, series_ids
+# in display order). A series not listed in any category falls into the trailing
+# "其他" group, so a newly added collector's cards still appear automatically.
+CATEGORIES: list[tuple[str, str, list[str]]] = [
+    ("core", "核心指标", [
+        "portwatch.hormuz.transits",
+        "portwatch.hormuz.trade_volume",
+        "eia.crude.commercial_stocks",
+        "eia.crude.spr_stocks",
+    ]),
+    ("crude_freight", "原油货运辅助数据", [
+        "portwatch.bab_el_mandeb.transits",
+        "portwatch.bab_el_mandeb.trade_volume",
+        "portwatch.cape_of_good_hope.transits",
+        "portwatch.cape_of_good_hope.trade_volume",
+    ]),
+    ("fiscal", "财政类", [
+        "treasury.tga.closing_balance",
+        "treasury.mts.receipts",
+        "treasury.mts.outlays",
+        "treasury.mts.deficit",
+    ]),
+    ("freight_index", "运价指数", [
+        "ctfi.composite",
+        "ctfi.ct1",
+        "ctfi.ct1.tce",
+        "ctfi.ct2",
+    ]),
 ]
+_OTHER_CATEGORY = ("other", "其他")
+
+# derived lookups
+_FLAT_ORDER: list[str] = [sid for _, _, sids in CATEGORIES for sid in sids]
+_CATEGORY_OF: dict[str, str] = {sid: cid for cid, _, sids in CATEGORIES for sid in sids}
 
 
 def _order_key(series_id: str, fallback_index: int) -> tuple[int, int]:
-    """Sort key: listed series first (in DISPLAY_ORDER order), then unlisted
-    series in their original order."""
+    """Listed series first (in CATEGORIES flat order), then unlisted in original order."""
     try:
-        return (0, DISPLAY_ORDER.index(series_id))
+        return (0, _FLAT_ORDER.index(series_id))
     except ValueError:
         return (1, fallback_index)
 
@@ -82,9 +95,16 @@ class CollectorHealth(BaseModel):
     error: str | None = None
 
 
+class CategoryMeta(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    id: str
+    title: str
+
+
 class SeriesSnapshot(BaseModel):
     model_config = ConfigDict(extra="forbid")
     meta: SeriesMeta
+    category: str                       # category id; matches a Snapshot.categories entry
     points: list[Point]
     latest: Point | None
     previous: Point | None
@@ -95,6 +115,7 @@ class Snapshot(BaseModel):
     model_config = ConfigDict(extra="forbid")
     generated_at: datetime
     window: int
+    categories: list[CategoryMeta]      # display order of collapsible groups
     series: list[SeriesSnapshot]
     collectors: list[CollectorHealth]
 
@@ -141,12 +162,28 @@ def build_snapshot(
         )
         series_snaps.append(
             SeriesSnapshot(
-                meta=meta, points=points, latest=latest, previous=previous, health=health
+                meta=meta,
+                category=_CATEGORY_OF.get(meta.series_id, _OTHER_CATEGORY[0]),
+                points=points, latest=latest, previous=previous, health=health,
             )
         )
     return Snapshot(
-        generated_at=now, window=window, series=series_snaps, collectors=collector_health
+        generated_at=now,
+        window=window,
+        categories=_build_categories(series_snaps),
+        series=series_snaps,
+        collectors=collector_health,
     )
+
+
+def _build_categories(series_snaps: list[SeriesSnapshot]) -> list[CategoryMeta]:
+    """Categories in display order, including only those with ≥1 present series;
+    append the trailing '其他' group if any series is uncategorised."""
+    present = {s.category for s in series_snaps}
+    cats = [CategoryMeta(id=cid, title=title) for cid, title, _ in CATEGORIES if cid in present]
+    if _OTHER_CATEGORY[0] in present:
+        cats.append(CategoryMeta(id=_OTHER_CATEGORY[0], title=_OTHER_CATEGORY[1]))
+    return cats
 
 
 def write_snapshot(snapshot: Snapshot, data_dir: Path | str = DEFAULT_DATA_DIR) -> Path:
