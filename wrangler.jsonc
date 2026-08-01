@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers "static assets" deployment: no Worker script, just serve
+  // the static site in ./web. `npx wrangler deploy` (the Deploy command in the
+  // Cloudflare UI) reads this file. Build command stays empty — there is no
+  // build step (spec §8, §10). The frontend fetches ./data/snapshot.json at
+  // runtime, so data updates never need a rebuild (spec §8.3).
+  "name": "mydashboard",
+  "compatibility_date": "2024-11-01",
+  "assets": {
+    "directory": "./web"
+  }
+}
