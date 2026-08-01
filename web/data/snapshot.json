@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T00:57:50.259067Z",
+  "generated_at": "2026-08-01T10:32:19.036160Z",
   "window": 180,
   "series": [
     {
       "meta": {
         "series_id": "portwatch.hormuz.transits",
-        "display_name": "Strait of Hormuz — daily transits",
-        "unit": "ships/day",
+        "display_name": "霍尔木兹海峡 · 日通行船数",
+        "unit": "艘/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -1117,8 +1117,8 @@
     {
       "meta": {
         "series_id": "portwatch.hormuz.trade_volume",
-        "display_name": "Strait of Hormuz — daily trade volume",
-        "unit": "est. tons/day",
+        "display_name": "霍尔木兹海峡 · 日通行贸易量",
+        "unit": "估计吨/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -2229,8 +2229,8 @@
     {
       "meta": {
         "series_id": "portwatch.bab_el_mandeb.transits",
-        "display_name": "Bab el-Mandeb Strait — daily transits",
-        "unit": "ships/day",
+        "display_name": "曼德海峡 · 日通行船数",
+        "unit": "艘/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -3341,8 +3341,8 @@
     {
       "meta": {
         "series_id": "portwatch.bab_el_mandeb.trade_volume",
-        "display_name": "Bab el-Mandeb Strait — daily trade volume",
-        "unit": "est. tons/day",
+        "display_name": "曼德海峡 · 日通行贸易量",
+        "unit": "估计吨/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -4453,8 +4453,8 @@
     {
       "meta": {
         "series_id": "portwatch.cape_of_good_hope.transits",
-        "display_name": "Cape of Good Hope — daily transits",
-        "unit": "ships/day",
+        "display_name": "好望角 · 日通行船数",
+        "unit": "艘/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -5565,8 +5565,8 @@
     {
       "meta": {
         "series_id": "portwatch.cape_of_good_hope.trade_volume",
-        "display_name": "Cape of Good Hope — daily trade volume",
-        "unit": "est. tons/day",
+        "display_name": "好望角 · 日通行贸易量",
+        "unit": "估计吨/日",
         "source": "portwatch",
         "expected_interval": "P7D",
         "precision": 0,
@@ -6677,8 +6677,8 @@
     {
       "meta": {
         "series_id": "treasury.tga.closing_balance",
-        "display_name": "Treasury General Account — closing balance",
-        "unit": "USD billions",
+        "display_name": "美国财政部 TGA 现金余额",
+        "unit": "十亿美元",
         "source": "treasury",
         "expected_interval": "P3D",
         "precision": 1,
@@ -7789,8 +7789,8 @@
     {
       "meta": {
         "series_id": "treasury.mts.receipts",
-        "display_name": "Federal receipts (monthly)",
-        "unit": "USD billions",
+        "display_name": "美国联邦财政收入（月度）",
+        "unit": "十亿美元",
         "source": "treasury",
         "expected_interval": "P31D",
         "precision": 1,
@@ -8637,8 +8637,8 @@
     {
       "meta": {
         "series_id": "treasury.mts.outlays",
-        "display_name": "Federal outlays (monthly)",
-        "unit": "USD billions",
+        "display_name": "美国联邦财政支出（月度）",
+        "unit": "十亿美元",
         "source": "treasury",
         "expected_interval": "P31D",
         "precision": 1,
@@ -9485,8 +9485,8 @@
     {
       "meta": {
         "series_id": "treasury.mts.deficit",
-        "display_name": "Federal deficit (monthly)",
-        "unit": "USD billions",
+        "display_name": "美国联邦财政赤字（月度）",
+        "unit": "十亿美元",
         "source": "treasury",
         "expected_interval": "P31D",
         "precision": 1,
@@ -10333,8 +10333,8 @@
     {
       "meta": {
         "series_id": "eia.crude.commercial_stocks",
-        "display_name": "U.S. commercial crude oil stocks (excl. SPR)",
-        "unit": "thousand barrels",
+        "display_name": "美国商业原油库存（不含 SPR）",
+        "unit": "千桶",
         "source": "eia",
         "expected_interval": "P7D",
         "precision": 0,
@@ -11445,8 +11445,8 @@
     {
       "meta": {
         "series_id": "eia.crude.spr_stocks",
-        "display_name": "U.S. Strategic Petroleum Reserve crude stocks",
-        "unit": "thousand barrels",
+        "display_name": "美国战略石油储备（SPR）原油库存",
+        "unit": "千桶",
         "source": "eia",
         "expected_interval": "P7D",
         "precision": 0,

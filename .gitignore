@@ -19,5 +19,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude Code local machine settings (permissions etc.)
-.claude/settings.local.json
+# Claude Code local machine settings (permissions, launch config, absolute paths)
+.claude/

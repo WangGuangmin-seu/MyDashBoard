@@ -46,8 +46,8 @@ class TreasuryCollector:
     series = [
         SeriesMeta(
             series_id="treasury.tga.closing_balance",
-            display_name="Treasury General Account — closing balance",
-            unit="USD billions",
+            display_name="美国财政部 TGA 现金余额",
+            unit="十亿美元",
             source="treasury",
             # DTS is business-daily with a ~1 day publish lag; 3d SLA (6d
             # tolerance) absorbs weekends and holidays without false alarms.
@@ -58,8 +58,8 @@ class TreasuryCollector:
         ),
         SeriesMeta(
             series_id="treasury.mts.receipts",
-            display_name="Federal receipts (monthly)",
-            unit="USD billions",
+            display_name="美国联邦财政收入（月度）",
+            unit="十亿美元",
             source="treasury",
             expected_interval=timedelta(days=31),
             precision=1,
@@ -68,8 +68,8 @@ class TreasuryCollector:
         ),
         SeriesMeta(
             series_id="treasury.mts.outlays",
-            display_name="Federal outlays (monthly)",
-            unit="USD billions",
+            display_name="美国联邦财政支出（月度）",
+            unit="十亿美元",
             source="treasury",
             expected_interval=timedelta(days=31),
             precision=1,
@@ -78,8 +78,8 @@ class TreasuryCollector:
         ),
         SeriesMeta(
             series_id="treasury.mts.deficit",
-            display_name="Federal deficit (monthly)",
-            unit="USD billions",
+            display_name="美国联邦财政赤字（月度）",
+            unit="十亿美元",
             source="treasury",
             expected_interval=timedelta(days=31),
             precision=1,

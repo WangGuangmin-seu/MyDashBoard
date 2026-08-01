@@ -27,13 +27,13 @@ _PAGE = 5000
 _SPECS = {
     "WCESTUS1": dict(
         series_id="eia.crude.commercial_stocks",
-        display_name="U.S. commercial crude oil stocks (excl. SPR)",
+        display_name="美国商业原油库存（不含 SPR）",
         direction_good="neutral",
         description="Weekly U.S. ending stocks of crude oil excluding the SPR (EIA).",
     ),
     "WCSSTUS1": dict(
         series_id="eia.crude.spr_stocks",
-        display_name="U.S. Strategic Petroleum Reserve crude stocks",
+        display_name="美国战略石油储备（SPR）原油库存",
         direction_good="up",
         description="Weekly U.S. ending stocks of crude oil in the SPR (EIA).",
     ),
@@ -47,7 +47,7 @@ class EIACollector:
         SeriesMeta(
             series_id=spec["series_id"],
             display_name=spec["display_name"],
-            unit="thousand barrels",
+            unit="千桶",
             source="eia",
             expected_interval=timedelta(days=7),
             precision=0,

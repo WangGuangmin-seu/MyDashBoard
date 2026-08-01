@@ -30,9 +30,9 @@ FEATURE_LAYER = (
 
 # portid -> (slug, human name). Only the chokepoints the spec asks for.
 CHOKEPOINTS: dict[str, tuple[str, str]] = {
-    "chokepoint6": ("hormuz", "Strait of Hormuz"),
-    "chokepoint4": ("bab_el_mandeb", "Bab el-Mandeb Strait"),
-    "chokepoint7": ("cape_of_good_hope", "Cape of Good Hope"),
+    "chokepoint6": ("hormuz", "霍尔木兹海峡"),
+    "chokepoint4": ("bab_el_mandeb", "曼德海峡"),
+    "chokepoint7": ("cape_of_good_hope", "好望角"),
 }
 
 # ArcGIS default page size is 2000; page explicitly to be safe.
@@ -47,8 +47,8 @@ def _build_series() -> list[SeriesMeta]:
         metas.append(
             SeriesMeta(
                 series_id=f"portwatch.{slug}.transits",
-                display_name=f"{name} — daily transits",
-                unit="ships/day",
+                display_name=f"{name} · 日通行船数",
+                unit="艘/日",
                 source="portwatch",
                 # Points are daily, but the layer only refreshes ~weekly and can
                 # lag ~7 days (spec §11). expected_interval is the heartbeat SLA
@@ -63,8 +63,8 @@ def _build_series() -> list[SeriesMeta]:
         metas.append(
             SeriesMeta(
                 series_id=f"portwatch.{slug}.trade_volume",
-                display_name=f"{name} — daily trade volume",
-                unit="est. tons/day",
+                display_name=f"{name} · 日通行贸易量",
+                unit="估计吨/日",
                 source="portwatch",
                 expected_interval=timedelta(days=7),  # weekly delivery; see note above
                 precision=0,
