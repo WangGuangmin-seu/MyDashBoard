@@ -100,6 +100,16 @@
     "description": "Monthly budget deficit (positive) or surplus (negative), MTS table 1."
   },
   {
+    "series_id": "treasury.yield.10y",
+    "display_name": "10 年期美债收益率",
+    "unit": "%",
+    "source": "treasury",
+    "expected_interval": "P3D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "10 年期美国国债固定期限收益率（财政部每日国债收益率曲线 BC_10YEAR）。"
+  },
+  {
     "series_id": "eia.crude.commercial_stocks",
     "display_name": "美国商业原油库存（不含 SPR）",
     "unit": "千桶",
@@ -118,6 +128,16 @@
     "precision": 0,
     "direction_good": "up",
     "description": "Weekly U.S. ending stocks of crude oil in the SPR (EIA)."
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "display_name": "布伦特原油现货价",
+    "unit": "美元/桶",
+    "source": "eia",
+    "expected_interval": "P7D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "欧洲布伦特原油现货 FOB 价格 (EIA, 日频)。"
   },
   {
     "series_id": "ctfi.composite",

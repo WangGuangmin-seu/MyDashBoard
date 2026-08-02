@@ -37,6 +37,8 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "portwatch.hormuz.trade_volume",
         "eia.crude.commercial_stocks",
         "eia.crude.spr_stocks",
+        "eia.brent.spot",
+        "treasury.yield.10y",
     ]),
     ("crude_freight", "原油货运辅助数据", [
         "portwatch.bab_el_mandeb.transits",

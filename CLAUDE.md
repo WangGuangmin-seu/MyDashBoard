@@ -55,6 +55,11 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
   日历月名的那一行**。`current_month_dfct_sur_amt` 正=赤字、负=盈余。
 - 数值以字符串返回，`"null"` 是字符串。所有金额归一化为**十亿美元**统一单位。
 - 更新：DTS 工作日日更且有 ~1 天发布滞后 → `expected_interval=3d`（容忍周末/假期）。
+- **10 年期美债收益率**（`treasury.yield.10y`）：来自财政部**每日国债收益率曲线 XML 源**
+  （`home.treasury.gov/.../pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=YYYY`，
+  无 key），解析每个 `<entry>` 的 `NEW_DATE` + `BC_10YEAR`（百分数）。按年取，抓当年+去年。
+  空 `BC_10YEAR` → None（非崩溃）；解析不到任何 10Y 即 raise（结构变更经心跳暴露）。
+  注意：公开只有**收益率**没有干净的价格序列，债价与收益率反向。
 
 ### EIA（`dashboard/collectors/eia.py`）
 
@@ -68,6 +73,9 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
 - 返回行字段：`period`(YYYY-MM-DD)、`series`(EIA id)、`value`(字符串，单位 MBBL=千桶)。
   按 `series` 字段映射回本地 series_id；分页用 `offset`/`length` 循环到 `response.total`。
   实测基线：商业原油 ~404508 千桶、SPR ~307650 千桶。
+- **布伦特原油现货价**（`eia.brent.spot`）：另一路由 `petroleum/pri/spt/data/`，facet
+  `series=RBRTE`（欧洲布伦特现货 FOB，$/BBL），日频。只取最近 500 个点（日频历史很长，
+  store 逐日累积），`sort desc`。实测 ~91.82 $/BBL。
 
 ### CTFI（`dashboard/collectors/ctfi.py`）
 

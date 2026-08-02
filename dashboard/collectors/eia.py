@@ -11,6 +11,10 @@ these ids; the facet-filtered data endpoint does):
 Rows carry: period ("YYYY-MM-DD"), series (the EIA id), value (string,
 thousand barrels / "MBBL"), units. Verified value example: WCESTUS1 = 404508.
 Weekly, released Wednesdays.
+
+Also fetches the daily Europe Brent spot price (series RBRTE) from the spot-price
+route petroleum/pri/spt/data. Verified: RBRTE = 91.82 $/BBL, units "$/BBL". Only
+a recent trailing window is pulled (daily history is long; the store accumulates).
 """
 
 from __future__ import annotations
@@ -21,7 +25,9 @@ from ..contract import CollectorContext, Collector, DataStatus, Observation, Ser
 from .base import get_json, make_client
 
 DATA_URL = "https://api.eia.gov/v2/petroleum/stoc/wstk/data/"
+SPOT_URL = "https://api.eia.gov/v2/petroleum/pri/spt/data/"
 _PAGE = 5000
+_BRENT_WINDOW = 500  # recent daily points to seed the chart (store keeps growing history)
 
 # EIA series id -> our series_id + display metadata
 _SPECS = {
@@ -55,6 +61,17 @@ class EIACollector:
             description=spec["description"],
         )
         for spec in _SPECS.values()
+    ] + [
+        SeriesMeta(
+            series_id="eia.brent.spot",
+            display_name="布伦特原油现货价",
+            unit="美元/桶",
+            source="eia",
+            expected_interval=timedelta(days=7),  # daily, but EIA publishes with a few days' lag
+            precision=2,
+            direction_good="neutral",
+            description="欧洲布伦特原油现货 FOB 价格 (EIA, 日频)。",
+        )
     ]
 
     async def fetch(self, ctx: CollectorContext) -> list[Observation]:
@@ -86,9 +103,42 @@ class EIACollector:
                 offset += len(rows)
                 if not rows or offset >= total:
                     break
+            obs += await self._fetch_brent(client, key, ctx.now)
         if not obs:
             raise RuntimeError("EIA returned zero observations — refusing to report success")
         return obs
+
+    async def _fetch_brent(self, client, key: str, now: datetime) -> list[Observation]:
+        params = [
+            ("api_key", key),
+            ("frequency", "daily"),
+            ("data[0]", "value"),
+            ("facets[series][]", "RBRTE"),
+            ("sort[0][column]", "period"),
+            ("sort[0][direction]", "desc"),  # newest first; take a trailing window
+            ("offset", "0"),
+            ("length", str(_BRENT_WINDOW)),
+        ]
+        data = await get_json(client, SPOT_URL, params=params)
+        resp = data.get("response")
+        if resp is None:
+            raise ValueError(f"unexpected EIA Brent envelope: {list(data)[:5]}")
+        out: list[Observation] = []
+        for row in resp.get("data", []):
+            raw = row.get("value")
+            out.append(
+                Observation(
+                    series_id="eia.brent.spot",
+                    observed_at=_period(row["period"]),
+                    as_of=now,
+                    value=None if raw is None else float(raw),
+                    status=DataStatus.CONFIRMED,
+                    source=self.id,
+                )
+            )
+        if not out:
+            raise RuntimeError("EIA Brent returned zero rows")
+        return out
 
     def _to_observation(self, row: dict, now: datetime) -> Observation:
         eia_id = row["series"]

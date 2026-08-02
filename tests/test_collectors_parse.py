@@ -44,6 +44,27 @@ def test_portwatch_bab_el_mandeb_uses_tanker_scope():
     assert all(o.status is DataStatus.CONFIRMED for o in obs)
 
 
+def test_treasury_yield_xml_parses_and_handles_missing():
+    from datetime import datetime, timezone
+
+    from dashboard.collectors.treasury import _parse_yield_10y
+
+    xml = """<feed><entry><content><m:properties>
+        <d:NEW_DATE m:type="Edm.DateTime">2026-07-31T00:00:00</d:NEW_DATE>
+        <d:BC_10YEAR m:type="Edm.Double">4.75</d:BC_10YEAR>
+      </m:properties></content></entry>
+      <entry><content><m:properties>
+        <d:NEW_DATE m:type="Edm.DateTime">2026-08-01T00:00:00</d:NEW_DATE>
+        <d:BC_10YEAR m:type="Edm.Double"></d:BC_10YEAR>
+      </m:properties></content></entry></feed>"""
+    obs = _parse_yield_10y(xml, datetime(2026, 8, 2, tzinfo=timezone.utc))
+    assert [(o.observed_at.date().isoformat(), o.value) for o in obs] == [
+        ("2026-07-31", 4.75),
+        ("2026-08-01", None),  # empty 10Y → None, not a crash
+    ]
+    assert all(o.series_id == "treasury.yield.10y" for o in obs)
+
+
 def test_collectors_declare_valid_meta():
     for c in (PortWatchCollector(), TreasuryCollector()):
         declared = {m.series_id for m in c.series}

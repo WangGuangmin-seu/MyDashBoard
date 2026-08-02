@@ -22,6 +22,7 @@ All monetary series are normalised to USD billions for a consistent unit.
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta, timezone
 
 from ..contract import CollectorContext, Collector, DataStatus, Observation, SeriesMeta
@@ -30,6 +31,13 @@ from .base import get_json, make_client
 ROOT = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/"
 DTS_CASH = ROOT + "v1/accounting/dts/operating_cash_balance"
 MTS_TABLE_1 = ROOT + "v1/accounting/mts/mts_table_1"
+
+# Daily Treasury par yield curve (keyless XML feed). BC_10YEAR is the 10-year
+# constant-maturity yield in percent. Fetched per calendar year.
+YIELD_CURVE_URL = (
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
+    "pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value={year}"
+)
 
 TGA_CLOSING = "Treasury General Account (TGA) Closing Balance"
 
@@ -86,6 +94,18 @@ class TreasuryCollector:
             direction_good="down",
             description="Monthly budget deficit (positive) or surplus (negative), MTS table 1.",
         ),
+        SeriesMeta(
+            series_id="treasury.yield.10y",
+            display_name="10 年期美债收益率",
+            unit="%",
+            source="treasury",
+            # Business-daily par curve, published same/next day; 3d SLA (6d
+            # tolerance) covers weekends/holidays.
+            expected_interval=timedelta(days=3),
+            precision=2,
+            direction_good="neutral",
+            description="10 年期美国国债固定期限收益率（财政部每日国债收益率曲线 BC_10YEAR）。",
+        ),
     ]
 
     async def fetch(self, ctx: CollectorContext) -> list[Observation]:
@@ -93,6 +113,7 @@ class TreasuryCollector:
             obs: list[Observation] = []
             obs += await self._fetch_tga(client, ctx.now)
             obs += await self._fetch_mts(client, ctx.now)
+            obs += await self._fetch_yield_10y(client, ctx.now)
         if not obs:
             raise RuntimeError("Treasury returned zero observations — refusing to report success")
         return obs
@@ -149,6 +170,19 @@ class TreasuryCollector:
                 )
         return out
 
+    async def _fetch_yield_10y(self, client, now: datetime) -> list[Observation]:
+        """Daily 10-year par yield from the Treasury XML feed. Fetches the current
+        and previous calendar year to seed a solid window regardless of month."""
+        out: list[Observation] = []
+        years = {now.year, now.year - 1}
+        for year in sorted(years):
+            resp = await client.get(YIELD_CURVE_URL.format(year=year))
+            resp.raise_for_status()
+            out += _parse_yield_10y(resp.text, now)
+        if not out:
+            raise RuntimeError("Treasury yield curve returned no 10Y values — feed changed?")
+        return out
+
     async def _paginate(
         self, client, url: str, *, fields: str, extra: dict | None = None
     ) -> list[dict]:
@@ -173,6 +207,34 @@ class TreasuryCollector:
                 break
             page += 1
         return rows
+
+
+_ENTRY_RE = re.compile(r"<entry>.*?</entry>", re.S)
+_NEWDATE_RE = re.compile(r"<d:NEW_DATE[^>]*>([^<]+)</d:NEW_DATE>")
+_BC10_RE = re.compile(r"<d:BC_10YEAR[^>]*>([^<]*)</d:BC_10YEAR>")
+
+
+def _parse_yield_10y(xml: str, now: datetime) -> list[Observation]:
+    """Parse NEW_DATE + BC_10YEAR from each <entry> of the par-yield-curve feed."""
+    out: list[Observation] = []
+    for entry in _ENTRY_RE.findall(xml):
+        dm = _NEWDATE_RE.search(entry)
+        vm = _BC10_RE.search(entry)
+        if not dm:
+            continue
+        observed = datetime.fromisoformat(dm.group(1)[:10]).replace(tzinfo=timezone.utc)
+        raw = vm.group(1).strip() if vm else ""
+        out.append(
+            Observation(
+                series_id="treasury.yield.10y",
+                observed_at=observed,
+                as_of=now,
+                value=float(raw) if raw else None,
+                status=DataStatus.CONFIRMED,
+                source="treasury",
+            )
+        )
+    return out
 
 
 def _date(raw: str) -> datetime:
