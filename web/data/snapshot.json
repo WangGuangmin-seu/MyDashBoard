@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:10:57.867067Z",
+  "generated_at": "2026-08-08T14:33:55.482604Z",
   "window": 180,
   "categories": [
     {
@@ -18875,6 +18875,51 @@
         "last_observed_at": "2026-08-07T00:00:00Z",
         "reason": null
       }
+    },
+    {
+      "meta": {
+        "series_id": "manual.yunnan_market_price",
+        "display_name": "云南电力市场成交均价",
+        "unit": "元/千瓦时",
+        "source": "manual",
+        "expected_interval": "P45D",
+        "precision": 4,
+        "direction_good": "neutral",
+        "description": "云南省内市场化交易平均成交价（昆明电力交易中心月度公告，人工录入）。"
+      },
+      "category": "aluminum",
+      "points": [
+        {
+          "observed_at": "2023-09-01T00:00:00Z",
+          "as_of": "2026-08-08T14:31:43.649963Z",
+          "value": 0.14065,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2023-11-01T00:00:00Z",
+          "as_of": "2026-08-08T14:31:43.649963Z",
+          "value": 0.27612,
+          "status": "confirmed"
+        }
+      ],
+      "latest": {
+        "observed_at": "2023-11-01T00:00:00Z",
+        "as_of": "2026-08-08T14:31:43.649963Z",
+        "value": 0.27612,
+        "status": "confirmed"
+      },
+      "previous": {
+        "observed_at": "2023-09-01T00:00:00Z",
+        "as_of": "2026-08-08T14:31:43.649963Z",
+        "value": 0.14065,
+        "status": "confirmed"
+      },
+      "health": {
+        "ok": false,
+        "stale": true,
+        "last_observed_at": "2023-11-01T00:00:00Z",
+        "reason": "data stale — collection may be broken"
+      }
     }
   ],
   "collectors": [
@@ -18905,6 +18950,11 @@
     },
     {
       "id": "metals",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "manual",
       "ok": true,
       "error": null
     }

@@ -109,9 +109,11 @@ def evaluate(
     by_id = {s.meta.series_id: s for s in snapshot.series}
     alerts: list[Alert] = []
 
-    # 1) Heartbeat — one per stale series (spec §6.2).
+    # 1) Heartbeat — one per stale series (spec §6.2). Manual series are exempt:
+    #    their "staleness" means the user hasn't topped up the figure yet, which is
+    #    not a collection fault — it's shown greyed on the dashboard, not pushed.
     for s in snapshot.series:
-        if not s.health.stale:
+        if not s.health.stale or s.meta.source == "manual":
             continue
         key = f"heartbeat:{s.meta.series_id}"
         if _in_cooldown(state, key, now, _HEARTBEAT_COOLDOWN):

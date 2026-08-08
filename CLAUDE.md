@@ -98,8 +98,19 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
   这是**交易所库存**，非 SMM 电解铝**社会库存**（社会库存无干净公开源）。
 - 用 AkShare 定位底层接口后**直连解析**，不引入 akshare 依赖（保持精简，同 CTFI 做法）。
   均为非官方行情，结构变更即 raise；`expected_interval=7d` 按交易日历放宽避免长假误报。
-- **云南综合电价：无干净公开源**——akshare 只有全国用电量（消费量）非省级电价；云南综合
-  电价只在行业报告/PDF 零散披露，无法自动化采集，故**未纳入**。如需，需人工录入或另接数据源。
+- **云南电价：无干净公开源**——akshare 只有全国用电量（消费量）非省级电价；昆明电力交易
+  中心的月度公告有「省内市场化交易平均成交价」，但只在公告**文字**里披露，无结构化接口。
+  故改用**人工录入**（`manual` 采集器 + `data/manual/yunnan_market_price.csv`），
+  序列 `manual.yunnan_market_price`（元/千瓦时，月频）。这是市场价部分，非全口径综合电价。
+
+### 人工录入（`dashboard/collectors/manual.py`）
+
+- 用于没有干净公开接口、只能手动维护的数据（如云南电力市场成交均价）。
+- 读 `data/manual/<name>.csv`（`# 注释`/表头忽略，数据行 `YYYY-MM,值` 或 `YYYY-MM-DD,值`），
+  无网络。新增手动序列 = 在 `_MANUAL` 加一条 + 建对应 CSV。
+- **手动序列豁免心跳告警**（`alerts.evaluate` 里 `source=="manual"` 跳过）：其“过期”是
+  “没补录”而非“采集故障”，看板上灰显+「待更新」提示，不推飞书灰卡。采集器本身出错
+  （如文件缺失）仍会报采集失败。
 
 ### CTFI（`dashboard/collectors/ctfi.py`）
 

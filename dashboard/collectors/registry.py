@@ -10,6 +10,7 @@ from ..contract import Collector
 from .ctfi import CTFICollector
 from .eia import EIACollector
 from .fx import FXCollector
+from .manual import ManualCollector
 from .metals import MetalsCollector
 from .portwatch import PortWatchCollector
 from .treasury import TreasuryCollector
@@ -21,6 +22,7 @@ ALL_COLLECTORS: list[Collector] = [
     CTFICollector(),
     FXCollector(),
     MetalsCollector(),
+    ManualCollector(),
 ]
 
 

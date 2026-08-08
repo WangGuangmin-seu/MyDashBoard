@@ -112,10 +112,16 @@ function renderCard(s) {
     row2.appendChild(span);
   }
   card.appendChild(sparkline(s.points));
-  if (health.stale) {
+  if (health.stale && meta.source === "manual") {
+    // manual series: staleness means "awaiting the next manual top-up", not a fault
+    const note = document.createElement("div");
+    note.className = "accum-note";
+    note.textContent = "📝 待更新 · 人工录入，补录最新月度值即可";
+    card.appendChild(note);
+  } else if (health.stale) {
     const note = document.createElement("div");
     note.className = "stale-note";
-    note.textContent = "⚠ 采集中断 · " + (health.reason || "数据长时间未更新");
+    note.textContent = "⚠ 采集中断 · 数据长时间未更新";
     card.appendChild(note);
   } else if (latest && valueCount(s.points) < 2) {
     // Fresh series with a single reading — make clear it's accumulating, not broken.
