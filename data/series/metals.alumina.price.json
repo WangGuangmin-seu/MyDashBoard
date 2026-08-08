@@ -1,0 +1,4502 @@
+[
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3729.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3774.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3713.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3679.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3655.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3717.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3702.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3675.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3604.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3558.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-07-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3649.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3661.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3743.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3692.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3650.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3675.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3705.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3832.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3927.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3884.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3883.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3928.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4003.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4107.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4013.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3967.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3969.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3927.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3914.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3973.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3937.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3948.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-08-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3992.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3885.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3847.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3847.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3854.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3915.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3874.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3859.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3887.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3919.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3990.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4005.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4073.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4063.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4000.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4099.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4115.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4144.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4200.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-09-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4234.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4314.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4290.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4370.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4553.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4818.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4688.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4834.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4804.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4811.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4971.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4951.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4937.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5082.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4884.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5038.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4991.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4891.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-10-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4863.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4976.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4972.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5116.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5199.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5200.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5376.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5382.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5248.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5244.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5164.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5267.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5240.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5296.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5430.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5364.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5321.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5344.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5310.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5262.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5160.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-11-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5223.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5325.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5395.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5497.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5446.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5280.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5230.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 5218.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4648.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4729.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4727.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4777.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4644.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4775.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4746.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4802.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4769.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4700.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4696.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4727.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4739.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4838.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2024-12-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4797.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4700.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4402.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4254.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4294.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4128.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4123.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4066.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 4083.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3925.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3809.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3703.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3868.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3686.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3652.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3658.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3570.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3577.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-01-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3606.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3454.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3496.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3481.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3466.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3455.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3387.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3360.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3334.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3412.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3439.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3418.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3466.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3428.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3402.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3390.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3344.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3384.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-02-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3363.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3344.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3334.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3282.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3283.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3268.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3195.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3190.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3173.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3141.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3156.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3114.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3080.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3015.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2991.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3020.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3072.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3066.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3108.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3056.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3035.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-03-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2936.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2951.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2890.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2854.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2769.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2740.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2803.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2790.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2805.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2830.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2845.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2867.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2884.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2818.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2844.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2811.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2862.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2878.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2846.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2862.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2766.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-04-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2729.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2675.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2704.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2794.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2827.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2843.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2840.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2945.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2988.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2890.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3127.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3134.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3246.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3216.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3169.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3060.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3018.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2991.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2964.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-05-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2962.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2998.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3063.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2943.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2901.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2892.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2886.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2895.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2895.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2852.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2852.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2860.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2920.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2901.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2890.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2906.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2903.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2919.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2948.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2986.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-06-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2985.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2945.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3071.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3026.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3024.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3042.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3110.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3130.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3208.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3117.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3145.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3165.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3111.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3089.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3133.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3386.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3513.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3355.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3427.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3428.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3243.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3307.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3326.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-07-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3222.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3162.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3225.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3227.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3241.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3211.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3170.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3182.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3308.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3276.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3240.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3205.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3171.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3120.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3147.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3124.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3138.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3184.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3069.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3046.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3063.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-08-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3036.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3008.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3022.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2992.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2980.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3006.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2960.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2929.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2933.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2945.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2914.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2935.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2979.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2937.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2931.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2953.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2934.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2877.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2907.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2942.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2901.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2904.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-09-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2868.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2875.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2856.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2820.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2805.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2797.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2790.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2800.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2806.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2810.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2829.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2838.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2810.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2829.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2817.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2879.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2816.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-10-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2793.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2789.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2770.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2772.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2787.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2783.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2829.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2816.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2821.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2840.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2822.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2817.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2780.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2740.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2732.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2713.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2736.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2727.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2720.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2724.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-11-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2707.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2677.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2670.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2636.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2615.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2555.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2585.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2546.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2477.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2469.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2470.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2537.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2541.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2558.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2569.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2516.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2508.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2530.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2570.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2646.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2793.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2751.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2751.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2025-12-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2778.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2770.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2818.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2938.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2863.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2843.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2866.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2780.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2800.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2789.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2751.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2733.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2671.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2672.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2717.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2724.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2732.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2734.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2811.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2816.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-01-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2768.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2772.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2809.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2824.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2790.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2824.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2868.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2835.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2842.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2808.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2841.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2829.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2870.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2820.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-02-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2744.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2773.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2807.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2782.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2800.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2832.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2905.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2839.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2869.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2865.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2956.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2965.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3073.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3048.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3027.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3041.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3093.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 3014.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2963.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2931.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2930.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2941.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-03-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2827.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2758.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2767.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2741.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2675.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2690.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2650.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2641.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2641.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2641.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2763.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2782.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2772.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2790.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2826.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2837.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2822.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2807.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2899.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2875.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2862.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-04-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2845.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2875.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2869.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2827.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2826.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2785.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2799.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2790.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2727.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2746.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2724.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2713.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2709.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2717.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2746.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2853.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2854.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2868.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-05-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2897.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2892.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2851.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2813.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2760.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2766.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2780.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2838.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2894.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2899.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2923.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2908.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2907.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2914.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2898.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2917.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2843.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2874.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2822.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2801.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2827.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-06-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2782.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2786.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2734.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2719.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2720.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2701.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2716.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2720.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2715.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2678.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2695.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2706.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2689.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2656.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2710.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2727.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2721.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2712.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2710.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2687.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2683.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2683.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2648.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-07-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2621.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-08-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2633.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-08-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2641.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-08-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2666.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-08-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2696.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-08-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 2698.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  }
+]

@@ -188,5 +188,35 @@
     "precision": 2,
     "direction_good": "neutral",
     "description": "ICE 美元指数 DXY（Yahoo Finance DX-Y.NYB 日收盘，非官方行情）。"
+  },
+  {
+    "series_id": "metals.aluminum.price",
+    "display_name": "铝价（沪铝主力）",
+    "unit": "元/吨",
+    "source": "metals",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "上期所沪铝主力合约收盘价（新浪财经，日频）。"
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "display_name": "氧化铝价（主力）",
+    "unit": "元/吨",
+    "source": "metals",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "上期所氧化铝主力合约收盘价（新浪财经，日频，2023 年上市）。"
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "display_name": "铝锭库存（交易所）",
+    "unit": "吨",
+    "source": "metals",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "neutral",
+    "description": "沪铝交易所库存/仓单（东方财富，非社会库存）。"
   }
 ]

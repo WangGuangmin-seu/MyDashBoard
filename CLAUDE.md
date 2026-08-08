@@ -87,6 +87,20 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
 - **非官方行情**，接口结构可能变；解析不到任何点即 raise（心跳暴露）。Yahoo 对非浏览器
   UA 可能限流，故请求带浏览器 UA。`expected_interval=3d`（工作日收盘 + 发布滞后）。
 
+### 铝相关（`dashboard/collectors/metals.py`）
+
+- **铝价 / 氧化铝价**：新浪财经期货日 K 线 JSONP（无 key）
+  `stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20k=/InnerFuturesNewService.getDailyKLine`，
+  `symbol=AL0`（沪铝主力）/`AO0`（氧化铝主力），取收盘 `c`。响应 `var k=([{d,c,...}]);`。
+  实测 AL0≈24040、AO0≈2698 元/吨。只取近 500 点，store 累积。
+- **铝锭库存**：东方财富 `datacenter-web.eastmoney.com/api/data/v1/get`，
+  `reportName=RPT_FUTU_STOCKDATA`、`SECURITY_CODE=AL`，取 `ON_WARRANT_NUM`。实测 ≈307008 吨。
+  这是**交易所库存**，非 SMM 电解铝**社会库存**（社会库存无干净公开源）。
+- 用 AkShare 定位底层接口后**直连解析**，不引入 akshare 依赖（保持精简，同 CTFI 做法）。
+  均为非官方行情，结构变更即 raise；`expected_interval=7d` 按交易日历放宽避免长假误报。
+- **云南综合电价：无干净公开源**——akshare 只有全国用电量（消费量）非省级电价；云南综合
+  电价只在行业报告/PDF 零散披露，无法自动化采集，故**未纳入**。如需，需人工录入或另接数据源。
+
 ### CTFI（`dashboard/collectors/ctfi.py`）
 
 - 上海航运交易所「中国进口原油运价指数」，基期 2012-11-28 = 1000。

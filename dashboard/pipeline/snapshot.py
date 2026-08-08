@@ -59,6 +59,11 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "ctfi.ct1.tce",
         "ctfi.ct2",
     ]),
+    ("aluminum", "铝相关", [
+        "metals.aluminum.price",
+        "metals.alumina.price",
+        "metals.aluminum.inventory",
+    ]),
 ]
 _OTHER_CATEGORY = ("other", "其他")
 

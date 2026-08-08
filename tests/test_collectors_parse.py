@@ -89,6 +89,26 @@ def test_dxy_bad_envelope_raises():
         _parse_chart({"chart": {"result": []}}, None)
 
 
+def test_metals_sina_jsonp_parses_and_day_normalises():
+    from datetime import datetime, timezone
+
+    from dashboard.collectors.metals import _day, _parse_sina_jsonp
+
+    text = 'var k=([{"d":"2026-08-06","c":"23810.000"},{"d":"2026-08-07","c":"24040.000"}]);'
+    rows = _parse_sina_jsonp(text)
+    assert [r["c"] for r in rows] == ["23810.000", "24040.000"]
+    # inventory dates arrive as 'YYYY-MM-DD HH:MM:SS'; must anchor at UTC midnight
+    assert _day("2026-08-07 00:00:00") == datetime(2026, 8, 7, tzinfo=timezone.utc)
+
+
+def test_metals_sina_jsonp_bad_input_raises():
+    import pytest as _pytest
+
+    from dashboard.collectors.metals import _parse_sina_jsonp
+    with _pytest.raises(ValueError):
+        _parse_sina_jsonp("<html>blocked</html>")
+
+
 def test_collectors_declare_valid_meta():
     for c in (PortWatchCollector(), TreasuryCollector()):
         declared = {m.series_id for m in c.series}

@@ -1,0 +1,623 @@
+[
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-04-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 449266.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-04-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 449216.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 452008.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 453094.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 460976.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 461525.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 462100.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 464134.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 472473.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 478369.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 480639.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-19T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 480815.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 480765.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 481603.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 481256.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 481571.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 481271.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 481196.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 483510.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-05-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 485512.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 487400.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 490203.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 489979.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 489930.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 489031.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 489007.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 488605.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 488487.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-11T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 487290.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-12T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 489851.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 494421.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 493164.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 488273.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-18T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 486239.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 479960.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 477234.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 472972.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-25T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 462671.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-26T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 449551.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 442365.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-06-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 438962.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-01T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 429478.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-02T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 415992.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 407014.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 399058.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 397145.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-08T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 394028.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-09T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 391639.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-10T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 395143.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-13T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 389605.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-14T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 385030.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-15T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 383779.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-16T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 381233.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-17T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 379791.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-20T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 374049.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-21T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 369690.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-22T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 365596.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-23T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 362106.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-24T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 355590.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-27T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 345962.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-28T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 338001.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-29T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 330389.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-30T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 325289.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-07-31T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 320224.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-03T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 317305.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-04T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 315319.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-05T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 311401.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-06T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 308803.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-07T00:00:00Z",
+    "as_of": "2026-08-08T14:10:57.867067Z",
+    "value": 307008.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
+  }
+]
