@@ -77,6 +77,16 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
   `series=RBRTE`（欧洲布伦特现货 FOB，$/BBL），日频。只取最近 500 个点（日频历史很长，
   store 逐日累积），`sort desc`。实测 ~91.82 $/BBL。
 
+### FX / 美元指数（`dashboard/collectors/fx.py`）
+
+- **美元指数（ICE DXY）没有官方免费 API**（ICE 授权）。Stooq 已加 JS 反爬墙不可用。
+- 用 **Yahoo Finance 图表 API**（无 key）：
+  `https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1y&interval=1d`
+  解析 `chart.result[0].timestamp` + `indicators.quote[0].close`；`close` 为 null 的日子
+  （非交易日）跳过。实测 ≈ 99.6。
+- **非官方行情**，接口结构可能变；解析不到任何点即 raise（心跳暴露）。Yahoo 对非浏览器
+  UA 可能限流，故请求带浏览器 UA。`expected_interval=3d`（工作日收盘 + 发布滞后）。
+
 ### CTFI（`dashboard/collectors/ctfi.py`）
 
 - 上海航运交易所「中国进口原油运价指数」，基期 2012-11-28 = 1000。

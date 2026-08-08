@@ -65,6 +65,30 @@ def test_treasury_yield_xml_parses_and_handles_missing():
     assert all(o.series_id == "treasury.yield.10y" for o in obs)
 
 
+def test_dxy_chart_parses_and_skips_null_close():
+    from datetime import datetime, timezone
+
+    from dashboard.collectors.fx import _parse_chart
+
+    # 2026-08-06 and 2026-08-07 UTC midnights; middle day has a null close (holiday)
+    data = {"chart": {"result": [{
+        "timestamp": [1754438400, 1754524800, 1754611200],
+        "indicators": {"quote": [{"close": [99.97, None, 99.60]}]},
+    }]}}
+    obs = _parse_chart(data, datetime(2026, 8, 8, tzinfo=timezone.utc))
+    vals = [o.value for o in obs]
+    assert vals == [99.97, 99.60]  # null skipped, not emitted
+    assert all(o.series_id == "fx.dxy" for o in obs)
+
+
+def test_dxy_bad_envelope_raises():
+    import pytest as _pytest
+
+    from dashboard.collectors.fx import _parse_chart
+    with _pytest.raises(ValueError):
+        _parse_chart({"chart": {"result": []}}, None)
+
+
 def test_collectors_declare_valid_meta():
     for c in (PortWatchCollector(), TreasuryCollector()):
         declared = {m.series_id for m in c.series}

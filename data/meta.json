@@ -178,5 +178,15 @@
     "precision": 2,
     "direction_good": "neutral",
     "description": "上海航运交易所 中国进口原油运价指数 CTFI（基期 2012-11-28 = 1000）。"
+  },
+  {
+    "series_id": "fx.dxy",
+    "display_name": "美元指数 (DXY)",
+    "unit": "点",
+    "source": "fx",
+    "expected_interval": "P3D",
+    "precision": 2,
+    "direction_good": "neutral",
+    "description": "ICE 美元指数 DXY（Yahoo Finance DX-Y.NYB 日收盘，非官方行情）。"
   }
 ]

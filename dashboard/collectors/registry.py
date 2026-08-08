@@ -9,6 +9,7 @@ from __future__ import annotations
 from ..contract import Collector
 from .ctfi import CTFICollector
 from .eia import EIACollector
+from .fx import FXCollector
 from .portwatch import PortWatchCollector
 from .treasury import TreasuryCollector
 
@@ -17,6 +18,7 @@ ALL_COLLECTORS: list[Collector] = [
     TreasuryCollector(),
     EIACollector(),
     CTFICollector(),
+    FXCollector(),
 ]
 
 
