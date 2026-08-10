@@ -220,13 +220,13 @@
     "description": "沪铝交易所库存/仓单（东方财富，非社会库存）。"
   },
   {
-    "series_id": "manual.yunnan_market_price",
-    "display_name": "云南电力市场成交均价",
-    "unit": "元/千瓦时",
-    "source": "manual",
-    "expected_interval": "P45D",
-    "precision": 4,
-    "direction_good": "neutral",
-    "description": "云南省内市场化交易平均成交价（昆明电力交易中心月度公告，人工录入）。"
+    "series_id": "metals.aluminum.sim_margin",
+    "display_name": "电解铝模拟冶炼毛利",
+    "unit": "元/吨",
+    "source": "metals",
+    "expected_interval": "P7D",
+    "precision": 0,
+    "direction_good": "up",
+    "description": "模拟单吨毛利 = 铝价 − 1.93×氧化铝价 − C；C 由云铝冶炼分部毛利率反推的综合转换成本（含电力，半年更新）。反映电解铝冶炼盈利，非电价。"
   }
 ]

@@ -21,9 +21,9 @@ from dashboard.pipeline.snapshot import (
 NOW = datetime(2026, 7, 31, tzinfo=timezone.utc)
 
 
-def _series(series_id, value, status=DataStatus.CONFIRMED, stale=False, interval_days=1, source="test"):
+def _series(series_id, value, status=DataStatus.CONFIRMED, stale=False, interval_days=1):
     meta = SeriesMeta(series_id=series_id, display_name=series_id, unit="x",
-                      source=source, expected_interval=timedelta(days=interval_days), precision=0)
+                      source="test", expected_interval=timedelta(days=interval_days), precision=0)
     pt = None if value is None else Point(observed_at=NOW, as_of=NOW, value=value, status=status)
     return SeriesSnapshot(
         meta=meta, category="test", points=[pt] if pt else [], latest=pt, previous=None,
@@ -87,16 +87,6 @@ def test_heartbeat_alert_on_stale_series(tmp_path):
     alerts = evaluate(snap, [], state, NOW)
     assert len(alerts) == 1
     assert alerts[0].kind == "heartbeat" and alerts[0].template == "grey"
-
-
-def test_manual_series_exempt_from_heartbeat(tmp_path):
-    state = AlertState(tmp_path / "state.json")
-    # a stale manual series must NOT push a heartbeat card (staleness = not topped up)
-    snap = _snap([_series("manual.x", 1.0, stale=True, source="manual")])
-    assert evaluate(snap, [], state, NOW) == []
-    # but a stale non-manual series still alerts
-    snap2 = _snap([_series("eia.x", 1.0, stale=True, source="eia")])
-    assert len(evaluate(snap2, [], AlertState(tmp_path / "s2.json"), NOW)) == 1
 
 
 def test_collector_failure_alerts(tmp_path):

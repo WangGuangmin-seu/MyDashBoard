@@ -109,21 +109,14 @@ def test_metals_sina_jsonp_bad_input_raises():
         _parse_sina_jsonp("<html>blocked</html>")
 
 
-def test_manual_csv_parse(tmp_path):
-    from datetime import datetime, timezone
+def test_metals_sim_margin_avg_helper():
+    from dashboard.collectors.metals import _avg
 
-    from dashboard.collectors.manual import _read_csv
-
-    p = tmp_path / "m.csv"
-    p.write_text(
-        "# comment\nmonth,price_yuan_per_kwh\n2023-09,0.14065\n2023-11,0.27612\n\n",
-        encoding="utf-8",
-    )
-    obs = _read_csv(p, "manual.x", datetime(2026, 8, 8, tzinfo=timezone.utc))
-    assert [(o.observed_at.date().isoformat(), o.value) for o in obs] == [
-        ("2023-09-01", 0.14065),  # YYYY-MM anchored to first of month; header/comment skipped
-        ("2023-11-01", 0.27612),
-    ]
+    kline = {"2025-01-02": 20000.0, "2025-06-30": 21000.0, "2024-12-31": 99999.0}
+    # only dates within [start, end] count; out-of-period excluded
+    assert _avg(kline, "2025-01-01", "2025-06-30") == 20500.0
+    assert _avg(kline, "2025-01-01", "2025-12-31") == (20000 + 21000) / 2
+    assert _avg(kline, "2030-01-01", "2030-12-31") is None
 
 
 def test_collectors_declare_valid_meta():
