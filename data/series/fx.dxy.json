@@ -2377,9 +2377,36 @@
   },
   {
     "series_id": "fx.dxy",
+    "observed_at": "2026-08-17T00:00:00Z",
+    "as_of": "2026-08-19T02:11:27.680921Z",
+    "value": 99.63999938964844,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": "2026-08-17T02:12:57.351021Z"
+  },
+  {
+    "series_id": "fx.dxy",
     "observed_at": "2026-08-18T00:00:00Z",
     "as_of": "2026-08-18T02:08:57.233549Z",
     "value": 99.58100128173828,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": null
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-08-18T00:00:00Z",
+    "as_of": "2026-08-19T02:11:27.680921Z",
+    "value": 99.6500015258789,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": "2026-08-18T02:08:57.233549Z"
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-08-19T00:00:00Z",
+    "as_of": "2026-08-19T02:11:27.680921Z",
+    "value": 99.63099670410156,
     "status": "confirmed",
     "source": "fx",
     "revision_of": null
