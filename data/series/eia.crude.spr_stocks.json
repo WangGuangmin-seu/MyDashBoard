@@ -20599,5 +20599,14 @@
     "status": "confirmed",
     "source": "eia",
     "revision_of": null
+  },
+  {
+    "series_id": "eia.crude.spr_stocks",
+    "observed_at": "2026-08-14T00:00:00Z",
+    "as_of": "2026-08-20T02:10:02.053893Z",
+    "value": 293426.0,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
   }
 ]
