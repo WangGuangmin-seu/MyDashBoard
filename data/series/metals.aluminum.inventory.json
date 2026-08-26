@@ -718,5 +718,14 @@
     "status": "confirmed",
     "source": "metals",
     "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.inventory",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "as_of": "2026-08-26T02:17:48.855038Z",
+    "value": 262514.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
   }
 ]
