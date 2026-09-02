@@ -4642,5 +4642,14 @@
     "status": "confirmed",
     "source": "metals",
     "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.price",
+    "observed_at": "2026-09-01T00:00:00Z",
+    "as_of": "2026-09-02T05:13:18.255251Z",
+    "value": 24110.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
   }
 ]
