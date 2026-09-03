@@ -196,5 +196,14 @@
     "status": "confirmed",
     "source": "ctfi",
     "revision_of": null
+  },
+  {
+    "series_id": "ctfi.ct2",
+    "observed_at": "2026-09-02T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 210.97,
+    "status": "confirmed",
+    "source": "ctfi",
+    "revision_of": null
   }
 ]

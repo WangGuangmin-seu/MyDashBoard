@@ -2599,5 +2599,23 @@
     "status": "confirmed",
     "source": "fx",
     "revision_of": null
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-09-02T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 99.55999755859375,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": "2026-09-02T05:13:18.255251Z"
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-09-03T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 99.4219970703125,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": null
   }
 ]

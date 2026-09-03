@@ -20926,6 +20926,15 @@
   },
   {
     "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2024-02-29T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 13.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-08-27T10:43:47.236065Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
     "observed_at": "2024-03-01T00:00:00Z",
     "as_of": "2026-08-01T16:45:04.218422Z",
     "value": 5.0,
@@ -20950,6 +20959,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-08-19T02:11:27.680921Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2024-03-01T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 6.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-08-27T10:43:47.236065Z"
   },
   {
     "series_id": "portwatch.bab_el_mandeb.transits",
@@ -29388,6 +29406,69 @@
     "series_id": "portwatch.bab_el_mandeb.transits",
     "observed_at": "2026-08-23T00:00:00Z",
     "as_of": "2026-08-27T10:43:47.236065Z",
+    "value": 6.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 12.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 10.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-26T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 9.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-27T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 4.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-28T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 7.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-29T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
+    "value": 8.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-08-30T00:00:00Z",
+    "as_of": "2026-09-03T05:17:51.538787Z",
     "value": 6.0,
     "status": "confirmed",
     "source": "portwatch",
