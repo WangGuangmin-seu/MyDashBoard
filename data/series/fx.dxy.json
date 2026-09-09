@@ -2662,5 +2662,23 @@
     "status": "confirmed",
     "source": "fx",
     "revision_of": null
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-09-08T00:00:00Z",
+    "as_of": "2026-09-09T05:30:35.796669Z",
+    "value": 98.83999633789062,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": "2026-09-08T05:25:33.785099Z"
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-09-09T00:00:00Z",
+    "as_of": "2026-09-09T05:30:35.796669Z",
+    "value": 98.72699737548828,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": null
   }
 ]
