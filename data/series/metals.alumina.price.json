@@ -4705,5 +4705,14 @@
     "status": "confirmed",
     "source": "metals",
     "revision_of": null
+  },
+  {
+    "series_id": "metals.alumina.price",
+    "observed_at": "2026-09-10T00:00:00Z",
+    "as_of": "2026-09-11T05:23:13.754035Z",
+    "value": 2758.0,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
   }
 ]
