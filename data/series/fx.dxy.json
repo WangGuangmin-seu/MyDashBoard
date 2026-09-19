@@ -2806,5 +2806,14 @@
     "status": "confirmed",
     "source": "fx",
     "revision_of": null
+  },
+  {
+    "series_id": "fx.dxy",
+    "observed_at": "2026-09-18T00:00:00Z",
+    "as_of": "2026-09-19T05:14:37.437159Z",
+    "value": 100.22000122070312,
+    "status": "confirmed",
+    "source": "fx",
+    "revision_of": "2026-09-18T05:22:38.715055Z"
   }
 ]
