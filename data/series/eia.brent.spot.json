@@ -4813,5 +4813,50 @@
     "status": "confirmed",
     "source": "eia",
     "revision_of": null
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "observed_at": "2026-09-16T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 127.84,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "observed_at": "2026-09-17T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 121.18,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "observed_at": "2026-09-18T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 119.66,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "observed_at": "2026-09-21T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 116.15,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
+  },
+  {
+    "series_id": "eia.brent.spot",
+    "observed_at": "2026-09-22T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 114.89,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
   }
 ]

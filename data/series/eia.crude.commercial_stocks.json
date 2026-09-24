@@ -20644,5 +20644,14 @@
     "status": "confirmed",
     "source": "eia",
     "revision_of": null
+  },
+  {
+    "series_id": "eia.crude.commercial_stocks",
+    "observed_at": "2026-09-18T00:00:00Z",
+    "as_of": "2026-09-24T05:37:29.337397Z",
+    "value": 426398.0,
+    "status": "confirmed",
+    "source": "eia",
+    "revision_of": null
   }
 ]
