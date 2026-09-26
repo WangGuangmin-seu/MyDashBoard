@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T05:33:59.467962Z",
+  "generated_at": "2026-09-26T05:40:52.207129Z",
   "window": 180,
   "categories": [
     {
@@ -5603,12 +5603,6 @@
       "category": "core",
       "points": [
         {
-          "observed_at": "2026-01-08T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 4.19,
-          "status": "confirmed"
-        },
-        {
           "observed_at": "2026-01-09T00:00:00Z",
           "as_of": "2026-08-02T06:36:39.957274Z",
           "value": 4.18,
@@ -6681,24 +6675,30 @@
           "as_of": "2026-09-25T05:33:59.467962Z",
           "value": 5.18,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-09-25T00:00:00Z",
+          "as_of": "2026-09-26T05:40:52.207129Z",
+          "value": 5.17,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-09-25T00:00:00Z",
+        "as_of": "2026-09-26T05:40:52.207129Z",
+        "value": 5.17,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-09-24T00:00:00Z",
         "as_of": "2026-09-25T05:33:59.467962Z",
         "value": 5.18,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-09-23T00:00:00Z",
-        "as_of": "2026-09-24T05:37:29.337397Z",
-        "value": 5.11,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-09-24T00:00:00Z",
+        "last_observed_at": "2026-09-25T00:00:00Z",
         "reason": null
       }
     },
@@ -7773,8 +7773,8 @@
         },
         {
           "observed_at": "2026-09-22T00:00:00Z",
-          "as_of": "2026-09-22T05:34:22.941070Z",
-          "value": 100.34100341796875,
+          "as_of": "2026-09-26T05:40:52.207129Z",
+          "value": 100.5999984741211,
           "status": "confirmed"
         },
         {
@@ -7791,15 +7791,15 @@
         },
         {
           "observed_at": "2026-09-25T00:00:00Z",
-          "as_of": "2026-09-25T05:33:59.467962Z",
-          "value": 101.24500274658203,
+          "as_of": "2026-09-26T05:40:52.207129Z",
+          "value": 100.97000122070312,
           "status": "confirmed"
         }
       ],
       "latest": {
         "observed_at": "2026-09-25T00:00:00Z",
-        "as_of": "2026-09-25T05:33:59.467962Z",
-        "value": 101.24500274658203,
+        "as_of": "2026-09-26T05:40:52.207129Z",
+        "value": 100.97000122070312,
         "status": "confirmed"
       },
       "previous": {
@@ -12281,12 +12281,6 @@
       "category": "fiscal",
       "points": [
         {
-          "observed_at": "2026-01-08T00:00:00Z",
-          "as_of": "2026-07-31T12:25:29.282835Z",
-          "value": 773.7090000000001,
-          "status": "confirmed"
-        },
-        {
           "observed_at": "2026-01-09T00:00:00Z",
           "as_of": "2026-07-31T12:25:29.282835Z",
           "value": 775.114,
@@ -13359,24 +13353,30 @@
           "as_of": "2026-09-25T05:33:59.467962Z",
           "value": 947.317,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-09-24T00:00:00Z",
+          "as_of": "2026-09-26T05:40:52.207129Z",
+          "value": 924.6270000000001,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-09-24T00:00:00Z",
+        "as_of": "2026-09-26T05:40:52.207129Z",
+        "value": 924.6270000000001,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-09-23T00:00:00Z",
         "as_of": "2026-09-25T05:33:59.467962Z",
         "value": 947.317,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-09-22T00:00:00Z",
-        "as_of": "2026-09-24T05:37:29.337397Z",
-        "value": 957.409,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-09-23T00:00:00Z",
+        "last_observed_at": "2026-09-24T00:00:00Z",
         "reason": null
       }
     },
