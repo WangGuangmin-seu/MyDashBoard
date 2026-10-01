@@ -9304,5 +9304,14 @@
     "status": "confirmed",
     "source": "metals",
     "revision_of": null
+  },
+  {
+    "series_id": "metals.aluminum.sim_margin",
+    "observed_at": "2026-09-30T00:00:00Z",
+    "as_of": "2026-10-01T06:39:57.578460Z",
+    "value": 7981.040128965518,
+    "status": "confirmed",
+    "source": "metals",
+    "revision_of": null
   }
 ]
