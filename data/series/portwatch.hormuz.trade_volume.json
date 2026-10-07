@@ -811,6 +811,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-02-10T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2259444.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2019-02-11T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2063782.0,
@@ -3556,6 +3565,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-06-16T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 5078621.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2019-06-17T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 4316161.0,
@@ -4159,6 +4177,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-07-12T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4203436.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2019-07-13T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2700554.0,
@@ -4663,6 +4690,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-08-03T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4148661.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2019-08-04T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2741094.0,
@@ -4705,6 +4741,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-08-04T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3147067.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -5416,6 +5461,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-09-05T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3488864.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -6280,6 +6334,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2019-10-12T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2631075.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -9046,6 +9109,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2020-02-16T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 1683346.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2020-02-17T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 4058532.0,
@@ -9574,6 +9646,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2020-03-11T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 1699944.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -11959,6 +12040,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2020-06-27T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2219217.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -17533,6 +17623,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2021-03-13T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2158767.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2021-03-14T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2533930.0,
@@ -18142,6 +18241,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2021-04-09T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4056820.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -19042,6 +19150,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2021-05-21T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4490509.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -20833,6 +20950,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2021-08-15T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3838278.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -22903,6 +23029,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2021-11-18T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2352287.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -26218,6 +26353,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2022-04-22T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4085749.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2022-04-23T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 5132535.0,
@@ -27829,6 +27973,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2022-07-02T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4646450.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2022-07-03T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 5874659.0,
@@ -27934,6 +28087,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2022-07-06T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3131449.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -29512,6 +29674,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2022-09-09T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4098808.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2022-09-10T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 3638040.0,
@@ -30598,6 +30769,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2022-10-23T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2980476.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -33400,6 +33580,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2023-02-28T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4428854.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2023-03-01T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 3725615.0,
@@ -33631,6 +33820,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2023-03-10T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2790593.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -36343,6 +36541,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2023-06-28T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3658370.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2023-06-29T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 5019094.0,
@@ -38593,6 +38800,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2023-09-25T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 4613234.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2023-09-26T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2935548.0,
@@ -40330,6 +40546,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2023-12-08T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2189833.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2023-12-09T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 2758394.0,
@@ -41092,6 +41317,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-01-11T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3854937.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -42499,6 +42733,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-03-09T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 2727708.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2024-03-10T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 3640154.0,
@@ -43417,6 +43660,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-04-04T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3412232.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2024-04-05T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 3263543.0,
@@ -44215,6 +44467,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-04-23T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3912490.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -49771,6 +50032,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-10-04T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3996781.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2024-10-05T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 4041547.0,
@@ -49912,6 +50182,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2024-10-09T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3958163.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -55234,6 +55513,15 @@
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2025-05-28T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3530128.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
     "observed_at": "2025-05-29T00:00:00Z",
     "as_of": "2026-07-31T12:25:29.282835Z",
     "value": 5995449.0,
@@ -57652,6 +57940,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2025-09-03T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 3180896.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -60271,6 +60568,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-09-10T05:25:26.970061Z"
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2025-12-22T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 1375594.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-09-16T05:26:35.125574Z"
   },
   {
     "series_id": "portwatch.hormuz.trade_volume",
@@ -65254,6 +65560,69 @@
     "observed_at": "2026-09-27T00:00:00Z",
     "as_of": "2026-09-30T06:07:02.999708Z",
     "value": 8866.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-09-28T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 34506.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-09-29T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 71715.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-09-30T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 94024.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-10-01T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 0.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-10-02T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 214811.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-10-03T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 83315.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.hormuz.trade_volume",
+    "observed_at": "2026-10-04T00:00:00Z",
+    "as_of": "2026-10-07T06:40:01.528604Z",
+    "value": 81884.0,
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": null
