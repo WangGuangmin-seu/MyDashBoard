@@ -26251,5 +26251,68 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-05T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 1667470.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-06T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 1756840.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-07T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 1137654.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-08T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 659885.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-09T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 1086535.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-10T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 958767.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.trade_volume",
+    "observed_at": "2026-10-11T00:00:00Z",
+    "as_of": "2026-10-15T05:23:20.247911Z",
+    "value": 1530218.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
   }
 ]
