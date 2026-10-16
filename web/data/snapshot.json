@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:23:20.247911Z",
+  "generated_at": "2026-10-16T05:15:15.100962Z",
   "window": 180,
   "categories": [
     {
@@ -3357,10 +3357,10 @@
         "status": "confirmed"
       },
       "health": {
-        "ok": true,
-        "stale": false,
+        "ok": false,
+        "stale": true,
         "last_observed_at": "2026-10-02T00:00:00Z",
-        "reason": null
+        "reason": "data stale — collection may be broken"
       }
     },
     {
@@ -4470,10 +4470,10 @@
         "status": "confirmed"
       },
       "health": {
-        "ok": true,
-        "stale": false,
+        "ok": false,
+        "stale": true,
         "last_observed_at": "2026-10-02T00:00:00Z",
-        "reason": null
+        "reason": "data stale — collection may be broken"
       }
     },
     {
@@ -4489,42 +4489,6 @@
       },
       "category": "core",
       "points": [
-        {
-          "observed_at": "2026-01-21T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 66.72,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-22T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 65.46,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-23T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 68.16,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-26T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 67.7,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-27T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 70.28,
-          "status": "confirmed"
-        },
-        {
-          "observed_at": "2026-01-28T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 70.9,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-01-29T00:00:00Z",
           "as_of": "2026-08-02T06:36:39.957274Z",
@@ -5568,24 +5532,60 @@
           "as_of": "2026-10-08T06:46:50.299521Z",
           "value": 125.44,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-07T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 126.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-08T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 130.18,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-09T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 130.03,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-12T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 129.95,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-13T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 125.78,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-14T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 126.55,
+          "status": "confirmed"
         }
       ],
       "latest": {
-        "observed_at": "2026-10-06T00:00:00Z",
-        "as_of": "2026-10-08T06:46:50.299521Z",
-        "value": 125.44,
+        "observed_at": "2026-10-14T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 126.55,
         "status": "confirmed"
       },
       "previous": {
-        "observed_at": "2026-10-05T00:00:00Z",
-        "as_of": "2026-10-08T06:46:50.299521Z",
-        "value": 125.51,
+        "observed_at": "2026-10-13T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 125.78,
         "status": "confirmed"
       },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-06T00:00:00Z",
+        "last_observed_at": "2026-10-14T00:00:00Z",
         "reason": null
       }
     },
@@ -5602,12 +5602,6 @@
       },
       "category": "core",
       "points": [
-        {
-          "observed_at": "2026-01-28T00:00:00Z",
-          "as_of": "2026-08-02T06:36:39.957274Z",
-          "value": 4.26,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-01-29T00:00:00Z",
           "as_of": "2026-08-02T06:36:39.957274Z",
@@ -6681,24 +6675,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 5.19,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 5.1,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 5.1,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 5.19,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 5.21,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -6715,12 +6715,6 @@
       },
       "category": "core",
       "points": [
-        {
-          "observed_at": "2026-01-30T00:00:00Z",
-          "as_of": "2026-08-08T13:29:58.059731Z",
-          "value": 96.98999786376953,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-02-02T00:00:00Z",
           "as_of": "2026-08-08T13:29:58.059731Z",
@@ -7791,27 +7785,33 @@
         },
         {
           "observed_at": "2026-10-15T00:00:00Z",
-          "as_of": "2026-10-15T05:23:20.247911Z",
-          "value": 102.08100128173828,
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 102.0,
+          "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-16T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 101.89600372314453,
           "status": "confirmed"
         }
       ],
       "latest": {
-        "observed_at": "2026-10-15T00:00:00Z",
-        "as_of": "2026-10-15T05:23:20.247911Z",
-        "value": 102.08100128173828,
+        "observed_at": "2026-10-16T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 101.89600372314453,
         "status": "confirmed"
       },
       "previous": {
-        "observed_at": "2026-10-14T00:00:00Z",
-        "as_of": "2026-10-15T05:23:20.247911Z",
-        "value": 102.55000305175781,
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 102.0,
         "status": "confirmed"
       },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-15T00:00:00Z",
+        "last_observed_at": "2026-10-16T00:00:00Z",
         "reason": null
       }
     },
@@ -12281,12 +12281,6 @@
       "category": "fiscal",
       "points": [
         {
-          "observed_at": "2026-01-28T00:00:00Z",
-          "as_of": "2026-07-31T12:25:29.282835Z",
-          "value": 952.705,
-          "status": "confirmed"
-        },
-        {
           "observed_at": "2026-01-29T00:00:00Z",
           "as_of": "2026-07-31T12:25:29.282835Z",
           "value": 968.066,
@@ -13359,24 +13353,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 920.214,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-14T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 885.823,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-14T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 885.823,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-13T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 920.214,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-09T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 872.5260000000001,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-13T00:00:00Z",
+        "last_observed_at": "2026-10-14T00:00:00Z",
         "reason": null
       }
     },
@@ -16257,24 +16257,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 19189.16,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 18923.28,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 18923.28,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 19189.16,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 19456.9,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -16572,24 +16578,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 1291.43,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 1271.07,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 1271.07,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 1291.43,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 1306.73,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -16887,24 +16899,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 1386311.0,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 1364010.0,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 1364010.0,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 1386311.0,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 1404462.0,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -17202,24 +17220,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 725.43,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 718.33,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 718.33,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 725.43,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 738.8,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -17236,12 +17260,6 @@
       },
       "category": "aluminum",
       "points": [
-        {
-          "observed_at": "2026-01-13T00:00:00Z",
-          "as_of": "2026-08-08T14:10:57.867067Z",
-          "value": 24375.0,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-01-14T00:00:00Z",
           "as_of": "2026-08-08T14:10:57.867067Z",
@@ -18315,24 +18333,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 23285.0,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 23040.0,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 23040.0,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 23285.0,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 23320.0,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -18349,12 +18373,6 @@
       },
       "category": "aluminum",
       "points": [
-        {
-          "observed_at": "2026-01-13T00:00:00Z",
-          "as_of": "2026-08-08T14:10:57.867067Z",
-          "value": 2780.0,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-01-14T00:00:00Z",
           "as_of": "2026-08-08T14:10:57.867067Z",
@@ -19428,24 +19446,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 2626.0,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 2584.0,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 2584.0,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 2626.0,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 2639.0,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -20127,24 +20151,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 92920.0,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 95072.0,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 95072.0,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 92920.0,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 95305.0,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     },
@@ -20161,12 +20191,6 @@
       },
       "category": "aluminum",
       "points": [
-        {
-          "observed_at": "2026-01-13T00:00:00Z",
-          "as_of": "2026-08-28T12:21:28.299036Z",
-          "value": 8416.030128965516,
-          "status": "confirmed"
-        },
         {
           "observed_at": "2026-01-14T00:00:00Z",
           "as_of": "2026-08-28T12:21:28.299036Z",
@@ -21240,24 +21264,30 @@
           "as_of": "2026-10-15T05:23:20.247911Z",
           "value": 7623.250128965517,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-10-15T00:00:00Z",
+          "as_of": "2026-10-16T05:15:15.100962Z",
+          "value": 7459.310128965519,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-10-15T00:00:00Z",
+        "as_of": "2026-10-16T05:15:15.100962Z",
+        "value": 7459.310128965519,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-14T00:00:00Z",
         "as_of": "2026-10-15T05:23:20.247911Z",
         "value": 7623.250128965517,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-13T00:00:00Z",
-        "as_of": "2026-10-14T05:35:49.123873Z",
-        "value": 7633.160128965517,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-14T00:00:00Z",
+        "last_observed_at": "2026-10-15T00:00:00Z",
         "reason": null
       }
     }
