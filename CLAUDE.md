@@ -7,12 +7,14 @@
 
 定时任务抓取各源 → 归一化为统一 `Observation` → 追加写入 `data/series/` →
 生成 `web/data/snapshot.json` → 校验契约 → 评估告警 → 命中推飞书 → commit & push。
-前端只读快照，零硬编码 `series_id`。
+前端只读快照，零硬编码 `series_id`。另有每日 09:30 的摘要任务读快照发飞书卡片
+（见「每日摘要」）。
 
 ```
 python -m dashboard              # 全流程
 python -m dashboard --no-notify  # 不发飞书
 python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json（需提交）
+python -m dashboard digest --dry-run  # 预览每日摘要卡片（不发送）
 ```
 
 ## 数据契约（不可变）
@@ -148,6 +150,22 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
 - 自定义机器人为单向，无法接收交互回调（不支持「点击静音」）。
 - 安全设置用**签名校验**，不要用 IP 白名单（GitHub Actions 出口 IP 不固定）。
 
+## 每日摘要（`dashboard/notify/digest.py`）
+
+- 触发：`.github/workflows/digest.yml`，cron `30 1 * * *` = **09:30 北京时间**（也支持
+  `workflow_dispatch`）。GitHub 定时触发有几分钟延迟，不要指望精确到秒。
+- 数据源：读**已提交的** `web/data/snapshot.json`（与前端同一个文件），不重新抓取、不额外
+  存状态。因此采集失败时摘要照发，但卡片会变橙、列出失败采集器并标注 stale 序列。
+- 形式：一张 interactive 卡片，全部序列按分类分组，每条含最新值、涨跌、状态、最后日期和
+  `▁▂▃▄▅▆▇█` 文字走势。蓝色=健康，橙色=有问题（stale 或采集器失败）；红色仍只留给阈值告警。
+- **为什么不是图片**：自定义机器人 webhook 不能发图；卡片 `image_key` 只能由飞书自建应用的
+  tenant token 调上传接口换取。要发 PNG 图表必须新增 `FEISHU_APP_ID`/`FEISHU_APP_SECRET`
+  并让管理员授权应用——属另一个量级的改造，不是配置项。
+- 「打开看板」按钮：默认 `https://mydashboard.wangguangmin1995.workers.dev/`（写在
+  `digest.yml` 的兜底值里）；设仓库变量 `DASHBOARD_SITE_URL` 可覆盖，本地放 `.env`。
+- 本地预览：`python -m dashboard digest --dry-run` 打印卡片 JSON；去掉 `--dry-run` 即发送
+  （需 `FEISHU_WEBHOOK_URL`）。CST 用固定 +08:00 偏移，避免 Windows 缺 tzdata。
+
 ## 配额与运行环境
 
 | 项 | 事实 | 影响 |
@@ -161,3 +179,5 @@ python -m dashboard export-schema # 契约变更后重新冻结 data/schema.json
 
 `EIA_API_KEY`、`FEISHU_WEBHOOK_URL`、`FEISHU_SECRET` 存 GitHub Actions secrets，
 本地放 `.env`（已 gitignore）。webhook URL 本身即完整凭证，禁止提交。
+`DASHBOARD_SITE_URL` 不是密钥，存 GitHub Actions **variable**（或本地 `.env`），
+只影响摘要卡片是否带「打开看板」按钮。

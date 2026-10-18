@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 import os
 import sys
 from datetime import datetime, timezone
@@ -19,6 +20,7 @@ from pathlib import Path
 
 from .collectors.registry import ALL_COLLECTORS, all_series_meta
 from .contract import CollectorContext, Observation
+from .notify.digest import CST, build_digest_card
 from .pipeline.alerts import (
     AlertState,
     default_state_path,
@@ -27,6 +29,7 @@ from .pipeline.alerts import (
 )
 from .pipeline.snapshot import (
     CollectorHealth,
+    Snapshot,
     build_snapshot,
     export_schema,
     validate_snapshot_file,
@@ -172,13 +175,49 @@ async def cmd_test_notify(args: argparse.Namespace) -> int:
     return 0 if ok else 1
 
 
+async def cmd_digest(args: argparse.Namespace) -> int:
+    """Send the daily digest card built from the committed snapshot.
+
+    Reads exactly what the site serves (``web/data/snapshot.json``) so Feishu
+    and the dashboard can never disagree, and sends through the same custom-bot
+    webhook. No upstream calls: this is a pure view of the last collection.
+    """
+    _load_dotenv(ROOT / ".env")
+    snap_path = Path(args.snapshot)
+    if not snap_path.exists():
+        print(f"[digest] snapshot not found: {snap_path}", file=sys.stderr)
+        return 1
+    snapshot = Snapshot.model_validate_json(snap_path.read_text(encoding="utf-8"))
+    site_url = args.site_url or os.environ.get("DASHBOARD_SITE_URL") or None
+    card = build_digest_card(snapshot, now=datetime.now(CST), site_url=site_url)
+
+    if args.dry_run:
+        print(json.dumps(card, ensure_ascii=False, indent=2))
+        return 0
+
+    webhook = os.environ.get("FEISHU_WEBHOOK_URL")
+    if not webhook:
+        print("FEISHU_WEBHOOK_URL not set — cannot send digest", file=sys.stderr)
+        return 1
+    from .notify.feishu import FeishuNotifier
+
+    notifier = FeishuNotifier(webhook, os.environ.get("FEISHU_SECRET"))
+    try:
+        await notifier.send_card(card)
+    except Exception as exc:  # noqa: BLE001 — report, don't traceback
+        print(f"[digest] send failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+    print("[digest] sent")
+    return 0
+
+
 def cmd_export_schema(args: argparse.Namespace) -> int:
     path = export_schema(Path(args.data_dir))
     print(f"[schema] wrote {path}")
     return 0
 
 
-_COMMANDS = {"run", "export-schema", "test-notify"}
+_COMMANDS = {"run", "export-schema", "test-notify", "digest"}
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -200,6 +239,21 @@ def build_parser() -> argparse.ArgumentParser:
 
     tn = sub.add_parser("test-notify", parents=[common], help="send sample Feishu cards")
     tn.set_defaults(func=cmd_test_notify)
+
+    dg = sub.add_parser("digest", parents=[common], help="send the daily digest card to Feishu")
+    dg.add_argument(
+        "--snapshot",
+        default=str(DEFAULT_WEB_DATA / "snapshot.json"),
+        help="snapshot to render (default: the file the site serves)",
+    )
+    dg.add_argument(
+        "--site-url",
+        dest="site_url",
+        default=None,
+        help="dashboard URL for the 'open dashboard' button (default: $DASHBOARD_SITE_URL)",
+    )
+    dg.add_argument("--dry-run", action="store_true", help="print the card JSON instead of sending")
+    dg.set_defaults(func=cmd_digest)
     return p
 
 
@@ -212,8 +266,11 @@ def main(argv: list[str] | None = None) -> int:
         except (AttributeError, ValueError):
             pass
     argv = list(sys.argv[1:] if argv is None else argv)
-    # Default to the `run` subcommand when none is given.
-    if not any(tok in _COMMANDS for tok in argv):
+    # Default to the `run` subcommand when none is given. `--help` must still
+    # reach the top-level parser so the subcommand list is discoverable.
+    if not any(tok in _COMMANDS for tok in argv) and not any(
+        tok in ("-h", "--help") for tok in argv
+    ):
         argv = ["run", *argv]
     args = build_parser().parse_args(argv)
     func = args.func

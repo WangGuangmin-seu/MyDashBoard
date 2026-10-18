@@ -62,14 +62,18 @@ class FeishuNotifier:
         self.webhook_url = webhook_url
         self.secret = secret
 
-    async def send(self, alert: Alert, client: httpx.AsyncClient | None = None) -> None:
-        """Send one alert card. Raises RuntimeError if body code != 0 (spec §7.4)."""
-        payload: dict = {"msg_type": "interactive", "card": _card(alert)}
-        if self.secret:
-            ts = int(time.time())  # must be within 1h validity (spec §7.2)
-            payload["timestamp"] = str(ts)
-            payload["sign"] = gen_sign(self.secret, ts)
+    def _signed(self, payload: dict) -> dict:
+        """Attach timestamp+sign when a secret is configured (spec §7.2)."""
+        if not self.secret:
+            return payload
+        ts = int(time.time())  # must be within 1h validity (spec §7.2)
+        return {**payload, "timestamp": str(ts), "sign": gen_sign(self.secret, ts)}
 
+    async def send_payload(
+        self, payload: dict, client: httpx.AsyncClient | None = None
+    ) -> None:
+        """Post any bot payload. Raises RuntimeError if body code != 0 (spec §7.4)."""
+        payload = self._signed(payload)
         owns = client is None
         client = client or make_client()
         try:
@@ -84,6 +88,14 @@ class FeishuNotifier:
         finally:
             if owns:
                 await client.aclose()
+
+    async def send_card(self, card: dict, client: httpx.AsyncClient | None = None) -> None:
+        """Send a pre-built interactive card (used by the daily digest)."""
+        await self.send_payload({"msg_type": "interactive", "card": card}, client=client)
+
+    async def send(self, alert: Alert, client: httpx.AsyncClient | None = None) -> None:
+        """Send one alert card."""
+        await self.send_card(_card(alert), client=client)
 
     async def send_all(self, alerts: list[Alert]) -> list[tuple[Alert, Exception | None]]:
         """Send every alert; collect per-alert outcome without aborting the batch."""
