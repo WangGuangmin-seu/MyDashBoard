@@ -5,7 +5,6 @@ from datetime import datetime, timedelta
 from dashboard.contract import DataStatus, SeriesMeta
 from dashboard.notify.digest import (
     CST,
-    _span_label,
     _window_change,
     build_digest_card,
     sparkline,
@@ -85,7 +84,7 @@ def test_sparkline_maps_values_and_handles_edges():
     assert sparkline([]) == ""
 
 
-def test_card_lists_every_series_with_value_delta_and_trend():
+def test_card_lists_every_series_on_one_line_with_trend():
     snap = _snapshot([
         _series("portwatch.hormuz.transits", "霍尔木兹海峡 · 日通行船数", "艘/日", [4, 3, 2]),
         _series("fx.dxy", "美元指数 (DXY)", "点", [99.5, 99.7], category="core", precision=2),
@@ -96,30 +95,19 @@ def test_card_lists_every_series_with_value_delta_and_trend():
     assert card["header"]["template"] == "blue"
     body = _div_text(card)
     assert "**核心指标**" in body
-    assert "霍尔木兹海峡 · 日通行船数" in body
+    assert "霍尔木兹船数" in body          # short label, full name stays on the site
     assert "2 艘/日" in body
-    assert "▼ 1" in body          # 3 -> 2
+    assert "▼50.0%" in body               # 4 -> 2 over the window
+    assert "美元指数" in body
     assert "99.70 点" in body
-    assert "▲ 0.2" in body        # 99.5 -> 99.7
-    assert "▁" in body            # sparkline rendered inline
-    # trend line carries its real span and window change
-    assert "近3日" in body
-    assert "▼50.0%" in body       # 4 -> 2 over the window
-    assert "▲0.2%" in body        # 99.5 -> 99.7 over the window
+    assert "▲0.2%" in body                # 99.5 -> 99.7 over the window
+    assert "▁" in body                    # sparkline on the same line
+    # one line per series, plus the category heading
+    assert len(body.splitlines()) == 3
 
 
-def test_span_label_adapts_to_point_spacing_and_window_change():
-    daily = _points([1, 2, 3])
-    assert _span_label(daily) == "近3日"
-    assert _window_change(daily) == "▲200.0%"
-
-    weekly = [
-        Point(observed_at=NOW - timedelta(days=14) + timedelta(days=7 * i),
-              as_of=NOW, value=v, status=DataStatus.CONFIRMED)
-        for i, v in enumerate([10, 11, 12])
-    ]
-    assert _span_label(weekly) == "近3周"
-
+def test_window_change_handles_sign_and_single_point():
+    assert _window_change(_points([1, 2, 3])) == "▲200.0%"
     assert _window_change(_points([4, 3, 2])) == "▼50.0%"
     assert _window_change(_points([1, -1])) == "转负"
     assert _window_change(_points([7])) == ""
@@ -134,7 +122,8 @@ def test_stale_series_and_failed_collector_are_flagged():
 
     body = _div_text(card)
     assert "⚠️" in body
-    assert "最后 2026-07-11" in body
+    assert "旧序列" in body               # falls back to display_name (not in SHORT_NAMES)
+    assert "最后" not in body             # no per-series date, keeps one line
     assert "采集器失败" in body and "eia（boom）" in body
 
     footer = next(e for e in card["elements"] if e["tag"] == "note")

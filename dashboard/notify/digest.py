@@ -24,7 +24,35 @@ from ..pipeline.snapshot import SeriesSnapshot, Snapshot, heartbeat_stale
 CST = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
 _SPARK = "▁▂▃▄▅▆▇█"
-SPARK_WIDTH = 30
+SPARK_WIDTH = 12
+
+# Card-sized labels: full names stay on the site, but they are too long for a
+# one-line Feishu row on a phone. Fallback is display_name for new series.
+SHORT_NAMES = {
+    "portwatch.hormuz.transits": "霍尔木兹船数",
+    "portwatch.hormuz.trade_volume": "霍尔木兹货量",
+    "portwatch.bab_el_mandeb.transits": "曼德海峡船数",
+    "portwatch.bab_el_mandeb.trade_volume": "曼德海峡货量",
+    "portwatch.cape_of_good_hope.transits": "好望角船数",
+    "portwatch.cape_of_good_hope.trade_volume": "好望角货量",
+    "eia.crude.commercial_stocks": "商业原油库存",
+    "eia.crude.spr_stocks": "SPR 库存",
+    "eia.brent.spot": "布伦特原油",
+    "treasury.yield.10y": "10Y 美债",
+    "fx.dxy": "美元指数",
+    "treasury.tga.closing_balance": "TGA 余额",
+    "treasury.mts.receipts": "财政收入",
+    "treasury.mts.outlays": "财政支出",
+    "treasury.mts.deficit": "财政赤字",
+    "ctfi.composite": "CTFI 综合",
+    "ctfi.ct1": "CT1 WS",
+    "ctfi.ct1.tce": "CT1 TCE",
+    "ctfi.ct2": "CT2 WS",
+    "metals.aluminum.price": "沪铝",
+    "metals.alumina.price": "氧化铝",
+    "metals.aluminum.inventory": "铝锭库存",
+    "metals.aluminum.sim_margin": "冶炼毛利",
+}
 
 
 def _window(points, width: int = SPARK_WIDTH):
@@ -46,34 +74,6 @@ def sparkline(points, width: int = SPARK_WIDTH) -> str:
     span = hi - lo
     last = len(_SPARK) - 1
     return "".join(_SPARK[round((v - lo) / span * last)] for v in values)
-
-
-def _span_label(points, width: int = SPARK_WIDTH) -> str:
-    """Real time span of the plotted window, e.g. 近30日 / 近30周 / 近30月.
-
-    Without this the same 30 glyphs mean 30 days for a daily series and 30
-    months for a monthly one — the two shapes are not comparable at all.
-    """
-    window = _window(points, width)
-    if len(window) < 2:
-        return ""
-    gaps = [
-        (b.observed_at - a.observed_at).total_seconds() / 86400
-        for a, b in zip(window, window[1:])
-    ]
-    gaps = sorted(g for g in gaps if g > 0)
-    if not gaps:
-        return f"近{len(window)}期"
-    gap = gaps[len(gaps) // 2]  # median spacing
-    if gap <= 2:
-        unit = "日"
-    elif gap <= 10:
-        unit = "周"
-    elif gap <= 45:
-        unit = "月"
-    else:
-        unit = "期"
-    return f"近{len(window)}{unit}"
 
 
 def _window_change(points, width: int = SPARK_WIDTH) -> str:
@@ -99,40 +99,22 @@ def _fmt_value(value: float | None, precision: int) -> str:
     return f"{value:,.{precision}f}"
 
 
-def _fmt_delta(latest, previous) -> str:
-    """Arrow + absolute change; no colours so the card renders identically
-    across Feishu clients and dark/light themes."""
-    if latest is None or previous is None:
-        return ""
-    if latest.value is None or previous.value is None:
-        return ""
-    delta = latest.value - previous.value
-    if delta == 0:
-        return " → 0"
-    arrow = "▲" if delta > 0 else "▼"
-    # two decimals, then trim: 1.20 -> 1.2, 32.40 -> 32.4, 1.00 -> 1
-    number = f"{abs(delta):,.2f}".rstrip("0").rstrip(".")
-    return f" {arrow} {number}"
-
-
 def _series_line(s: SeriesSnapshot, *, stale: bool) -> str:
     meta = s.meta
     latest = s.latest
     warn = "⚠️ " if stale else ""
+    short = SHORT_NAMES.get(meta.series_id, meta.display_name)
     value = _fmt_value(latest.value if latest else None, meta.precision)
-    head = f"{warn}**{meta.display_name}** {value} {meta.unit}".rstrip()
-    head += _fmt_delta(latest, s.previous)
+    line = f"{warn}**{short}** {value} {meta.unit}".rstrip()
+    change = _window_change(s.points)
+    if change:
+        line += f" {change}"
     if latest is not None and latest.status != DataStatus.CONFIRMED:
-        head += f"（{latest.status.value}）"
-    if stale and latest is not None:
-        head += f"（最后 {latest.observed_at.date().isoformat()}）"
+        line += f"（{latest.status.value}）"
     spark = sparkline(s.points)
-    if not spark:
-        return head
-    # Trend on its own line: inline glyphs wrap mid-chart on phones. Span and
-    # window change give the shape a scale the min-max normalisation hides.
-    labels = [b for b in (_span_label(s.points), _window_change(s.points)) if b]
-    return f"{head}\n{spark} {' · '.join(labels)}".rstrip()
+    if spark:
+        line += f"  {spark}"
+    return line
 
 
 def _is_stale(s: SeriesSnapshot, now: datetime) -> bool:
@@ -204,6 +186,7 @@ def build_digest_card(
     footer = f"快照生成于 {generated} · 采集器 {healthy}/{len(snapshot.collectors)} 正常"
     if stale:
         footer += f" · {len(stale)} 条序列采集中断"
+    footer += f" · 走势=最近{SPARK_WIDTH}点（日/周/月频跨度不同），%为区间首尾变化"
 
     elements.append(
         {"tag": "note", "elements": [{"tag": "plain_text", "content": footer}]}
