@@ -41,12 +41,6 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "treasury.yield.10y",
         "fx.dxy",
     ]),
-    ("fiscal", "财政类", [
-        "treasury.tga.closing_balance",
-        "treasury.mts.receipts",
-        "treasury.mts.outlays",
-        "treasury.mts.deficit",
-    ]),
     ("freight_index", "运价指数", [
         "ctfi.composite",
         "ctfi.ct1",
@@ -64,6 +58,12 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "portwatch.bab_el_mandeb.trade_volume",
         "portwatch.cape_of_good_hope.transits",
         "portwatch.cape_of_good_hope.trade_volume",
+    ]),
+    ("fiscal", "财政类", [
+        "treasury.tga.closing_balance",
+        "treasury.mts.receipts",
+        "treasury.mts.outlays",
+        "treasury.mts.deficit",
     ]),
 ]
 _OTHER_CATEGORY = ("other", "其他")
