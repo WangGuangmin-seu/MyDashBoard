@@ -23,9 +23,10 @@ python -m http.server 8137 --directory web
 
 ## 每日摘要（飞书）
 
-`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，发一张汇总卡片：**核心拆两张
-原生 VChart 折线图**（能源库存/油价、流量与宏观），运价/铝/货运辅助各一张，财政类只列数值；
-图下每条序列一行（短名 + 最新值 + 同区间涨跌幅）。有采集器失败或序列 stale 时卡片变橙并标注。
+`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，只发**一条**汇总卡片，聚焦
+5 个关注项：霍尔木兹船数、SPR 库存、布伦特原油、CTFI 综合各一张原始值折线图；铝价/氧化铝价
+量级差约 10 倍，画相对窗口起点变化（%），绝对价格列在图下。其余 18 条序列留在网页，
+脚注给「其余 N 条见看板」。有采集器失败或关注项 stale 时卡片变橙并标注。
 看板地址默认 `https://mydashboard.wangguangmin1995.workers.dev/`
 （`digest.yml` 里的兜底值），要更换就设仓库变量 `DASHBOARD_SITE_URL`，代码不用动。
 

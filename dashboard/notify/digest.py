@@ -1,15 +1,15 @@
-"""Daily digest card — one Feishu card with native charts, every morning.
+"""Daily digest card — one Feishu message, five focused charts.
 
-Feishu cards support a JSON 2.0 ``chart`` component (VChart). That renders
-real line charts inside the message, so no PNG upload, no ``image_key`` and no
-Feishu *app* credentials are needed: the webhook-only bot is enough. The card
-holds one chart per category (max five, per Feishu's recommendation) plus a
-compact value row per series.
+The card is deliberately *not* a dump of all 23 series. It follows the user's
+watch list: Hormuz transits, SPR stocks, Brent spot, CTFI composite, and the
+aluminium pair. Each of the first four gets its own single-line chart with a
+real value axis; aluminium and alumina differ by ~10x in level (both CNY/t),
+so that pair is plotted as relative change from the window start and the
+absolute prices stay in the rows below.
 
-Charts plot **relative change from the window start (%)**, not raw values:
-categories mix units (barrels, $/bbl, %, index points) and levels, so a shared
-raw y-axis would be meaningless. The rows below carry the latest absolute
-value and the same window change, so the chart and the number agree.
+Feishu cards support a JSON 2.0 ``chart`` component (VChart), so these are
+native charts — no PNG upload, no ``image_key``, no Feishu app credentials.
+One card holds at most five charts, which matches the five focus items.
 
 The digest is a *view* over the committed snapshot: it reads the same
 ``web/data/snapshot.json`` the frontend reads, so what arrives in Feishu is
@@ -27,41 +27,23 @@ from ..pipeline.snapshot import SeriesSnapshot, Snapshot, heartbeat_stale
 # (Windows Python does not ship the IANA database).
 CST = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
-# Feishu recommends at most five chart components per card.
-MAX_CHARTS = 5
-CHART_POINTS = 16  # sampled points per series; keeps the card payload small
+FOCUS_HORIZON = 120   # days shown in each focus chart
+CHART_POINTS = 16     # sampled points per series; keeps the card payload small
 
-# Category -> time horizon shown in its chart. Fiscal mixes daily TGA with
-# monthly MTS, so it needs a longer span than the purely daily ones.
-HORIZONS = {
-    "core": 120,
-    "freight_index": 120,
-    "aluminum": 120,
-    "crude_freight": 180,
-    "fiscal": 365,
-}
-DEFAULT_HORIZON = 120
-
-# Chart grouping. Core has seven series (too many lines for one small chart),
-# so it splits into two; fiscal is monthly and slow-moving, so it stays as
-# value rows only. Everything else gets one chart per category, keeping the
-# card within Feishu's recommended five charts.
-CHART_GROUPS = {
-    "core": [
-        ("能源库存与油价", [
-            "eia.crude.commercial_stocks",
-            "eia.crude.spr_stocks",
-            "eia.brent.spot",
-        ]),
-        ("流量与宏观", [
-            "portwatch.hormuz.transits",
-            "portwatch.hormuz.trade_volume",
-            "treasury.yield.10y",
-            "fx.dxy",
-        ]),
-    ],
-    "fiscal": [],
-}
+# The watch list. ``mode="raw"`` draws one series on its own value axis;
+# ``mode="pct"`` draws a group as relative change (for series whose levels are
+# not directly comparable).
+FOCUS = [
+    {"title": "霍尔木兹 · 日通行船数", "ids": ["portwatch.hormuz.transits"], "mode": "raw"},
+    {"title": "SPR 原油库存", "ids": ["eia.crude.spr_stocks"], "mode": "raw"},
+    {"title": "布伦特原油现货", "ids": ["eia.brent.spot"], "mode": "raw"},
+    {"title": "CTFI 综合指数", "ids": ["ctfi.composite"], "mode": "raw"},
+    {
+        "title": "铝价 / 氧化铝价（相对 %）",
+        "ids": ["metals.aluminum.price", "metals.alumina.price"],
+        "mode": "pct",
+    },
+]
 
 # Card-sized labels: full names stay on the site, but they are too long for a
 # one-line Feishu row on a phone. Fallback is display_name for new series.
@@ -169,22 +151,32 @@ def _is_stale(s: SeriesSnapshot, now: datetime) -> bool:
     )
 
 
-def _sections(snapshot: Snapshot):
-    """(category_id, title, series) in display order, uncategorised last."""
-    sections = []
-    known = {c.id for c in snapshot.categories}
-    for cat in snapshot.categories:
-        items = [s for s in snapshot.series if s.category == cat.id]
-        if items:
-            sections.append((cat.id, cat.title, items))
-    leftover = [s for s in snapshot.series if s.category not in known]
-    if leftover:
-        sections.append(("other", "其他", leftover))
-    return sections
+def _raw_chart(points, title: str) -> dict:
+    """Single series on its own value axis (absolute levels)."""
+    rows = [
+        {"date": p.observed_at.strftime("%Y-%m-%d"), "value": p.value}
+        for p in points
+    ]
+    return {
+        "tag": "chart",
+        "height": "220px",
+        "chart_spec": {
+            "type": "line",
+            "title": {"text": title},
+            "data": {"values": rows},
+            "xField": "date",
+            "yField": "value",
+            "axes": [
+                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
+                {"orient": "left"},
+            ],
+            "point": {"visible": False},
+        },
+    }
 
 
-def _chart_rows(items, sampled) -> list[dict]:
-    """Flat VChart rows: change % from each series' window start."""
+def _pct_chart(items, sampled, title: str) -> dict | None:
+    """Group drawn as relative change from each series' window start."""
     rows = []
     for s in items:
         window = sampled.get(s.meta.series_id) or []
@@ -202,31 +194,26 @@ def _chart_rows(items, sampled) -> list[dict]:
                     "change": round((p.value - first) / abs(first) * 100, 1),
                 }
             )
-    return rows
-
-
-def _line_chart(rows: list[dict], title: str | None = None) -> dict:
-    """Feishu card 2.0 native chart (VChart line)."""
-    spec = {
-        "type": "line",
-        "data": {"values": rows},
-        "xField": "date",
-        "yField": "change",
-        "seriesField": "series",
-        "axes": [
-            {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
-            {"orient": "left"},
-        ],
-        "legends": {"visible": True, "orient": "bottom"},
-        "point": {"visible": False},
-    }
-    if title:
-        spec["title"] = {"text": title}
+    if not rows:
+        return None
     return {
         "tag": "chart",
         "height": "220px",
         "color_theme": "rainbow",
-        "chart_spec": spec,
+        "chart_spec": {
+            "type": "line",
+            "title": {"text": title},
+            "data": {"values": rows},
+            "xField": "date",
+            "yField": "change",
+            "seriesField": "series",
+            "axes": [
+                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
+                {"orient": "left"},
+            ],
+            "legends": {"visible": True, "orient": "bottom"},
+            "point": {"visible": False},
+        },
     }
 
 
@@ -244,54 +231,67 @@ def build_digest_card(
     """
     local_now = now.astimezone(CST)
     failed = [c for c in snapshot.collectors if not c.ok]
-    stale = [s for s in snapshot.series if _is_stale(s, now)]
-    stale_ids = {s.meta.series_id for s in stale}
+    by_id = {s.meta.series_id: s for s in snapshot.series}
 
     elements: list[dict] = []
-    charts = 0
-    for cat_id, title, items in _sections(snapshot):
-        horizon = HORIZONS.get(cat_id, DEFAULT_HORIZON)
+    focus_series: list[SeriesSnapshot] = []
+    for item in FOCUS:
+        items = [by_id[sid] for sid in item["ids"] if sid in by_id]
+        if not items:
+            continue
+        focus_series.extend(items)
         sampled = {
-            s.meta.series_id: _sample(s.points, now, horizon) for s in items
+            s.meta.series_id: _sample(s.points, now, FOCUS_HORIZON) for s in items
         }
-        elements.append({"tag": "markdown", "content": f"**{title}**"})
 
-        if cat_id in CHART_GROUPS:
-            groups = CHART_GROUPS[cat_id]
-        else:
-            groups = [(None, [s.meta.series_id for s in items])]
-        for subtitle, series_ids in groups:
-            group_items = [s for s in items if s.meta.series_id in series_ids]
-            rows = _chart_rows(group_items, sampled)
-            if rows and charts < MAX_CHARTS:
-                elements.append(_line_chart(rows, title=subtitle))
-                charts += 1
+        if item["mode"] == "raw":
+            s = items[0]
+            window = sampled[s.meta.series_id]
+            if len(window) >= 2:
+                elements.append(_raw_chart(window, item["title"]))
+            elements.append(
+                {
+                    "tag": "markdown",
+                    "content": _series_line(
+                        s,
+                        stale=_is_stale(s, now),
+                        change=_pct_change(window),
+                    ),
+                }
+            )
+            continue
 
+        chart = _pct_chart(items, sampled, item["title"])
+        if chart is not None:
+            elements.append(chart)
         lines = [
             _series_line(
                 s,
-                stale=s.meta.series_id in stale_ids,
-                change=_pct_change(sampled.get(s.meta.series_id) or []),
+                stale=_is_stale(s, now),
+                change=_pct_change(sampled[s.meta.series_id]),
             )
             for s in items
         ]
         elements.append({"tag": "markdown", "content": "\n".join(lines)})
 
-    if not snapshot.series:
+    if not focus_series:
         elements.append({"tag": "markdown", "content": "暂无数据。"})
 
     if failed:
         names = "、".join(f"{c.id}（{c.error or '未知错误'}）" for c in failed)
-        elements.append(
-            {"tag": "markdown", "content": f"⚠️ **采集器失败**：{names}"}
-        )
+        elements.append({"tag": "markdown", "content": f"⚠️ **采集器失败**：{names}"})
+
+    stale = [s for s in focus_series if _is_stale(s, now)]
+    focus_ids = {s.meta.series_id for s in focus_series}
+    hidden = len(snapshot.series) - len(focus_ids)
 
     generated = snapshot.generated_at.astimezone(CST).strftime("%Y-%m-%d %H:%M")
     healthy = len(snapshot.collectors) - len(failed)
     footer = f"快照生成于 {generated} · 采集器 {healthy}/{len(snapshot.collectors)} 正常"
     if stale:
-        footer += f" · {len(stale)} 条序列采集中断"
-    footer += " · 折线=相对窗口起点变化（%）"
+        footer += f" · {len(stale)} 条关注序列中断"
+    if hidden:
+        footer += f" · 其余 {hidden} 条见看板"
     if site_url:
         footer += f" · [打开看板]({site_url})"
     elements.append({"tag": "markdown", "content": footer})
