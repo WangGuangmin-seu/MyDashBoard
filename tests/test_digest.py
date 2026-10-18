@@ -3,7 +3,13 @@
 from datetime import datetime, timedelta
 
 from dashboard.contract import DataStatus, SeriesMeta
-from dashboard.notify.digest import CST, build_digest_card, sparkline
+from dashboard.notify.digest import (
+    CST,
+    _span_label,
+    _window_change,
+    build_digest_card,
+    sparkline,
+)
 from dashboard.pipeline.snapshot import (
     CategoryMeta,
     CollectorHealth,
@@ -96,6 +102,27 @@ def test_card_lists_every_series_with_value_delta_and_trend():
     assert "99.70 点" in body
     assert "▲ 0.2" in body        # 99.5 -> 99.7
     assert "▁" in body            # sparkline rendered inline
+    # trend line carries its real span and window change
+    assert "近3日" in body
+    assert "▼50.0%" in body       # 4 -> 2 over the window
+    assert "▲0.2%" in body        # 99.5 -> 99.7 over the window
+
+
+def test_span_label_adapts_to_point_spacing_and_window_change():
+    daily = _points([1, 2, 3])
+    assert _span_label(daily) == "近3日"
+    assert _window_change(daily) == "▲200.0%"
+
+    weekly = [
+        Point(observed_at=NOW - timedelta(days=14) + timedelta(days=7 * i),
+              as_of=NOW, value=v, status=DataStatus.CONFIRMED)
+        for i, v in enumerate([10, 11, 12])
+    ]
+    assert _span_label(weekly) == "近3周"
+
+    assert _window_change(_points([4, 3, 2])) == "▼50.0%"
+    assert _window_change(_points([1, -1])) == "转负"
+    assert _window_change(_points([7])) == ""
 
 
 def test_stale_series_and_failed_collector_are_flagged():

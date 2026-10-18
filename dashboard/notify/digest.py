@@ -24,7 +24,12 @@ from ..pipeline.snapshot import SeriesSnapshot, Snapshot, heartbeat_stale
 CST = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
 _SPARK = "▁▂▃▄▅▆▇█"
-SPARK_WIDTH = 20
+SPARK_WIDTH = 30
+
+
+def _window(points, width: int = SPARK_WIDTH):
+    """The plotted subset: last ``width`` points that carry a value."""
+    return [p for p in points if p.value is not None][-width:]
 
 
 def sparkline(points, width: int = SPARK_WIDTH) -> str:
@@ -32,7 +37,7 @@ def sparkline(points, width: int = SPARK_WIDTH) -> str:
 
     Returns "" when fewer than two values exist (a single point has no trend).
     """
-    values = [p.value for p in points if p.value is not None][-width:]
+    values = [p.value for p in _window(points, width)]
     if len(values) < 2:
         return ""
     lo, hi = min(values), max(values)
@@ -41,6 +46,51 @@ def sparkline(points, width: int = SPARK_WIDTH) -> str:
     span = hi - lo
     last = len(_SPARK) - 1
     return "".join(_SPARK[round((v - lo) / span * last)] for v in values)
+
+
+def _span_label(points, width: int = SPARK_WIDTH) -> str:
+    """Real time span of the plotted window, e.g. 近30日 / 近30周 / 近30月.
+
+    Without this the same 30 glyphs mean 30 days for a daily series and 30
+    months for a monthly one — the two shapes are not comparable at all.
+    """
+    window = _window(points, width)
+    if len(window) < 2:
+        return ""
+    gaps = [
+        (b.observed_at - a.observed_at).total_seconds() / 86400
+        for a, b in zip(window, window[1:])
+    ]
+    gaps = sorted(g for g in gaps if g > 0)
+    if not gaps:
+        return f"近{len(window)}期"
+    gap = gaps[len(gaps) // 2]  # median spacing
+    if gap <= 2:
+        unit = "日"
+    elif gap <= 10:
+        unit = "周"
+    elif gap <= 45:
+        unit = "月"
+    else:
+        unit = "期"
+    return f"近{len(window)}{unit}"
+
+
+def _window_change(points, width: int = SPARK_WIDTH) -> str:
+    """Percent change across the plotted window (not just the last step)."""
+    window = _window(points, width)
+    if len(window) < 2:
+        return ""
+    first, last = window[0].value, window[-1].value
+    if first == 0:
+        return ""
+    if first * last < 0:  # crossed zero: a percentage would be meaningless
+        return "转正" if last > 0 else "转负"
+    pct = (last - first) / abs(first) * 100
+    if abs(pct) < 0.05:
+        return "→0.0%"
+    arrow = "▲" if pct > 0 else "▼"
+    return f"{arrow}{abs(pct):.1f}%"
 
 
 def _fmt_value(value: float | None, precision: int) -> str:
@@ -70,16 +120,19 @@ def _series_line(s: SeriesSnapshot, *, stale: bool) -> str:
     latest = s.latest
     warn = "⚠️ " if stale else ""
     value = _fmt_value(latest.value if latest else None, meta.precision)
-    line = f"{warn}**{meta.display_name}** {value} {meta.unit}".rstrip()
-    line += _fmt_delta(latest, s.previous)
+    head = f"{warn}**{meta.display_name}** {value} {meta.unit}".rstrip()
+    head += _fmt_delta(latest, s.previous)
     if latest is not None and latest.status != DataStatus.CONFIRMED:
-        line += f"（{latest.status.value}）"
+        head += f"（{latest.status.value}）"
     if stale and latest is not None:
-        line += f"（最后 {latest.observed_at.date().isoformat()}）"
+        head += f"（最后 {latest.observed_at.date().isoformat()}）"
     spark = sparkline(s.points)
-    if spark:
-        line += f"  {spark}"
-    return line
+    if not spark:
+        return head
+    # Trend on its own line: inline glyphs wrap mid-chart on phones. Span and
+    # window change give the shape a scale the min-max normalisation hides.
+    labels = [b for b in (_span_label(s.points), _window_change(s.points)) if b]
+    return f"{head}\n{spark} {' · '.join(labels)}".rstrip()
 
 
 def _is_stale(s: SeriesSnapshot, now: datetime) -> bool:
