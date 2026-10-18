@@ -42,6 +42,27 @@ HORIZONS = {
 }
 DEFAULT_HORIZON = 120
 
+# Chart grouping. Core has seven series (too many lines for one small chart),
+# so it splits into two; fiscal is monthly and slow-moving, so it stays as
+# value rows only. Everything else gets one chart per category, keeping the
+# card within Feishu's recommended five charts.
+CHART_GROUPS = {
+    "core": [
+        ("能源库存与油价", [
+            "eia.crude.commercial_stocks",
+            "eia.crude.spr_stocks",
+            "eia.brent.spot",
+        ]),
+        ("流量与宏观", [
+            "portwatch.hormuz.transits",
+            "portwatch.hormuz.trade_volume",
+            "treasury.yield.10y",
+            "fx.dxy",
+        ]),
+    ],
+    "fiscal": [],
+}
+
 # Card-sized labels: full names stay on the site, but they are too long for a
 # one-line Feishu row on a phone. Fallback is display_name for new series.
 SHORT_NAMES = {
@@ -184,25 +205,28 @@ def _chart_rows(items, sampled) -> list[dict]:
     return rows
 
 
-def _line_chart(rows: list[dict]) -> dict:
+def _line_chart(rows: list[dict], title: str | None = None) -> dict:
     """Feishu card 2.0 native chart (VChart line)."""
+    spec = {
+        "type": "line",
+        "data": {"values": rows},
+        "xField": "date",
+        "yField": "change",
+        "seriesField": "series",
+        "axes": [
+            {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
+            {"orient": "left"},
+        ],
+        "legends": {"visible": True, "orient": "bottom"},
+        "point": {"visible": False},
+    }
+    if title:
+        spec["title"] = {"text": title}
     return {
         "tag": "chart",
         "height": "220px",
         "color_theme": "rainbow",
-        "chart_spec": {
-            "type": "line",
-            "data": {"values": rows},
-            "xField": "date",
-            "yField": "change",
-            "seriesField": "series",
-            "axes": [
-                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
-                {"orient": "left"},
-            ],
-            "legends": {"visible": True, "orient": "bottom"},
-            "point": {"visible": False},
-        },
+        "chart_spec": spec,
     }
 
 
@@ -232,10 +256,16 @@ def build_digest_card(
         }
         elements.append({"tag": "markdown", "content": f"**{title}**"})
 
-        rows = _chart_rows(items, sampled)
-        if rows and charts < MAX_CHARTS:
-            elements.append(_line_chart(rows))
-            charts += 1
+        if cat_id in CHART_GROUPS:
+            groups = CHART_GROUPS[cat_id]
+        else:
+            groups = [(None, [s.meta.series_id for s in items])]
+        for subtitle, series_ids in groups:
+            group_items = [s for s in items if s.meta.series_id in series_ids]
+            rows = _chart_rows(group_items, sampled)
+            if rows and charts < MAX_CHARTS:
+                elements.append(_line_chart(rows, title=subtitle))
+                charts += 1
 
         lines = [
             _series_line(

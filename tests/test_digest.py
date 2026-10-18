@@ -101,12 +101,53 @@ def test_card_builds_native_chart_and_value_rows():
 
     charts = _charts(card)
     assert len(charts) == 1
+    assert charts[0]["chart_spec"]["title"]["text"] == "流量与宏观"
     rows = charts[0]["chart_spec"]["data"]["values"]
     by_series = {}
     for row in rows:
         by_series.setdefault(row["series"], []).append(row["change"])
     assert by_series["霍尔木兹船数"] == [0.0, -25.0, -50.0]
     assert by_series["美元指数"] == [0.0, 0.2]
+
+
+def test_core_splits_into_two_charts():
+    specs = [
+        ("eia.crude.commercial_stocks", "商业原油库存", "千桶", 10),
+        ("eia.crude.spr_stocks", "SPR 库存", "千桶", 20),
+        ("eia.brent.spot", "布伦特原油", "美元/桶", 30),
+        ("portwatch.hormuz.transits", "霍尔木兹海峡 · 日通行船数", "艘/日", 40),
+        ("portwatch.hormuz.trade_volume", "霍尔木兹海峡 · 日通行贸易量", "估计吨/日", 50),
+        ("treasury.yield.10y", "10 年期美债收益率", "%", 60),
+        ("fx.dxy", "美元指数 (DXY)", "点", 70),
+    ]
+    snap = _snapshot([
+        _series(sid, name, unit, [v, v + 1, v + 2])
+        for sid, name, unit, v in specs
+    ])
+    charts = _charts(build_digest_card(snap, now=NOW))
+    assert [c["chart_spec"]["title"]["text"] for c in charts] == [
+        "能源库存与油价",
+        "流量与宏观",
+    ]
+    assert [len({r["series"] for r in c["chart_spec"]["data"]["values"]}) for c in charts] == [3, 4]
+
+
+def test_fiscal_is_text_only():
+    snap = Snapshot(
+        generated_at=NOW,
+        window=180,
+        categories=[CategoryMeta(id="fiscal", title="财政类")],
+        series=[
+            _series(
+                "treasury.tga.closing_balance", "TGA 余额", "十亿美元", [1, 2],
+                category="fiscal",
+            )
+        ],
+        collectors=[CollectorHealth(id="test", ok=True)],
+    )
+    card = build_digest_card(snap, now=NOW)
+    assert _charts(card) == []
+    assert "TGA 余额" in _markdown(card)
 
 
 def test_sample_keeps_endpoints_and_respects_horizon():

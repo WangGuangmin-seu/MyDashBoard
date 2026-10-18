@@ -23,10 +23,10 @@ python -m http.server 8137 --directory web
 
 ## 每日摘要（飞书）
 
-`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，发一张汇总卡片：每个分类一张
-**原生 VChart 折线图**（相对窗口起点变化 %），图下每条序列一行（短名 + 最新值 + 同区间涨跌幅）；
-有采集器失败或序列 stale 时卡片变橙并标注。看板地址默认
-`https://mydashboard.wangguangmin1995.workers.dev/`
+`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，发一张汇总卡片：**核心拆两张
+原生 VChart 折线图**（能源库存/油价、流量与宏观），运价/铝/货运辅助各一张，财政类只列数值；
+图下每条序列一行（短名 + 最新值 + 同区间涨跌幅）。有采集器失败或序列 stale 时卡片变橙并标注。
+看板地址默认 `https://mydashboard.wangguangmin1995.workers.dev/`
 （`digest.yml` 里的兜底值），要更换就设仓库变量 `DASHBOARD_SITE_URL`，代码不用动。
 
 > 图表走飞书卡片 2.0 的 `chart` 原生组件，**不需要自建应用或上传图片**（PNG 图片才需要
