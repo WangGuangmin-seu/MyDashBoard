@@ -171,8 +171,8 @@ python -m dashboard digest --dry-run  # 预览每日摘要卡片（不发送）
   不需要自建应用；单卡建议 ≤5 个图表，客户端 7.1+ 支持，移动端部分高级特性不支持。
   关注项各自用原始值；只有铝价/氧化铝价同单位但量级差，才按窗口起点归一化，绝对价格仍在数值行。
   PNG 图片仍需自建应用，但当前方案不需要。
-- 图表**不显示坐标轴数字**：40 个 x 轴点会把日期挤在一起，y 轴刻度意义也不大；只看线形，
-  最新值与窗口涨跌幅在每条图下面的数值行里。
+- 图表**不显示数据点数值标签**（`label.visible=false`），坐标轴保留；40 个点逐点标数会糊成一片，
+  最新值与区间涨跌幅在图下数值行。
 - 「打开看板」按钮：默认 `https://mydashboard.wangguangmin1995.workers.dev/`（写在
   `digest.yml` 的兜底值里）；设仓库变量 `DASHBOARD_SITE_URL` 可覆盖，本地放 `.env`。
 - 本地预览：`python -m dashboard digest --dry-run` 打印卡片 JSON；去掉 `--dry-run` 即发送
