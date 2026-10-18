@@ -28,8 +28,7 @@ SPARK_WIDTH = 12
 
 # Card-sized labels: full names stay on the site, but they are too long for a
 # one-line Feishu row on a phone. Fallback is display_name for new series.
-SHORT_NAMES = {
-    "portwatch.hormuz.transits": "霍尔木兹船数",
+SHORT_NAMES = {    "portwatch.hormuz.transits": "霍尔木兹船数",
     "portwatch.hormuz.trade_volume": "霍尔木兹货量",
     "portwatch.bab_el_mandeb.transits": "曼德海峡船数",
     "portwatch.bab_el_mandeb.trade_volume": "曼德海峡货量",
@@ -52,6 +51,15 @@ SHORT_NAMES = {
     "metals.alumina.price": "氧化铝",
     "metals.aluminum.inventory": "铝锭库存",
     "metals.aluminum.sim_margin": "冶炼毛利",
+}
+
+# Compact units for the card; the site keeps the full unit string.
+UNIT_ALIASES = {
+    "估计吨/日": "吨/日",
+    "美元/桶": "$/桶",
+    "WS点数": "WS",
+    "美元/天": "$/天",
+    "十亿美元": "十亿$",
 }
 
 
@@ -104,8 +112,9 @@ def _series_line(s: SeriesSnapshot, *, stale: bool) -> str:
     latest = s.latest
     warn = "⚠️ " if stale else ""
     short = SHORT_NAMES.get(meta.series_id, meta.display_name)
+    unit = UNIT_ALIASES.get(meta.unit, meta.unit)
     value = _fmt_value(latest.value if latest else None, meta.precision)
-    line = f"{warn}**{short}** {value} {meta.unit}".rstrip()
+    line = f"{warn}**{short}** {value} {unit}".rstrip()
     change = _window_change(s.points)
     if change:
         line += f" {change}"
