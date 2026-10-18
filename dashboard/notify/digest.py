@@ -151,6 +151,21 @@ def _is_stale(s: SeriesSnapshot, now: datetime) -> bool:
     )
 
 
+def _bare_axis(orient: str) -> dict:
+    """Axis without labels/ticks/grid: the digest shows shape, not scale.
+
+    The row below each chart carries the latest value and the window change,
+    so numeric tick labels only add clutter (and crowd on a 40-point x axis).
+    """
+    return {
+        "orient": orient,
+        "label": {"visible": False},
+        "grid": {"visible": False},
+        "domainLine": {"visible": False},
+        "tick": {"visible": False},
+    }
+
+
 def _raw_chart(points, title: str) -> dict:
     """Single series on its own value axis (absolute levels)."""
     rows = [
@@ -166,10 +181,7 @@ def _raw_chart(points, title: str) -> dict:
             "data": {"values": rows},
             "xField": "date",
             "yField": "value",
-            "axes": [
-                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
-                {"orient": "left"},
-            ],
+            "axes": [_bare_axis("bottom"), _bare_axis("left")],
             "point": {"visible": False},
         },
     }
@@ -207,10 +219,7 @@ def _pct_chart(items, sampled, title: str) -> dict | None:
             "xField": "date",
             "yField": "change",
             "seriesField": "series",
-            "axes": [
-                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
-                {"orient": "left"},
-            ],
+            "axes": [_bare_axis("bottom"), _bare_axis("left")],
             "legends": {"visible": True, "orient": "bottom"},
             "point": {"visible": False},
         },
