@@ -27,15 +27,15 @@ from ..pipeline.snapshot import SeriesSnapshot, Snapshot, heartbeat_stale
 # (Windows Python does not ship the IANA database).
 CST = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
-FOCUS_HORIZON = 120   # days shown in each focus chart
-CHART_POINTS = 16     # sampled points per series; keeps the card payload small
+FOCUS_HORIZON = 180   # days shown in most focus charts
+CHART_POINTS = 40     # sampled points per series; still small enough for one card
 
 # The watch list. ``mode="raw"`` draws one series on its own value axis;
 # ``mode="pct"`` draws a group as relative change (for series whose levels are
-# not directly comparable).
+# not directly comparable). A per-item ``horizon`` overrides FOCUS_HORIZON.
 FOCUS = [
     {"title": "霍尔木兹 · 日通行船数", "ids": ["portwatch.hormuz.transits"], "mode": "raw"},
-    {"title": "SPR 原油库存", "ids": ["eia.crude.spr_stocks"], "mode": "raw"},
+    {"title": "SPR 原油库存", "ids": ["eia.crude.spr_stocks"], "mode": "raw", "horizon": 365},
     {"title": "布伦特原油现货", "ids": ["eia.brent.spot"], "mode": "raw"},
     {"title": "CTFI 综合指数", "ids": ["ctfi.composite"], "mode": "raw"},
     {
@@ -159,7 +159,7 @@ def _raw_chart(points, title: str) -> dict:
     ]
     return {
         "tag": "chart",
-        "height": "220px",
+        "height": "240px",
         "chart_spec": {
             "type": "line",
             "title": {"text": title},
@@ -198,7 +198,7 @@ def _pct_chart(items, sampled, title: str) -> dict | None:
         return None
     return {
         "tag": "chart",
-        "height": "220px",
+        "height": "240px",
         "color_theme": "rainbow",
         "chart_spec": {
             "type": "line",
@@ -240,8 +240,9 @@ def build_digest_card(
         if not items:
             continue
         focus_series.extend(items)
+        horizon = item.get("horizon", FOCUS_HORIZON)
         sampled = {
-            s.meta.series_id: _sample(s.points, now, FOCUS_HORIZON) for s in items
+            s.meta.series_id: _sample(s.points, now, horizon) for s in items
         }
 
         if item["mode"] == "raw":
