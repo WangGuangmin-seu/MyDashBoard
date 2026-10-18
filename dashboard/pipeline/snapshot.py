@@ -41,12 +41,6 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "treasury.yield.10y",
         "fx.dxy",
     ]),
-    ("crude_freight", "原油货运辅助数据", [
-        "portwatch.bab_el_mandeb.transits",
-        "portwatch.bab_el_mandeb.trade_volume",
-        "portwatch.cape_of_good_hope.transits",
-        "portwatch.cape_of_good_hope.trade_volume",
-    ]),
     ("fiscal", "财政类", [
         "treasury.tga.closing_balance",
         "treasury.mts.receipts",
@@ -64,6 +58,12 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "metals.alumina.price",
         "metals.aluminum.inventory",
         "metals.aluminum.sim_margin",
+    ]),
+    ("crude_freight", "原油货运辅助数据", [
+        "portwatch.bab_el_mandeb.transits",
+        "portwatch.bab_el_mandeb.trade_volume",
+        "portwatch.cape_of_good_hope.transits",
+        "portwatch.cape_of_good_hope.trade_volume",
     ]),
 ]
 _OTHER_CATEGORY = ("other", "其他")
