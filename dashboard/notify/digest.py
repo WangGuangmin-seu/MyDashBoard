@@ -1,11 +1,15 @@
-"""Daily digest card — every morning, one Feishu card with every series.
+"""Daily digest card — one Feishu card with native charts, every morning.
 
-Why text and not PNG charts: a custom-bot webhook can send text / rich text /
-interactive cards, but a card image needs an ``image_key``, and an image_key can
-only be obtained by uploading through the app-tenant token of a Feishu *app*.
-The dashboard deliberately uses a webhook-only bot (no app credentials, no
-admin approval; see CLAUDE.md §飞书), so trend lines are rendered as Unicode
-block glyphs inside the card instead of attached images.
+Feishu cards support a JSON 2.0 ``chart`` component (VChart). That renders
+real line charts inside the message, so no PNG upload, no ``image_key`` and no
+Feishu *app* credentials are needed: the webhook-only bot is enough. The card
+holds one chart per category (max five, per Feishu's recommendation) plus a
+compact value row per series.
+
+Charts plot **relative change from the window start (%)**, not raw values:
+categories mix units (barrels, $/bbl, %, index points) and levels, so a shared
+raw y-axis would be meaningless. The rows below carry the latest absolute
+value and the same window change, so the chart and the number agree.
 
 The digest is a *view* over the committed snapshot: it reads the same
 ``web/data/snapshot.json`` the frontend reads, so what arrives in Feishu is
@@ -23,12 +27,25 @@ from ..pipeline.snapshot import SeriesSnapshot, Snapshot, heartbeat_stale
 # (Windows Python does not ship the IANA database).
 CST = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
-_SPARK = "▁▂▃▄▅▆▇█"
-SPARK_WIDTH = 12
+# Feishu recommends at most five chart components per card.
+MAX_CHARTS = 5
+CHART_POINTS = 16  # sampled points per series; keeps the card payload small
+
+# Category -> time horizon shown in its chart. Fiscal mixes daily TGA with
+# monthly MTS, so it needs a longer span than the purely daily ones.
+HORIZONS = {
+    "core": 120,
+    "freight_index": 120,
+    "aluminum": 120,
+    "crude_freight": 180,
+    "fiscal": 365,
+}
+DEFAULT_HORIZON = 120
 
 # Card-sized labels: full names stay on the site, but they are too long for a
 # one-line Feishu row on a phone. Fallback is display_name for new series.
-SHORT_NAMES = {    "portwatch.hormuz.transits": "霍尔木兹船数",
+SHORT_NAMES = {
+    "portwatch.hormuz.transits": "霍尔木兹船数",
     "portwatch.hormuz.trade_volume": "霍尔木兹货量",
     "portwatch.bab_el_mandeb.transits": "曼德海峡船数",
     "portwatch.bab_el_mandeb.trade_volume": "曼德海峡货量",
@@ -63,33 +80,35 @@ UNIT_ALIASES = {
 }
 
 
-def _window(points, width: int = SPARK_WIDTH):
-    """The plotted subset: last ``width`` points that carry a value."""
-    return [p for p in points if p.value is not None][-width:]
+def _fmt_value(value: float | None, precision: int) -> str:
+    if value is None:
+        return "—"
+    return f"{value:,.{precision}f}"
 
 
-def sparkline(points, width: int = SPARK_WIDTH) -> str:
-    """Compact trend line: last ``width`` non-null values mapped to 8 levels.
+def _sample(points, now: datetime, horizon_days: int, max_points: int = CHART_POINTS):
+    """Points inside the horizon, evenly downsampled to at most ``max_points``.
 
-    Returns "" when fewer than two values exist (a single point has no trend).
+    First and last are always kept so the chart's endpoints match the row's
+    window change. If the series has nothing inside the horizon (collection
+    stopped), fall back to its last two points so a line still renders.
     """
-    values = [p.value for p in _window(points, width)]
-    if len(values) < 2:
-        return ""
-    lo, hi = min(values), max(values)
-    if hi == lo:
-        return _SPARK[3] * len(values)
-    span = hi - lo
-    last = len(_SPARK) - 1
-    return "".join(_SPARK[round((v - lo) / span * last)] for v in values)
-
-
-def _window_change(points, width: int = SPARK_WIDTH) -> str:
-    """Percent change across the plotted window (not just the last step)."""
-    window = _window(points, width)
+    cutoff = now - timedelta(days=horizon_days)
+    window = [p for p in points if p.value is not None and p.observed_at >= cutoff]
     if len(window) < 2:
+        window = [p for p in points if p.value is not None][-2:]
+    if len(window) > max_points:
+        step = (len(window) - 1) / (max_points - 1)
+        indices = sorted({round(i * step) for i in range(max_points)})
+        window = [window[i] for i in indices]
+    return window
+
+
+def _pct_change(points) -> str:
+    """Change across a sampled window, e.g. ▲2.7%; handles zero crossings."""
+    if len(points) < 2:
         return ""
-    first, last = window[0].value, window[-1].value
+    first, last = points[0].value, points[-1].value
     if first == 0:
         return ""
     if first * last < 0:  # crossed zero: a percentage would be meaningless
@@ -101,13 +120,7 @@ def _window_change(points, width: int = SPARK_WIDTH) -> str:
     return f"{arrow}{abs(pct):.1f}%"
 
 
-def _fmt_value(value: float | None, precision: int) -> str:
-    if value is None:
-        return "—"
-    return f"{value:,.{precision}f}"
-
-
-def _series_line(s: SeriesSnapshot, *, stale: bool) -> str:
+def _series_line(s: SeriesSnapshot, *, stale: bool, change: str) -> str:
     meta = s.meta
     latest = s.latest
     warn = "⚠️ " if stale else ""
@@ -115,14 +128,10 @@ def _series_line(s: SeriesSnapshot, *, stale: bool) -> str:
     unit = UNIT_ALIASES.get(meta.unit, meta.unit)
     value = _fmt_value(latest.value if latest else None, meta.precision)
     line = f"{warn}**{short}** {value} {unit}".rstrip()
-    change = _window_change(s.points)
     if change:
         line += f" {change}"
     if latest is not None and latest.status != DataStatus.CONFIRMED:
         line += f"（{latest.status.value}）"
-    spark = sparkline(s.points)
-    if spark:
-        line += f"  {spark}"
     return line
 
 
@@ -139,55 +148,112 @@ def _is_stale(s: SeriesSnapshot, now: datetime) -> bool:
     )
 
 
+def _sections(snapshot: Snapshot):
+    """(category_id, title, series) in display order, uncategorised last."""
+    sections = []
+    known = {c.id for c in snapshot.categories}
+    for cat in snapshot.categories:
+        items = [s for s in snapshot.series if s.category == cat.id]
+        if items:
+            sections.append((cat.id, cat.title, items))
+    leftover = [s for s in snapshot.series if s.category not in known]
+    if leftover:
+        sections.append(("other", "其他", leftover))
+    return sections
+
+
+def _chart_rows(items, sampled) -> list[dict]:
+    """Flat VChart rows: change % from each series' window start."""
+    rows = []
+    for s in items:
+        window = sampled.get(s.meta.series_id) or []
+        if len(window) < 2:
+            continue
+        first = window[0].value
+        if abs(first) < 1e-9:
+            continue
+        name = SHORT_NAMES.get(s.meta.series_id, s.meta.display_name)
+        for p in window:
+            rows.append(
+                {
+                    "date": p.observed_at.strftime("%Y-%m-%d"),
+                    "series": name,
+                    "change": round((p.value - first) / abs(first) * 100, 1),
+                }
+            )
+    return rows
+
+
+def _line_chart(rows: list[dict]) -> dict:
+    """Feishu card 2.0 native chart (VChart line)."""
+    return {
+        "tag": "chart",
+        "height": "220px",
+        "color_theme": "rainbow",
+        "chart_spec": {
+            "type": "line",
+            "data": {"values": rows},
+            "xField": "date",
+            "yField": "change",
+            "seriesField": "series",
+            "axes": [
+                {"orient": "bottom", "label": {"autoHide": True, "autoRotate": True}},
+                {"orient": "left"},
+            ],
+            "legends": {"visible": True, "orient": "bottom"},
+            "point": {"visible": False},
+        },
+    }
+
+
 def build_digest_card(
     snapshot: Snapshot,
     *,
     now: datetime,
     site_url: str | None = None,
 ) -> dict:
-    """Build the interactive card. Pure function: no I/O, easy to test.
+    """Build the JSON 2.0 card. Pure function: no I/O, easy to test.
 
-    ``now`` is the send time (Asia/Shanghai) and only drives the title; the
-    footer reports the snapshot's own ``generated_at`` so a stale snapshot is
-    never disguised as fresh.
+    ``now`` is the send time (Asia/Shanghai) and drives the title plus the
+    staleness judgement; the footer reports the snapshot's own ``generated_at``
+    so a stale snapshot is never disguised as fresh.
     """
     local_now = now.astimezone(CST)
     failed = [c for c in snapshot.collectors if not c.ok]
-    # Judged at send time, not copied from the snapshot (see _is_stale).
     stale = [s for s in snapshot.series if _is_stale(s, now)]
     stale_ids = {s.meta.series_id for s in stale}
 
-    sections: list[tuple[str, list[SeriesSnapshot]]] = []
-    known = {c.id for c in snapshot.categories}
-    for cat in snapshot.categories:
-        items = [s for s in snapshot.series if s.category == cat.id]
-        if items:
-            sections.append((cat.title, items))
-    leftover = [s for s in snapshot.series if s.category not in known]
-    if leftover:
-        sections.append(("其他", leftover))
-
     elements: list[dict] = []
-    for index, (title, items) in enumerate(sections):
-        body = "\n".join(
-            _series_line(s, stale=s.meta.series_id in stale_ids) for s in items
-        )
-        elements.append(
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"**{title}**\n{body}"}}
-        )
-        if index != len(sections) - 1:
-            elements.append({"tag": "hr"})
+    charts = 0
+    for cat_id, title, items in _sections(snapshot):
+        horizon = HORIZONS.get(cat_id, DEFAULT_HORIZON)
+        sampled = {
+            s.meta.series_id: _sample(s.points, now, horizon) for s in items
+        }
+        elements.append({"tag": "markdown", "content": f"**{title}**"})
+
+        rows = _chart_rows(items, sampled)
+        if rows and charts < MAX_CHARTS:
+            elements.append(_line_chart(rows))
+            charts += 1
+
+        lines = [
+            _series_line(
+                s,
+                stale=s.meta.series_id in stale_ids,
+                change=_pct_change(sampled.get(s.meta.series_id) or []),
+            )
+            for s in items
+        ]
+        elements.append({"tag": "markdown", "content": "\n".join(lines)})
 
     if not snapshot.series:
-        elements.append(
-            {"tag": "div", "text": {"tag": "lark_md", "content": "暂无数据。"}}
-        )
+        elements.append({"tag": "markdown", "content": "暂无数据。"})
 
     if failed:
         names = "、".join(f"{c.id}（{c.error or '未知错误'}）" for c in failed)
-        elements.append({"tag": "hr"})
         elements.append(
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"⚠️ **采集器失败**：{names}"}}
+            {"tag": "markdown", "content": f"⚠️ **采集器失败**：{names}"}
         )
 
     generated = snapshot.generated_at.astimezone(CST).strftime("%Y-%m-%d %H:%M")
@@ -195,32 +261,16 @@ def build_digest_card(
     footer = f"快照生成于 {generated} · 采集器 {healthy}/{len(snapshot.collectors)} 正常"
     if stale:
         footer += f" · {len(stale)} 条序列采集中断"
-    footer += f" · 走势=最近{SPARK_WIDTH}点（日/周/月频跨度不同），%为区间首尾变化"
-
-    elements.append(
-        {"tag": "note", "elements": [{"tag": "plain_text", "content": footer}]}
-    )
-
+    footer += " · 折线=相对窗口起点变化（%）"
     if site_url:
-        elements.append(
-            {
-                "tag": "action",
-                "actions": [
-                    {
-                        "tag": "button",
-                        "text": {"tag": "plain_text", "content": "打开看板"},
-                        "type": "primary",
-                        "url": site_url,
-                    }
-                ],
-            }
-        )
+        footer += f" · [打开看板]({site_url})"
+    elements.append({"tag": "markdown", "content": footer})
 
     # Routine digest is blue; orange when something needs a look. Red stays
     # reserved for threshold alerts, so a healthy digest never looks alarming.
     template = "orange" if (stale or failed) else "blue"
     return {
-        "config": {"wide_screen_mode": True},
+        "schema": "2.0",
         "header": {
             "template": template,
             "title": {
@@ -228,5 +278,5 @@ def build_digest_card(
                 "content": f"每日看板 · {local_now.strftime('%m-%d')}",
             },
         },
-        "elements": elements,
+        "body": {"elements": elements},
     }

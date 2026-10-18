@@ -1,13 +1,13 @@
-"""Daily digest card: sparkline levels, per-series lines, footer, button."""
+"""Daily digest card: JSON 2.0 native charts, value rows, footer."""
 
 from datetime import datetime, timedelta
 
 from dashboard.contract import DataStatus, SeriesMeta
 from dashboard.notify.digest import (
     CST,
-    _window_change,
+    _pct_change,
+    _sample,
     build_digest_card,
-    sparkline,
 )
 from dashboard.pipeline.snapshot import (
     CategoryMeta,
@@ -64,53 +64,68 @@ def _snapshot(series, *, collectors=None):
     )
 
 
-def _div_text(card) -> str:
+def _elements(card):
+    return card["body"]["elements"]
+
+
+def _markdown(card):
     return "\n".join(
-        e["text"]["content"] for e in card["elements"] if e.get("tag") == "div"
+        e["content"] for e in _elements(card) if e.get("tag") == "markdown"
     )
 
 
-def test_sparkline_maps_values_and_handles_edges():
-    line = sparkline(_points([1, 2, 3, 4]))
-    assert len(line) == 4
-    assert all(ch in "▁▂▃▄▅▆▇█" for ch in line)
-    assert line[0] == "▁" and line[-1] == "█"
-
-    flat = sparkline(_points([5, 5, 5]))
-    assert flat == "▄▄▄"
-
-    # nulls are skipped; a single remaining value has no trend
-    assert sparkline(_points([None, 7])) == ""
-    assert sparkline([]) == ""
+def _charts(card):
+    return [e for e in _elements(card) if e.get("tag") == "chart"]
 
 
-def test_card_lists_every_series_on_one_line_with_trend():
+def test_card_builds_native_chart_and_value_rows():
     snap = _snapshot([
         _series("portwatch.hormuz.transits", "霍尔木兹海峡 · 日通行船数", "艘/日", [4, 3, 2]),
         _series("fx.dxy", "美元指数 (DXY)", "点", [99.5, 99.7], category="core", precision=2),
     ])
     card = build_digest_card(snap, now=NOW)
 
+    assert card["schema"] == "2.0"
     assert card["header"]["title"]["content"] == "每日看板 · 08-10"
     assert card["header"]["template"] == "blue"
-    body = _div_text(card)
-    assert "**核心指标**" in body
-    assert "霍尔木兹船数" in body          # short label, full name stays on the site
-    assert "2 艘/日" in body
-    assert "▼50.0%" in body               # 4 -> 2 over the window
-    assert "美元指数" in body
-    assert "99.70 点" in body
-    assert "▲0.2%" in body                # 99.5 -> 99.7 over the window
-    assert "▁" in body                    # sparkline on the same line
-    # one line per series, plus the category heading
-    assert len(body.splitlines()) == 3
+
+    text = _markdown(card)
+    assert "**核心指标**" in text
+    assert "霍尔木兹船数" in text          # short label; full name stays on the site
+    assert "2 艘/日" in text
+    assert "▼50.0%" in text                # 4 -> 2 over the window
+    assert "美元指数" in text
+    assert "99.70 点" in text
+    assert "▲0.2%" in text                 # 99.5 -> 99.7
+    assert "▁" not in text                 # no more glyph sparklines
+
+    charts = _charts(card)
+    assert len(charts) == 1
+    rows = charts[0]["chart_spec"]["data"]["values"]
+    by_series = {}
+    for row in rows:
+        by_series.setdefault(row["series"], []).append(row["change"])
+    assert by_series["霍尔木兹船数"] == [0.0, -25.0, -50.0]
+    assert by_series["美元指数"] == [0.0, 0.2]
 
 
-def test_window_change_handles_sign_and_single_point():
-    assert _window_change(_points([1, 2, 3])) == "▲200.0%"
-    assert _window_change(_points([4, 3, 2])) == "▼50.0%"
-    assert _window_change(_points([1, -1])) == "转负"
-    assert _window_change(_points([7])) == ""
+def test_sample_keeps_endpoints_and_respects_horizon():
+    points = _points(list(range(40)))
+    sampled = _sample(points, NOW, horizon_days=120, max_points=16)
+    assert len(sampled) == 16
+    assert sampled[0].observed_at == points[0].observed_at
+    assert sampled[-1].observed_at == points[-1].observed_at
+
+    # everything older than the horizon -> fall back to the last two points
+    old = _points([1, 2, 3], end=NOW - timedelta(days=200))
+    assert len(_sample(old, NOW, horizon_days=30)) == 2
+
+
+def test_pct_change_handles_sign_and_single_point():
+    assert _pct_change(_points([1, 2, 3])) == "▲200.0%"
+    assert _pct_change(_points([4, 3, 2])) == "▼50.0%"
+    assert _pct_change(_points([1, -1])) == "转负"
+    assert _pct_change(_points([7])) == ""
 
 
 def test_stale_series_and_failed_collector_are_flagged():
@@ -120,31 +135,26 @@ def test_stale_series_and_failed_collector_are_flagged():
     )
     card = build_digest_card(snap, now=NOW)
 
-    body = _div_text(card)
-    assert "⚠️" in body
-    assert "旧序列" in body               # falls back to display_name (not in SHORT_NAMES)
-    assert "最后" not in body             # no per-series date, keeps one line
-    assert "采集器失败" in body and "eia（boom）" in body
-
-    footer = next(e for e in card["elements"] if e["tag"] == "note")
-    assert "1 条序列采集中断" in footer["elements"][0]["content"]
+    text = _markdown(card)
+    assert "⚠️" in text
+    assert "旧序列" in text               # falls back to display_name (not in SHORT_NAMES)
+    assert "最后" not in text
+    assert "采集器失败" in text and "eia（boom）" in text
+    assert "1 条序列采集中断" in text
     assert card["header"]["template"] == "orange"
 
 
-def test_button_only_when_site_url_is_configured():
+def test_dashboard_link_is_in_footer():
     snap = _snapshot([_series("s", "序列", "点", [1, 2])])
 
-    assert not any(e.get("tag") == "action" for e in build_digest_card(snap, now=NOW)["elements"])
+    assert "打开看板" not in _markdown(build_digest_card(snap, now=NOW))
 
     card = build_digest_card(snap, now=NOW, site_url="https://example.pages.dev/")
-    action = next(e for e in card["elements"] if e.get("tag") == "action")
-    button = action["actions"][0]
-    assert button["url"] == "https://example.pages.dev/"
-    assert button["text"]["content"] == "打开看板"
+    assert "[打开看板](https://example.pages.dev/)" in _markdown(card)
 
 
 def test_empty_snapshot_still_builds_a_card():
     card = build_digest_card(_snapshot([], collectors=[]), now=NOW)
-    assert "暂无数据" in _div_text(card)
-    note = next(e for e in card["elements"] if e["tag"] == "note")
-    assert "采集器 0/0 正常" in note["elements"][0]["content"]
+    assert "暂无数据" in _markdown(card)
+    assert "采集器 0/0 正常" in _markdown(card)
+    assert _charts(card) == []

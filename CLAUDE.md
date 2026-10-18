@@ -161,11 +161,13 @@ python -m dashboard digest --dry-run  # 预览每日摘要卡片（不发送）
   `workflow_dispatch`）。GitHub 定时触发有几分钟延迟，不要指望精确到秒。
 - 数据源：读**已提交的** `web/data/snapshot.json`（与前端同一个文件），不重新抓取、不额外
   存状态。因此采集失败时摘要照发，但卡片会变橙、列出失败采集器并标注 stale 序列。
-- 形式：一张 interactive 卡片，全部序列按分类分组，每条含最新值、涨跌、状态、最后日期和
-  `▁▂▃▄▅▆▇█` 文字走势。蓝色=健康，橙色=有问题（stale 或采集器失败）；红色仍只留给阈值告警。
-- **为什么不是图片**：自定义机器人 webhook 不能发图；卡片 `image_key` 只能由飞书自建应用的
-  tenant token 调上传接口换取。要发 PNG 图表必须新增 `FEISHU_APP_ID`/`FEISHU_APP_SECRET`
-  并让管理员授权应用——属另一个量级的改造，不是配置项。
+- 形式：一张 JSON 2.0 卡片，每个分类一张**原生 VChart 折线图**（相对窗口起点变化 %），
+  图下每条序列一行（短名 + 最新值 + 同区间涨跌幅）。蓝色=健康，橙色=有问题（stale 或
+  采集器失败）；红色仍只留给阈值告警。
+- **图表是飞书原生组件**：卡片 2.0 的 `chart` 字段（VChart 1.6.x），不需要 `image_key`、
+  不需要自建应用；单卡建议 ≤5 个图表，客户端 7.1+ 支持，移动端部分高级特性不支持。
+  不同单位按窗口起点归一化后才能放在同一张图里；绝对值与完整名称仍在数值行和网页。
+  PNG 图片仍需自建应用，但当前方案不需要。
 - 「打开看板」按钮：默认 `https://mydashboard.wangguangmin1995.workers.dev/`（写在
   `digest.yml` 的兜底值里）；设仓库变量 `DASHBOARD_SITE_URL` 可覆盖，本地放 `.env`。
 - 本地预览：`python -m dashboard digest --dry-run` 打印卡片 JSON；去掉 `--dry-run` 即发送

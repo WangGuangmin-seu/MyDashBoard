@@ -23,13 +23,14 @@ python -m http.server 8137 --directory web
 
 ## 每日摘要（飞书）
 
-`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，发一张汇总卡片：全部序列
-按分类分组，每条含最新值、涨跌、状态、最后日期和文字迷你走势；有采集器失败或序列 stale 时
-卡片变橙并标注。看板地址默认 `https://mydashboard.wangguangmin1995.workers.dev/`
+`digest.yml` 每天 09:30（北京时间）读取 `web/data/snapshot.json`，发一张汇总卡片：每个分类一张
+**原生 VChart 折线图**（相对窗口起点变化 %），图下每条序列一行（短名 + 最新值 + 同区间涨跌幅）；
+有采集器失败或序列 stale 时卡片变橙并标注。看板地址默认
+`https://mydashboard.wangguangmin1995.workers.dev/`
 （`digest.yml` 里的兜底值），要更换就设仓库变量 `DASHBOARD_SITE_URL`，代码不用动。
 
-> 自定义机器人 webhook **不能上传图片**（`image_key` 需要飞书自建应用的 tenant token），
-> 所以走势用 `▁▂▃▄▅▆▇█` 文字渲染，不发 PNG。要发真图片需接自建应用，见 [`CLAUDE.md`](CLAUDE.md)。
+> 图表走飞书卡片 2.0 的 `chart` 原生组件，**不需要自建应用或上传图片**（PNG 图片才需要
+> `image_key`）。单卡建议 ≤5 个图表，客户端 7.1+ 支持。
 
 ## 结构
 
