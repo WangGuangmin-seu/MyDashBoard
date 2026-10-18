@@ -78,6 +78,11 @@ python -m dashboard digest --dry-run  # 预览每日摘要卡片（不发送）
 - **布伦特原油现货价**（`eia.brent.spot`）：另一路由 `petroleum/pri/spt/data/`，facet
   `series=RBRTE`（欧洲布伦特现货 FOB，$/BBL），日频。只取最近 500 个点（日频历史很长，
   store 逐日累积），`sort desc`。实测 ~91.82 $/BBL。
+- **API 可能滞后于 WPSR 报告**：v2 API 出现新周期可能比官网报告晚几天（实测 2026-10：
+  week ending 10-09 的报告因哥伦布日改到 10-15 12:00 发布，API 直到 10-18 才可见）。
+  `expected_interval=7d`（14 天容忍）对正常周更够用；节假日后 stale 若持续数天，
+  先对照 WPSR 发布时间表（含 holiday alternate release date）再判定采集故障，
+  不要急着改采集器。
 
 ### FX / 美元指数（`dashboard/collectors/fx.py`）
 
