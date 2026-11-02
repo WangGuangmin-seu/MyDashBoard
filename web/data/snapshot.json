@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:58:50.065744Z",
+  "generated_at": "2026-11-02T06:57:55.483980Z",
   "window": 180,
   "categories": [
     {
@@ -6716,12 +6716,6 @@
       "category": "core",
       "points": [
         {
-          "observed_at": "2026-02-17T00:00:00Z",
-          "as_of": "2026-08-08T13:29:58.059731Z",
-          "value": 97.16000366210938,
-          "status": "confirmed"
-        },
-        {
           "observed_at": "2026-02-18T00:00:00Z",
           "as_of": "2026-08-08T13:29:58.059731Z",
           "value": 97.69999694824219,
@@ -7794,24 +7788,30 @@
           "as_of": "2026-10-31T06:25:36.398613Z",
           "value": 101.87999725341797,
           "status": "confirmed"
+        },
+        {
+          "observed_at": "2026-11-02T00:00:00Z",
+          "as_of": "2026-11-02T06:57:55.483980Z",
+          "value": 101.84100341796875,
+          "status": "confirmed"
         }
       ],
       "latest": {
+        "observed_at": "2026-11-02T00:00:00Z",
+        "as_of": "2026-11-02T06:57:55.483980Z",
+        "value": 101.84100341796875,
+        "status": "confirmed"
+      },
+      "previous": {
         "observed_at": "2026-10-30T00:00:00Z",
         "as_of": "2026-10-31T06:25:36.398613Z",
         "value": 101.87999725341797,
         "status": "confirmed"
       },
-      "previous": {
-        "observed_at": "2026-10-29T00:00:00Z",
-        "as_of": "2026-10-30T06:36:19.821305Z",
-        "value": 102.04000091552734,
-        "status": "confirmed"
-      },
       "health": {
         "ok": true,
         "stale": false,
-        "last_observed_at": "2026-10-30T00:00:00Z",
+        "last_observed_at": "2026-11-02T00:00:00Z",
         "reason": null
       }
     },
@@ -21644,7 +21644,7 @@
     {
       "id": "portwatch",
       "ok": false,
-      "error": "RuntimeError: PortWatch ArcGIS error: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}"
+      "error": "RuntimeError: PortWatch ArcGIS error: {'code': 400, 'message': 'Invalid URL', 'details': ['Invalid URL']}"
     },
     {
       "id": "treasury",
