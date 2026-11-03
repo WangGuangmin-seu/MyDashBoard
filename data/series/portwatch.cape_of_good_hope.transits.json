@@ -26404,5 +26404,68 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-19T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 25.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-20T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 13.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-21T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 17.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-22T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 33.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-23T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 27.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-24T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 20.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.cape_of_good_hope.transits",
+    "observed_at": "2026-10-25T00:00:00Z",
+    "as_of": "2026-11-03T07:21:37.529706Z",
+    "value": 18.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
   }
 ]
