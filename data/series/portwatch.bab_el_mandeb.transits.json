@@ -29977,5 +29977,68 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-26T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 15.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-27T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 2.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-28T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 5.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-29T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 7.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-30T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 4.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-10-31T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 13.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.transits",
+    "observed_at": "2026-11-01T00:00:00Z",
+    "as_of": "2026-11-08T06:47:51.537347Z",
+    "value": 14.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
   }
 ]
