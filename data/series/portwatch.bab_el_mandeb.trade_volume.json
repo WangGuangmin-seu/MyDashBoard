@@ -2656,6 +2656,15 @@
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2019-10-03T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 1476806.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
     "observed_at": "2019-10-04T00:00:00Z",
     "as_of": "2026-08-01T16:45:04.218422Z",
     "value": 492623.0,
@@ -8632,6 +8641,15 @@
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2021-07-01T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 921729.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
     "observed_at": "2021-07-02T00:00:00Z",
     "as_of": "2026-08-01T16:45:04.218422Z",
     "value": 738394.0,
@@ -12970,6 +12988,15 @@
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2022-09-26T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 960330.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
     "observed_at": "2022-09-27T00:00:00Z",
     "as_of": "2026-08-01T16:45:04.218422Z",
     "value": 1727865.0,
@@ -13201,6 +13228,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-10-21T05:30:25.647522Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2022-10-13T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 1175623.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
@@ -13939,6 +13975,15 @@
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": "2026-10-21T05:30:25.647522Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2022-12-21T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 1670258.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
@@ -23599,6 +23644,15 @@
   },
   {
     "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2025-09-18T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 715579.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": "2026-11-08T06:47:51.537347Z"
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
     "observed_at": "2025-09-19T00:00:00Z",
     "as_of": "2026-08-01T16:45:04.218422Z",
     "value": 497683.0,
@@ -27301,6 +27355,69 @@
     "observed_at": "2026-11-01T00:00:00Z",
     "as_of": "2026-11-08T06:47:51.537347Z",
     "value": 527584.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-02T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 591550.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-03T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 694922.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-04T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 420300.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-05T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 82643.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-06T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 278850.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-07T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 235108.0,
+    "status": "confirmed",
+    "source": "portwatch",
+    "revision_of": null
+  },
+  {
+    "series_id": "portwatch.bab_el_mandeb.trade_volume",
+    "observed_at": "2026-11-08T00:00:00Z",
+    "as_of": "2026-11-11T07:19:51.638487Z",
+    "value": 95531.0,
     "status": "confirmed",
     "source": "portwatch",
     "revision_of": null
