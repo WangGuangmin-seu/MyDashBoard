@@ -4192,5 +4192,14 @@
     "status": "confirmed",
     "source": "treasury",
     "revision_of": null
+  },
+  {
+    "series_id": "treasury.yield.10y",
+    "observed_at": "2026-11-13T00:00:00Z",
+    "as_of": "2026-11-14T07:08:51.933673Z",
+    "value": 5.15,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
   }
 ]
