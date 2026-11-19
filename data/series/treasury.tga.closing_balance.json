@@ -10330,5 +10330,14 @@
     "status": "confirmed",
     "source": "treasury",
     "revision_of": null
+  },
+  {
+    "series_id": "treasury.tga.closing_balance",
+    "observed_at": "2026-11-17T00:00:00Z",
+    "as_of": "2026-11-19T08:07:57.648590Z",
+    "value": 921.222,
+    "status": "confirmed",
+    "source": "treasury",
+    "revision_of": null
   }
 ]
